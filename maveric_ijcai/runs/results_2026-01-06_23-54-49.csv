@@ -1,0 +1,5 @@
+Topic ID,Topic,Method,Accuracy,Cost
+1,Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?,MAD,0.45454545454545453,0.0
+1,Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?,Random,0.7,30.0
+1,Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?,CRITIC,1.0,25.0
+1,Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?,MaVERiC,0.6,25.5

@@ -1,0 +1,80 @@
+📄 LOG FILE CREATED: runs/experiment_2026-01-06_22-26-53.log
+============================================================
+🚀 STARTING BATCH EXPERIMENT (N=1 Topics)
+============================================================
+
+############################################################
+📌 TOPIC 1: Is the dark side of the Moon permanently in darkness and never receives sunlight?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice:** Alright class, let’s clarify a common misconception: the dark side of the Moon is not permanently in darkness. In fact, it receives sunlight just like the side that faces Earth. The Moon is tidally locked to Earth, which means it rotates on its axis at the same rate it orbits Earth, taking about 27.3 days to complete both.
+
+**Bob:** Yes, Alice! That makes total sense. I mean, who would want to live on a side that never sees the sun? It would be like living in a cave forever! We need to really emphasize that no one can survive without sunlight!
+
+**Charlie:** Hold on, Alice and Bob. While it's true that the Moon does receive sunlight, the term "dark side" has historically been used to refer to the far side of the Moon, which is only ever viewed from Earth through indirect ways like satellites. However, I found a study from 2020 that says, according to NASA, the far side gets about 14 Earth days of sunlight followed by 14 days of darkness. So, can we really say it’s not dark?
+
+**Eve:** That’s an interesting point, Charlie, but let’s clarify: the far side does receive sunlight during its lunar day. It’s just not visible from Earth. I can run a quick Python simulation to visualize the Moon's rotation relative to the Earth, which clearly shows the sunlight exposure on both sides over time. 
+
+**Dave:** Simulation? I don’t trust that. I’ve read articles claiming that the government is hiding the truth about the Moon. They might be manipulating data to make it look like the far side is illuminated. What do we really know? What if they’re sending people there and we don’t even know about it?
+
+**Frank:** Well, if we look back at historical records, the term "dark side" has been used since the 19th century, largely mythologizing the far side. It’s important we don’t let these myths cloud our understanding. In fact, in 1959, the Soviet Luna 3 spacecraft was the first to capture images of the far side, revealing it does have mountains and craters, just like the near side.
+
+**Grace:** So, maybe we could say that while the far side does receive sunlight, it’s still less understood by the general public. I mean, there’s a point where we could argue for both sides—the public perception of the dark side versus the scientific truth.
+
+**Alice:** Grace, I appreciate your attempt at mediation, but we should be clear. Public perception can often be based on misinformation. The far side is not “dark” in the sense of not receiving sunlight; it’s just not visible from Earth. 
+
+**Bob:** Exactly! I mean, if we keep saying it’s dark, we’re going to confuse future generations. It’s like telling kids that the Moon is made of cheese! 
+
+**Charlie:** But Alice, Bob, and Grace, it’s also important to acknowledge that many people still hold onto these misconceptions. A survey conducted in 2021 indicated that around 40% of respondents believed the far side of the Moon never receives sunlight. So, while we may know the facts, how do we educate others effectively?
+
+**Eve:** That statistic is concerning, Charlie. But with accurate educational tools and resources, we can better inform the public. My simulation shows the sunlight cycle clearly, and I could share it with the class to demonstrate. 
+
+**Dave:** But, what if the simulation is flawed? I mean, there are so many unknowns about the Moon. What if there are hidden structures that block the sunlight? We can’t just take everything at face value!
+
+**Frank:** While I can understand your skepticism, Dave, we have to rely on established science based on repeated observations and peer-reviewed studies. The data we do have from lunar missions backs up the argument that both sides of the Moon experience sunlight.
+
+**Grace:** It seems like we have some solid arguments on both sides, but maybe we can focus on how to bridge the gap between scientific facts and public understanding. 
+
+**Alice:** Yes, and that’s critical. We should emphasize that the far side of the Moon experiences regular sunlight, just not from our vantage point on Earth. This is a factual basis we can all agree on.
+
+**Bob:** Absolutely! Let’s spread the word that the Moon is not just a dark, mysterious place. It's a well-lit world—at least half of it most of the time!
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.00 | Cost=$0.00
+
+👉 Running Method: Random
+   🏁 Result: Accuracy=0.00 | Cost=$26.00
+
+👉 Running Method: CRITIC
+   🏁 Result: Accuracy=0.00 | Cost=$26.00
+
+👉 Running Method: MaVERiC
+      🤖 [AUTO-ROUTER]: 'we have to rely on established...' --> WEB_SEARCH
+      🤖 [AUTO-ROUTER]: 'who would want to live on a si...' --> COMMON_SENSE
+      🤖 [AUTO-ROUTER]: 'while the far side does receiv...' --> WEB_SEARCH
+      ✂️ FIXING GRAPH: Removing invalid edge A7 -> A1
+      🤖 [AUTO-ROUTER]: 'maybe we can focus on how to b...' --> WEB_SEARCH
+      🤖 [AUTO-ROUTER]: 'we should emphasize that the f...' --> COMMON_SENSE
+      🤖 [AUTO-ROUTER]: 'Let’s spread the word that the...' --> COMMON_SENSE
+      🤖 [AUTO-ROUTER]: 'if we look back at historical ...' --> WEB_SEARCH
+      🤖 [AUTO-ROUTER]: 'the dark side of the Moon is n...' --> COMMON_SENSE
+      🤖 [AUTO-ROUTER]: 'a survey conducted in 2021 ind...' --> WEB_SEARCH
+      🤖 [AUTO-ROUTER]: 'the far side of the Moon, whic...' --> WEB_SEARCH
+      🤖 [AUTO-ROUTER]: 'I’ve read articles claiming th...' --> WEB_SEARCH
+   🏁 Result: Accuracy=0.00 | Cost=$23.50
+
+💾 Data saved to: runs/results_2026-01-06_22-26-53.csv
+
+📊 AGGREGATE RESULTS:
+         Accuracy  Cost
+Method                 
+CRITIC        0.0  26.0
+MAD           0.0   0.0
+MaVERiC       0.0  23.5
+Random        0.0  26.0
+✅ Plot saved to: runs/plot_2026-01-06_22-26-53.png

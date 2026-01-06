@@ -1,0 +1,2372 @@
+📄 LOG FILE CREATED: runs/experiment_2026-01-06_19-41-13.log
+============================================================
+🚀 STARTING BATCH EXPERIMENT (N=10 Topics)
+============================================================
+
+############################################################
+📌 TOPIC 1: Does the Great Wall of China appear visible to the naked eye from the Moon?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: The claim that the Great Wall of China is visible from the Moon is a common myth. In reality, it’s only about 30 feet wide at its widest point and is made of materials that blend in with the landscape. If we calculate the visibility using the curvature of the Earth, it’s simply not feasible.
+
+**Bob**: But Alice, if it was built to be a massive structure, surely it must be visible from such a great distance! I mean, it’s the Great Wall! It’s a wall, and walls are meant to be seen. Common sense tells me that it should be visible!
+
+**Charlie**: Actually, I found a statistic that says only large structures like cities are visible from the Moon. The Great Wall doesn’t meet the criteria. In fact, a NASA study from 2003 indicated that no man-made objects can be distinguished from that distance. 
+
+**Dave**: You see, this is where the mainstream media gets it wrong! They want to downplay the significance of the Great Wall. There are accounts of astronauts saying they could see it, but they just never report it. I believe they’re hiding the truth!
+
+**Eve**: Let's clarify the physics involved. The curvature of the Earth means that an object must be significantly large to be seen from the Moon, which is about 238,855 miles away. Using Python, I can run simulations that show even the largest structures are barely visible from such a distance.
+
+**Frank**: Historically, there have been claims and legends about the Great Wall being visible from afar. In the Ming Dynasty, it was said to be a marvel of engineering. While these claims were likely exaggerated, they do show that perceptions can skew over time.
+
+**Alice**: That’s an interesting point, Frank, but those historical accounts are anecdotal. The science doesn’t support the visibility claim when we look at the actual dimensions and the distance involved. 
+
+**Bob**: But what about the photos? I’ve seen images where it looks like you can see it from space! Doesn’t that count for something? 
+
+**Charlie**: Those images are often taken from low Earth orbit, not from the Moon. The International Space Station orbits at about 250 miles. The Wall is still hard to see from there, let alone from the Moon. 
+
+**Dave**: I still think there’s a cover-up! Why would astronauts say they can see it, and then later deny it? It’s all part of a bigger conspiracy to diminish our historical achievements!
+
+**Eve**: There’s no cover-up, Dave. Astronauts are trained to observe and report accurately. Plus, with advancements in satellite imaging, we have clearer evidence now than ever before. 
+
+**Frank**: However, we must acknowledge that the interpretation of "visible" can differ. For example, the Wall may be visible with the right conditions or tools, like binoculars or high-powered cameras. 
+
+**Alice**: But that doesn’t change the fact that the average person cannot see the Great Wall from the Moon. We need to separate myth from reality based on evidence, not just perceptions or assumptions.
+
+**Bob**: I still feel like it should be possible. I mean, it’s the largest wall in the world! It’s hard to believe it can’t be seen!
+
+**Charlie**: The statistics are clear, Bob. Only two structures are recognized as visible from space: the Great Pyramids and the Great Wall is not among them. 
+
+**Eve**: Exactly, and empirical data backs this up. If we were to run another Python analysis, we could visualize the distances and dimensions clearly. 
+
+**Grace**: How about we agree that while it might not be visible to the naked eye from the Moon, it is still an impressive structure that deserves recognition for its historical significance? That way, we can all feel good about it! 
+
+**Alice**: I appreciate the compromise, Grace, but let’s not confuse recognition with visibility. The facts still stand that the Great Wall cannot be seen from the Moon. 
+
+**Bob**: Well, I still think it’s possible! I mean, it’s a wall, after all!
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [VERIFYING]: 'The claim that the Great Wall of China is visible ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_FALSE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But Alice, if it was built to be a massive structu...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Actually, I found a statistic that says only large...'
+      🔍 [QUERY]: visible from the Moon statistics cities Great Wall NASA 2003 study
+      🔍 [QUERY]: can man-made objects be seen from the Moon NASA research
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'You see, this is where the mainstream media gets i...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Let's clarify the physics involved. The curvature ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Historically, there have been claims and legends a...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But what about the photos? I’ve seen images where ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Those images are often taken from low Earth orbit,...'
+      🔍 [QUERY]: images from low Earth orbit vs Moon
+      🔍 [QUERY]: International Space Station orbit altitude Wall visibility
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I still think there’s a cover-up! Why would astron...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'There’s no cover-up, Dave. Astronauts are trained ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'However, we must acknowledge that the interpretati...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'But that doesn’t change the fact that the average ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I still feel like it should be possible. I mean, i...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The statistics are clear, Bob. Only two structures...'
+      🔍 [QUERY]: The structures visible from space: Great Pyramids and Great Wall
+      🔍 [QUERY]: Are the Great Wall and Great Pyramids visible from space?
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Exactly, and empirical data backs this up. If we w...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'How about we agree that while it might not be visi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I appreciate the compromise, Grace, but let’s not ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_FALSE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Well, I still think it’s possible! I mean, it’s a ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.29 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [VERIFYING]: 'I still think there’s a cover-up! Why would astron...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'But Alice, if it was built to be a massive structu...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Those images are often taken from low Earth orbit,...'
+      🔍 [QUERY]: Low Earth orbit images vs Moon images
+      🔍 [QUERY]: visibility of the Great Wall from the ISS and Moon
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'You see, this is where the mainstream media gets i...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'However, we must acknowledge that the interpretati...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'There’s no cover-up, Dave. Astronauts are trained ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'But what about the photos? I’ve seen images where ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The statistics are clear, Bob. Only two structures...'
+      🔍 [QUERY]: visible structures from space Great Pyramids Great Wall
+      🔍 [QUERY]: which structures can be seen from space
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But that doesn’t change the fact that the average ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_FALSE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Historically, there have been claims and legends a...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'How about we agree that while it might not be visi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Well, I still think it’s possible! I mean, it’s a ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=0.80 | Cost=$27.00
+
+👉 Running Method: CRITIC
+      🕵️ [VERIFYING]: 'The claim that the Great Wall of China is visible ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'There’s no cover-up, Dave. Astronauts are trained ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'However, we must acknowledge that the interpretati...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'But that doesn’t change the fact that the average ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I still feel like it should be possible. I mean, i...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The statistics are clear, Bob. Only two structures...'
+      🔍 [QUERY]: structures visible from space Great Pyramids Great Wall
+      🔍 [QUERY]: are the Great Wall and Great Pyramids visible from space
+      ⚖️ [VERDICT]: ✅ TRUE
+   🏁 Result: Accuracy=0.47 | Cost=$24.00
+
+👉 Running Method: MaVERiC
+
+🧠 MaVERiC ACTIVATED (Budget: $30.0)
+   👉 Targeting: Bob (Node A2)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But Alice, if it was built to be a massive structu...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A2...
+   👉 Targeting: Dave (Node A4)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'You see, this is where the mainstream media gets i...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A4...
+   👉 Targeting: Dave (Node A9)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'I still think there’s a cover-up! Why would astron...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A9...
+   👉 Targeting: Frank (Node A11)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'However, we must acknowledge that the interpretati...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A11...
+   👉 Targeting: Bob (Node A13)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'I still feel like it should be possible. I mean, i...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A13...
+   👉 Targeting: Frank (Node A6)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Historically, there have been claims and legends a...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Bob (Node A7)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But what about the photos? I’ve seen images where ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A7...
+   👉 Targeting: Eve (Node A10)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'There’s no cover-up, Dave. Astronauts are trained ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A10...
+   👉 Targeting: Grace (Node A16)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'How about we agree that while it might not be visi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A16...
+   👉 Targeting: Bob (Node A18)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Well, I still think it’s possible! I mean, it’s a ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A18...
+   👉 Targeting: Charlie (Node A3)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Actually, I found a statistic that says only large...'
+      🔍 [QUERY]: can you see the Great Wall of China from the Moon?
+      🔍 [QUERY]: NASA study man-made objects visibility from the Moon
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Charlie (Node A8)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Those images are often taken from low Earth orbit,...'
+      🔍 [QUERY]: low Earth orbit satellite images vs Moon images
+      🔍 [QUERY]: distance from International Space Station to the Moon
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Charlie (Node A14)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'The statistics are clear, Bob. Only two structures...'
+      🔍 [QUERY]: structures visible from space Great Pyramids Great Wall
+      🔍 [QUERY]: can you see the Great Wall of China from space?
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   🏁 Result: Accuracy=1.00 | Cost=$25.00
+
+############################################################
+📌 TOPIC 2: Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+[Alice]: Let's start with the claim that Napoleon Bonaparte was significantly below the average height of a Frenchman during his time. Historical records indicate that Napoleon's height was around 5 feet 6 inches, which is actually quite close to the average height of French men in the early 19th century, estimated at about 5 feet 5 inches.
+
+[Bob]: I mean, come on, Alice! Everyone knows Napoleon was tiny! It’s common sense that he was a short guy. I remember reading somewhere that he was even shorter than 5 feet! It just feels right to think he was unusually small for a leader.
+
+[Charlie]: Actually, Bob, I just did a quick search, and there are plenty of articles that suggest Napoleon’s height was exaggerated by his enemies. For example, a 2007 study found that the average height for French men in the early 1800s was about 5 feet 5.5 inches. So, even if Napoleon was 5'6", he was just slightly above average, not significantly below.
+
+[Dave]: But Charlie, you can't trust those studies! They’re all biased. I read a post claiming that Napoleon’s height was purposely misreported by the British to make him look ridiculous. They wanted to undermine his reputation, and they succeeded!
+
+[Eve]: While I appreciate your passion, Dave, the majority of historians agree that the height of Napoleon has been misrepresented. Moreover, if we consider the average height statistic, it was actually based on data from the French military, which had accurate measurements. I can run a Python script to analyze the height distributions if you’d like.
+
+[Frank]: To add to Eve's point, historically, Napoleon was indeed measured in French inches, which are longer than English inches. In that context, the confusion about his height stems from these measurements. Some contemporary sources cite him as 5 feet 2 inches French, translating to about 5 feet 6 inches in English measurements, which aligns with the average of his time.
+
+[Bob]: But still, Frank, I just can’t picture a short guy like that being a successful military leader. It’s like a stereotype! All great leaders are tall, right? Isn’t it just a matter of how we perceive authority?
+
+[Charlie]: That’s a classic example of cognitive bias, Bob. Just because we think tall leaders are more authoritative doesn't mean they have to be. Napoleon’s military genius, strategic prowess, and charisma were what made him great, not his height.
+
+[Dave]: You’re all missing the bigger picture! Height is just a distraction from the real issue: Napoleon was a genius, but he was also a tyrant. Who cares if he was short or not? The media just wanted to poke fun at his stature while ignoring his ruthless conquests.
+
+[Alice]: Dave, while I understand your point about his character, it’s essential to distinguish facts from misconceptions. Focus on the argument at hand regarding his height. The historical evidence does not support the claim that he was significantly below average.
+
+[Eve]: Exactly, Alice. And regarding the psychological aspects, studies show that biases can lead to the false perception of historical figures based on anecdotal evidence rather than factual statistics. I can also run an analysis on how height perceptions have changed over the years.
+
+[Frank]: Plus, there’s the historical context. Napoleon was often depicted alongside taller soldiers to further exaggerate the narrative that he was short. These portrayals were more about propaganda than reality. 
+
+[Bob]: But you know, it just feels like he must have been short! I can’t shake that feeling, and I’m sure many people agree with me. It’s like when you see a picture of him; he looks smaller next to the others!
+
+[Charlie]: That’s confirmation bias, Bob! We often remember images that reinforce our beliefs. We need to rely on empirical evidence. If we look at the facts, Napoleon's height doesn’t support the myth of him being "the short man" of history.
+
+[Grace]: Okay, okay, everyone. I think we can all agree that height doesn’t determine greatness, yet we can also recognize that perceptions can vary. Maybe Napoleon's height was just average, and the myths around it are a product of our cultural biases? Let’s call it a draw!
+
+[Alice]: A draw doesn’t resolve the factual inaccuracies, Grace. We need to confront the misconceptions with evidence rather than compromise on facts.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [VERIFYING]: 'Historical records indicate that Napoleon's height...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s common sense that he was a short guy. I remem...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I just did a quick search, and there are plenty of...'
+      🔍 [QUERY]: Napoleon height exaggerated by enemies articles
+      🔍 [QUERY]: 2007 study average height French men early 1800s Napoleon
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I read a post claiming that Napoleon’s height was ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The majority of historians agree that the height o...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Historically, Napoleon was indeed measured in Fren...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I just can’t picture a short guy like that being a...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Just because we think tall leaders are more author...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Height is just a distraction from the real issue: ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Studies show that biases can lead to the false per...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Napoleon was often depicted alongside taller soldi...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It just feels like he must have been short! I can’...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That’s confirmation bias, Bob! We need to rely on ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Maybe Napoleon's height was just average, and the ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'A draw doesn’t resolve the factual inaccuracies, G...'
+      ⚖️ [VERDICT]: ✅ TRUE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.29 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [VERIFYING]: 'It just feels like he must have been short! I can’...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I just did a quick search, and there are plenty of...'
+      🔍 [QUERY]: Napoleon height myth exaggerated by enemies 2007 study average height French men 1800s
+      🔍 [QUERY]: Napoleon Bonaparte height history misinformation articles
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The majority of historians agree that the height o...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_FALSE
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Height is just a distraction from the real issue: ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Just because we think tall leaders are more author...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Napoleon was often depicted alongside taller soldi...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'That’s confirmation bias, Bob! We need to rely on ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I read a post claiming that Napoleon’s height was ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'A draw doesn’t resolve the factual inaccuracies, G...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Studies show that biases can lead to the false per...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s common sense that he was a short guy. I remem...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Historical records indicate that Napoleon's height...'
+      ⚖️ [VERDICT]: ✅ TRUE
+   🏁 Result: Accuracy=0.50 | Cost=$30.00
+
+👉 Running Method: CRITIC
+      🕵️ [VERIFYING]: 'Historical records indicate that Napoleon's height...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Studies show that biases can lead to the false per...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Napoleon was often depicted alongside taller soldi...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It just feels like he must have been short! I can’...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That’s confirmation bias, Bob! We need to rely on ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Maybe Napoleon's height was just average, and the ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'A draw doesn’t resolve the factual inaccuracies, G...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s common sense that he was a short guy. I remem...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I just did a quick search, and there are plenty of...'
+      🔍 [QUERY]: Napoleon height exaggerated by enemies 2007 study average height French men 1800s
+      🔍 [QUERY]: Napoleon Bonaparte height myths and truths early 19th century
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I read a post claiming that Napoleon’s height was ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The majority of historians agree that the height o...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Historically, Napoleon was indeed measured in Fren...'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=0.67 | Cost=$30.00
+
+👉 Running Method: MaVERiC
+
+🧠 MaVERiC ACTIVATED (Budget: $30.0)
+   👉 Targeting: Bob (Node A2)
+      Reason: ROI=3.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'It’s common sense that he was a short guy. I remem...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A2...
+   👉 Targeting: Alice (Node A1)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Historical records indicate that Napoleon's height...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Frank (Node A6)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Historically, Napoleon was indeed measured in Fren...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A6...
+   👉 Targeting: Dave (Node A9)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Height is just a distraction from the real issue: ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A9...
+   👉 Targeting: Charlie (Node A13)
+      Reason: ROI=3.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'That’s confirmation bias, Bob! We need to rely on ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A13...
+   👉 Targeting: Bob (Node A12)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'It just feels like he must have been short! I can’...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A12...
+   👉 Targeting: Bob (Node A7)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'I just can’t picture a short guy like that being a...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A7...
+   👉 Targeting: Charlie (Node A8)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Just because we think tall leaders are more author...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Frank (Node A11)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Napoleon was often depicted alongside taller soldi...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Grace (Node A14)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Maybe Napoleon's height was just average, and the ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A14...
+   👉 Targeting: Alice (Node A15)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'A draw doesn’t resolve the factual inaccuracies, G...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Charlie (Node A3)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'I just did a quick search, and there are plenty of...'
+      🔍 [QUERY]: Napoleon height exaggerated by enemies articles
+      🔍 [QUERY]: 2007 study average height French men early 1800s 5 feet 5.5 inches
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Eve (Node A5)
+      Reason: ROI=0.12 | Cost=$8.0 | Tool=PYTHON_EXEC
+      🕵️ [VERIFYING]: 'The majority of historians agree that the height o...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Dave (Node A4)
+      Reason: ROI=0.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'I read a post claiming that Napoleon’s height was ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A4...
+   🏁 Result: Accuracy=1.00 | Cost=$25.00
+
+############################################################
+📌 TOPIC 3: Do bulls get angry specifically because of the color red in matador capes?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: Let's start with the basics. Bulls do not get angry specifically because of the color red in matador capes. This misconception stems from the fact that bulls, like other cattle, are dichromats, meaning they mostly see in shades of blue and green. They can't even perceive red as we do. 
+
+**Bob**: But Alice, everyone knows that bulls charge at the red cape! I mean, it's like common sense, right? They must be angry when they see it. 
+
+**Charlie**: Actually, Bob, a study published in 2019 showed that bulls react more to the movement of the cape than its color. The color red does not trigger aggression; it’s the motion that incites a response. 
+
+**Dave**: That study sounds biased! Mainstream scientists always want to downplay the significance of color. What if the bulls are just pretending not to be angry because they know they’re being watched? 
+
+**Eve**: Dave, that's not how animal behavior works. Scientific studies rely on controlled experiments. For instance, if I run a Python simulation of bull behavior, I can show that the response is linked to movement, not color. 
+
+**Frank**: Historically, matadors have used red capes since the 18th century, but that doesn’t prove anything about the bulls’ perception. The tradition likely originated from it being a color that hides bloodstains, not because it incites aggression. 
+
+**Bob**: But red is the color of danger in many cultures! It must be the same for bulls. They feel threatened! 
+
+**Charlie**: Bob, your reasoning is flawed. Just because red signifies danger to humans doesn’t mean it carries the same meaning for bulls. Their behavior is based on instinct, not cultural interpretations. 
+
+**Dave**: You all are missing the bigger picture! There’s a conspiracy to keep this information hidden. What if bulls are actually sensitive to colors we can't even see? 
+
+**Eve**: That’s a leap, Dave. If you look at the data from the University of California, they found that bulls have a limited range of color vision. They don’t process colors like humans do. 
+
+**Alice**: Exactly! The misconception about red being a trigger can be traced back to how we interpret their behavior during a fight. It’s not the color; it’s the context and environment that influence their actions. 
+
+**Grace**: Well, maybe we could say that while color perception plays a role, the movement of the cape is definitely a factor in bull behavior? Perhaps we can find a middle ground here? 
+
+**Charlie**: Grace, that's a weak compromise. We need to clarify that it’s scientifically proven that color isn’t the primary issue. The evidence overwhelmingly supports movement as the main factor. 
+
+**Bob**: But how do we really know? What if there are unseen variables? It’s too convenient that everyone agrees on this movement theory. 
+
+**Eve**: Unseen variables can be controlled for in scientific studies, Bob. We need to stick to what the data shows. Studies consistently show that bulls respond to the motion, not the color. 
+
+**Frank**: And if we look back at historical practices, the use of red is more about tradition than any scientific basis. 
+
+**Alice**: Right. It’s clear that we need to rely on facts and data rather than misconceptions or emotional reasoning.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [VERIFYING]: 'Bulls do not get angry specifically because of the...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Everyone knows that bulls charge at the red cape! ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'A study published in 2019 showed that bulls react ...'
+      🔍 [QUERY]: Bulls reaction cape movement study 2019
+      🔍 [QUERY]: 2019 study bulls movement color cape reaction
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That study sounds biased! What if the bulls are ju...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'If I run a Python simulation of bull behavior, I c...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Historically, matadors have used red capes since t...'
+      🔍 [QUERY]: matadors red capes history bull perception
+      🔍 [QUERY]: do bulls react to red capes matador history
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But red is the color of danger in many cultures! I...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Just because red signifies danger to humans doesn’...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'There’s a conspiracy to keep this information hidd...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The University of California found that bulls have...'
+      🔍 [QUERY]: University of California bulls color vision research
+      🔍 [QUERY]: bulls limited color vision study University of California
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The misconception about red being a trigger can be...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'While color perception plays a role, the movement ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s scientifically proven that color isn’t the pr...'
+      🔍 [QUERY]: scientific evidence movement vs color effect
+      🔍 [QUERY]: importance of movement in human behavior research
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'How do we really know? What if there are unseen va...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Unseen variables can be controlled for in scientif...'
+      🔍 [QUERY]: controlling unseen variables in scientific studies
+      🔍 [QUERY]: importance of data integrity in research findings
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The use of red is more about tradition than any sc...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'It's clear that we need to rely on facts and data ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.21 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [VERIFYING]: 'The use of red is more about tradition than any sc...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'While color perception plays a role, the movement ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But red is the color of danger in many cultures! I...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'A study published in 2019 showed that bulls react ...'
+      🔍 [QUERY]: Bulls reaction cape movement color study 2019
+      🔍 [QUERY]: 2019 study bulls cape movement versus color
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'There’s a conspiracy to keep this information hidd...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Everyone knows that bulls charge at the red cape! ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Just because red signifies danger to humans doesn’...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Historically, matadors have used red capes since t...'
+      🔍 [QUERY]: matadors red capes history 18th century bulls perception
+      🔍 [QUERY]: do bulls see red cape myth matador
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'That study sounds biased! What if the bulls are ju...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Bulls do not get angry specifically because of the...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The University of California found that bulls have...'
+      🔍 [QUERY]: Query1: University of California bulls color vision study
+      🔍 [QUERY]: Query2: bulls color perception compared to humans UC study
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'How do we really know? What if there are unseen va...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'It’s scientifically proven that color isn’t the pr...'
+      🔍 [QUERY]: scientific studies color vs movement importance
+      🔍 [QUERY]: evidence supporting movement over color in effectiveness
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The misconception about red being a trigger can be...'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=0.67 | Cost=$30.00
+
+👉 Running Method: CRITIC
+      🕵️ [VERIFYING]: 'Bulls do not get angry specifically because of the...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The University of California found that bulls have...'
+      🔍 [QUERY]: University of California bulls color vision study
+      🔍 [QUERY]: bulls color vision research findings UC
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The misconception about red being a trigger can be...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'While color perception plays a role, the movement ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s scientifically proven that color isn’t the pr...'
+      🔍 [QUERY]: scientific evidence movement vs color
+      🔍 [QUERY]: movement primary factor in science color issue
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'How do we really know? What if there are unseen va...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Unseen variables can be controlled for in scientif...'
+      🔍 [QUERY]: unseen variables control scientific studies data analysis
+      🔍 [QUERY]: importance of data integrity in scientific research
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The use of red is more about tradition than any sc...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'It's clear that we need to rely on facts and data ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Everyone knows that bulls charge at the red cape! ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'A study published in 2019 showed that bulls react ...'
+      🔍 [QUERY]: Bulls reaction cape movement color study 2019
+      🔍 [QUERY]: 2019 study bulls cape movement vs color reaction
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'That study sounds biased! What if the bulls are ju...'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=0.40 | Cost=$28.00
+
+👉 Running Method: MaVERiC
+
+🧠 MaVERiC ACTIVATED (Budget: $30.0)
+   👉 Targeting: Bob (Node A2)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Everyone knows that bulls charge at the red cape! ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A2...
+   👉 Targeting: Dave (Node A4)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'That study sounds biased! What if the bulls are ju...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A4...
+   👉 Targeting: Bob (Node A7)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But red is the color of danger in many cultures! I...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A7...
+   👉 Targeting: Dave (Node A9)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'There’s a conspiracy to keep this information hidd...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A9...
+   👉 Targeting: Grace (Node A12)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'While color perception plays a role, the movement ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Bob (Node A14)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'How do we really know? What if there are unseen va...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A14...
+   👉 Targeting: Alice (Node A1)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Bulls do not get angry specifically because of the...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Charlie (Node A8)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Just because red signifies danger to humans doesn’...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A11)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'The misconception about red being a trigger can be...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A11...
+   👉 Targeting: Frank (Node A16)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'The use of red is more about tradition than any sc...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A16...
+   👉 Targeting: Alice (Node A17)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'It's clear that we need to rely on facts and data ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Charlie (Node A3)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'A study published in 2019 showed that bulls react ...'
+      🔍 [QUERY]: Bulls reaction to cape movement study 2019
+      🔍 [QUERY]: 2019 study bulls cape color movement response
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A3...
+   👉 Targeting: Frank (Node A6)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Historically, matadors have used red capes since t...'
+      🔍 [QUERY]: history of matadors red capes 18th century bulls perception
+      🔍 [QUERY]: do bulls perceive red color matadors capes
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Eve (Node A10)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'The University of California found that bulls have...'
+      🔍 [QUERY]: University of California bulls color vision study
+      🔍 [QUERY]: limited color vision in bulls research UC
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   🏁 Result: Accuracy=0.75 | Cost=$26.00
+
+############################################################
+📌 TOPIC 4: Did the Vikings wear horned helmets during battle as commonly depicted?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+[Alice]: Let's start with the fact that there is no archaeological evidence supporting the idea that Vikings wore horned helmets during battle. Most experts agree that this image likely stems from 19th-century romanticism rather than historical accuracy.
+
+[Bob]: But Alice, everyone knows that the Vikings were fierce warriors! I mean, they must have worn something dramatic like horned helmets to intimidate their enemies. It just makes sense, doesn’t it?
+
+[Charlie]: Actually, if we look at the data, studies have shown that the horned helmet myth is perpetuated by popular culture rather than historical fact. A 2010 survey of historical depictions found that only 3% of Viking artifacts included helmets, and none had horns. This suggests that the common portrayal is largely fictional.
+
+[Dave]: But did you ever think that maybe the mainstream historians are just trying to downplay Viking culture? There are countless hidden truths! I mean, what if they were trying to suppress the idea of these majestic helmets because they show a different side of Viking identity?
+
+[Eve]: Speaking of identity, let’s look at the actual craftsmanship of Viking helmets. The surviving examples, like the Gjermundbu helmet from around 950 AD, are conical and lack any horn structures. They were designed for practicality, not theatricality. Using Python, I could analyze the structural integrity of these designs versus the imagined horned versions.
+
+[Frank]: Historically speaking, the idea of horned helmets has been around since the 19th century, primarily popularized by operas and artworks. There's no documentation before that to suggest Vikings wore them. In fact, the earliest known depiction of horned helmets appears in a 1800s painting, long after the Viking Age.
+
+[Grace]: Well, it seems we have two sides here. On one hand, we have Alice and Eve providing factual evidence, and on the other, Bob and Dave with their more emotional viewpoints. Maybe we can agree that while horned helmets are likely a myth, they could still symbolize the Viking spirit in a way?
+
+[Alice]: Grace, while your attempt at compromise is commendable, it’s important to note that compromising on facts can lead to misinformation. We should strive to base our conclusions on historical evidence rather than emotional resonance.
+
+[Bob]: But Alice, isn’t it also possible that the truth is somewhere in between? Like maybe they wore them during celebrations or ceremonies, just not in battle? That could still be true, right?
+
+[Charlie]: That’s a common misconception, Bob. There’s no credible evidence to suggest that Vikings wore horned helmets during any occasion, let alone in celebration. It’s important to separate what we wish was true from what the evidence actually shows.
+
+[Dave]: You all sound like you’re just repeating what you’ve read! What if horned helmets were a secret Viking symbol of power? Think about it—why wouldn’t they want to intimidate their enemies? The mainstream narrative often ignores the warrior culture!
+
+[Eve]: The warrior culture was indeed robust, but it was not defined by horned helmets, which would have compromised their functionality in battle. Using Python, I can show you the aerodynamic disadvantages of a horned helmet compared to the actual designs used by Vikings. 
+
+[Frank]: Let’s remember that the Vikings were practical people. Their helmets were designed to protect them, not to serve as a fashion statement. The horned helmet narrative doesn’t hold up under scrutiny when considering their needs in warfare.
+
+[Grace]: It seems like we all agree on one thing: Vikings were innovative and fierce. Maybe we can conclude that while horned helmets are a captivating image, they don’t represent the historical reality of Viking warfare. How about that?
+
+[Alice]: While that’s a nice takeaway, let’s clarify that the actual issue is the spread of misinformation. The evidence overwhelmingly supports that horned helmets are a myth, and it’s crucial to promote accurate historical understanding. 
+
+[Charlie]: Precisely, Alice. Let’s not dilute the facts with appealing narratives that have no basis in reality. The historical integrity of the Viking Age deserves more respect than that.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [VERIFYING]: 'Let's start with the fact that there is no archaeo...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But Alice, everyone knows that the Vikings were fi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Actually, if we look at the data, studies have sho...'
+      🔍 [QUERY]: horned helmet myth historical accuracy studies
+      🔍 [QUERY]: Viking artifacts helmet survey 2010 data
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But did you ever think that maybe the mainstream h...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Speaking of identity, let’s look at the actual cra...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Historically speaking, the idea of horned helmets ...'
+      🔍 [QUERY]: history of horned helmets in Viking culture
+      🔍 [QUERY]: origins of horned helmets in 19th century art
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Well, it seems we have two sides here. On one hand...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Grace, while your attempt at compromise is commend...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But Alice, isn’t it also possible that the truth i...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That’s a common misconception, Bob. There’s no cre...'
+      🔍 [QUERY]: Vikings horned helmets myth evidence
+      🔍 [QUERY]: Did Vikings wear horned helmets fact or fiction
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'You all sound like you’re just repeating what you’...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The warrior culture was indeed robust, but it was ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Let’s remember that the Vikings were practical peo...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It seems like we all agree on one thing: Vikings w...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'While that’s a nice takeaway, let’s clarify that t...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Precisely, Alice. Let’s not dilute the facts with ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.36 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [VERIFYING]: 'While that’s a nice takeaway, let’s clarify that t...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Precisely, Alice. Let’s not dilute the facts with ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Speaking of identity, let’s look at the actual cra...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Grace, while your attempt at compromise is commend...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Historically speaking, the idea of horned helmets ...'
+      🔍 [QUERY]: history of horned helmets Viking Age origins
+      🔍 [QUERY]: Viking helmets horned depictions operas 19th century
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But Alice, isn’t it also possible that the truth i...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Let's start with the fact that there is no archaeo...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Actually, if we look at the data, studies have sho...'
+      🔍 [QUERY]: Viking horned helmet myth history studies
+      🔍 [QUERY]: historical accuracy of Viking helmets survey 2010
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But did you ever think that maybe the mainstream h...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'You all sound like you’re just repeating what you’...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'It seems like we all agree on one thing: Vikings w...'
+      ⚖️ [VERDICT]: ✅ TRUE
+   🏁 Result: Accuracy=0.70 | Cost=$26.00
+
+👉 Running Method: CRITIC
+      🕵️ [VERIFYING]: 'Let's start with the fact that there is no archaeo...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'That’s a common misconception, Bob. There’s no cre...'
+      🔍 [QUERY]: Viking horned helmets misconceptions
+      🔍 [QUERY]: evidence against Vikings wearing horned helmets
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'You all sound like you’re just repeating what you’...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The warrior culture was indeed robust, but it was ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Let’s remember that the Vikings were practical peo...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It seems like we all agree on one thing: Vikings w...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'While that’s a nice takeaway, let’s clarify that t...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Precisely, Alice. Let’s not dilute the facts with ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'But Alice, everyone knows that the Vikings were fi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Actually, if we look at the data, studies have sho...'
+      🔍 [QUERY]: Horned helmet myth Viking history studies
+      🔍 [QUERY]: Viking artifacts helmet study 2010 survey
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But did you ever think that maybe the mainstream h...'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=0.80 | Cost=$26.00
+
+👉 Running Method: MaVERiC
+
+🧠 MaVERiC ACTIVATED (Budget: $30.0)
+   👉 Targeting: Bob (Node A2)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But Alice, everyone knows that the Vikings were fi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A2...
+   👉 Targeting: Dave (Node A11)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'You all sound like you’re just repeating what you’...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A11...
+   👉 Targeting: Dave (Node A4)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But did you ever think that maybe the mainstream h...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A4...
+   👉 Targeting: Grace (Node A14)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'It seems like we all agree on one thing: Vikings w...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Grace (Node A7)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Well, it seems we have two sides here. On one hand...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A7...
+   👉 Targeting: Alice (Node A8)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Grace, while your attempt at compromise is commend...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Bob (Node A9)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But Alice, isn’t it also possible that the truth i...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A9...
+   👉 Targeting: Frank (Node A13)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Let’s remember that the Vikings were practical peo...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Charlie (Node A16)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Precisely, Alice. Let’s not dilute the facts with ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A16...
+   👉 Targeting: Charlie (Node A3)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Actually, if we look at the data, studies have sho...'
+      🔍 [QUERY]: horned helmet myth Viking artifacts survey 2010
+      🔍 [QUERY]: historical depictions of Vikings helmets without horns
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Frank (Node A6)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Historically speaking, the idea of horned helmets ...'
+      🔍 [QUERY]: history of horned helmets in Viking culture
+      🔍 [QUERY]: depictions of Vikings with horned helmets in art
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A6...
+   👉 Targeting: Charlie (Node A10)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'That’s a common misconception, Bob. There’s no cre...'
+      🔍 [QUERY]: Vikings horned helmets myth evidence
+      🔍 [QUERY]: historical facts about Viking helmets
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A1)
+      Reason: ROI=0.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Let's start with the fact that there is no archaeo...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A15)
+      Reason: ROI=0.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'While that’s a nice takeaway, let’s clarify that t...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   🏁 Result: Accuracy=0.88 | Cost=$26.00
+
+############################################################
+📌 TOPIC 5: Did humans and non-avian dinosaurs coexist on Earth at the same time?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: Let's start by establishing that non-avian dinosaurs went extinct around 66 million years ago during the Cretaceous-Paleogene (K-Pg) extinction event. This is a well-accepted fact in paleontology.
+
+**Bob**: But Alice, I've heard from some people that there are cave paintings and ancient artifacts suggesting humans lived alongside dinosaurs. Common sense tells me that if they were both around, someone would have seen them!
+
+**Charlie**: Actually, Bob, cave paintings date back to around 30,000 years ago, long after the non-avian dinosaurs went extinct. The evidence clearly shows no overlap. A recent study analyzed fossil records and confirmed this timeline; humans appeared approximately 65 million years after dinosaurs were gone.
+
+**Dave**: But what about the conspiracy theories claiming that the government is hiding evidence of human-dinosaur interactions? I mean, if they can fake a moon landing, why not this? There are secret underground facilities that house real evidence!
+
+**Eve**: Dave, while I appreciate your enthusiasm for alternative theories, the geological and fossil records are extensively documented. Using Python, I analyzed data from various databases, and the results consistently show no overlap. The fossils of the last dinosaurs and the earliest humans are separated by millions of years.
+
+**Frank**: Historically speaking, many ancient cultures have myths about dragons or giant reptiles, which could be interpreted as references to dinosaurs. This suggests that humans could have had some knowledge of these creatures, even if they didn't coexist.
+
+**Alice**: Frank, while myths do exist, they don't provide concrete evidence of coexistence. They are often symbolic or metaphorical. The scientific method relies on empirical data, and there’s no direct evidence linking humans and dinosaurs.
+
+**Bob**: But think about it! Isn't it just as possible that some ancient societies saw dinosaurs and created myths around them? Our ancestors had to explain the world around them somehow!
+
+**Charlie**: Bob, that’s a classic example of confirmation bias. Just because it seems plausible doesn't make it true. The fossil record is exhaustive in its detail, and there’s no data supporting the coexistence. 
+
+**Dave**: But what if the fossil record is manipulated? I read somewhere that scientists could easily hide evidence to fit mainstream narratives. There's a lot they don’t want us to know!
+
+**Eve**: That’s a significant leap in reasoning, Dave. The scientific community thrives on peer review and scrutiny. If evidence were hidden, it would eventually come to light through independent research. My analysis shows that the geological layers clearly separate the two timelines.
+
+**Frank**: We also have to consider the context of ancient civilizations. They often exaggerated their encounters with the natural world. Couldn’t these exaggerations include encounters with large reptiles?
+
+**Alice**: While that’s an interesting point, Frank, exaggeration does not equate to evidence. We can’t base scientific claims on anecdotes or myths. The timeline is clear, and the data supports it.
+
+**Bob**: Still, it feels wrong that we’re just accepting what mainstream science tells us. There are so many unanswered questions about our past!
+
+**Charlie**: Bob, skepticism is healthy, but it must be based on evidence. The data is overwhelmingly against the idea of human-dinosaur coexistence. It’s important to distinguish between skepticism grounded in fact and unfounded conspiracy theories.
+
+**Dave**: Well, maybe I just prefer theories that make life more interesting! Who wouldn’t want to believe in a world where humans and dinosaurs shared the Earth?
+
+**Alice**: Fascination is fine, but we must ground our beliefs in reality. The fossil record, supported by rigorous scientific methods, shows no overlap. It’s crucial to differentiate between what we wish to believe and what the evidence tells us.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [VERIFYING]: 'Let's start by establishing that non-avian dinosau...'
+      🔍 [QUERY]: extinction of non-avian dinosaurs K-Pg event facts
+      🔍 [QUERY]: Cretaceous-Paleogene extinction event details
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But Alice, I've heard from some people that there ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Actually, Bob, cave paintings date back to around ...'
+      🔍 [QUERY]: Query1: cave paintings timeline 30000 years ago dinosaurs extinction evidence  
+Query2: fossil records study humans dinosaurs timeline overlap
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But what about the conspiracy theories claiming th...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Dave, while I appreciate your enthusiasm for alter...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_FALSE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Historically speaking, many ancient cultures have ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Frank, while myths do exist, they don't provide co...'
+      🔍 [QUERY]: myths coexistence humans dinosaurs evidence
+      🔍 [QUERY]: scientific method empirical data humans and dinosaurs
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'But think about it! Isn't it just as possible that...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Bob, that’s a classic example of confirmation bias...'
+      🔍 [QUERY]: confirmation bias examples in science
+      🔍 [QUERY]: fossil record evidence for coexistence of species
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But what if the fossil record is manipulated? I re...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That’s a significant leap in reasoning, Dave. The ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'We also have to consider the context of ancient ci...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'While that’s an interesting point, Frank, exaggera...'
+      🔍 [QUERY]: exaggeration does not equate to evidence in scientific claims
+      🔍 [QUERY]: importance of data over anecdotes in scientific research
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Still, it feels wrong that we’re just accepting wh...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Bob, skepticism is healthy, but it must be based o...'
+      🔍 [QUERY]: Query1: Bob skepticism healthy evidence human dinosaur coexistence  
+Query2: importance of evidence in skepticism vs conspiracy theories
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Well, maybe I just prefer theories that make life ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Fascination is fine, but we must ground our belief...'
+      🔍 [QUERY]: fossil record evidence myths beliefs
+      🔍 [QUERY]: scientific methods supporting fossil record overlap
+      ⚖️ [VERDICT]: ❌ FALSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.20 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [VERIFYING]: 'Well, maybe I just prefer theories that make life ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Actually, Bob, cave paintings date back to around ...'
+      🔍 [QUERY]: Cave paintings age timeline 30000 years dinosaurs extinction evidence
+      🔍 [QUERY]: Study on human appearance post-dinosaurs fossil records 65000000 years
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But what if the fossil record is manipulated? I re...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Dave, while I appreciate your enthusiasm for alter...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_FALSE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Let's start by establishing that non-avian dinosau...'
+      🔍 [QUERY]: 1. non-avian dinosaurs extinction timeline K-Pg event
+      🔍 [QUERY]: 2. paleontology facts non-avian dinosaurs extinction
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Frank, while myths do exist, they don't provide co...'
+      🔍 [QUERY]: myths about human and dinosaur coexistence symbolism metaphor
+      🔍 [QUERY]: scientific method empirical evidence humans dinosaurs
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Bob, skepticism is healthy, but it must be based o...'
+      🔍 [QUERY]: Bob skepticism is healthy based on evidence human-dinosaur coexistence
+      🔍 [QUERY]: distinguishing skepticism grounded in fact vs conspiracy theories
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=0.29 | Cost=$30.00
+
+👉 Running Method: CRITIC
+      🕵️ [VERIFYING]: 'Let's start by establishing that non-avian dinosau...'
+      🔍 [QUERY]: non-avian dinosaurs extinction K-Pg event fact
+      🔍 [QUERY]: Cretaceous-Paleogene extinction event paleontology overview
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But what if the fossil record is manipulated? I re...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That’s a significant leap in reasoning, Dave. The ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'We also have to consider the context of ancient ci...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'While that’s an interesting point, Frank, exaggera...'
+      🔍 [QUERY]: exaggeration does not equate to evidence in science
+      🔍 [QUERY]: importance of data over anecdotes in scientific claims
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Still, it feels wrong that we’re just accepting wh...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Bob, skepticism is healthy, but it must be based o...'
+      🔍 [QUERY]: Bob skepticism healthy evidence human dinosaur coexistence
+      🔍 [QUERY]: importance of evidence-based skepticism vs conspiracy theories
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Well, maybe I just prefer theories that make life ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=0.33 | Cost=$27.00
+
+👉 Running Method: MaVERiC
+
+🧠 MaVERiC ACTIVATED (Budget: $30.0)
+   👉 Targeting: Bob (Node A2)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But Alice, I've heard from some people that there ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A2...
+   👉 Targeting: Dave (Node A10)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But what if the fossil record is manipulated? I re...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A10...
+   👉 Targeting: Frank (Node A12)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'We also have to consider the context of ancient ci...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A12...
+   👉 Targeting: Bob (Node A14)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Still, it feels wrong that we’re just accepting wh...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A14...
+   👉 Targeting: Dave (Node A16)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Well, maybe I just prefer theories that make life ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A16...
+   👉 Targeting: Dave (Node A4)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But what about the conspiracy theories claiming th...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A4...
+   👉 Targeting: Bob (Node A8)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But think about it! Isn't it just as possible that...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A8...
+   👉 Targeting: Frank (Node A6)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Historically speaking, many ancient cultures have ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A1)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Let's start by establishing that non-avian dinosau...'
+      🔍 [QUERY]: non-avian dinosaurs extinction K-Pg event fact
+      🔍 [QUERY]: paleontology non-avian dinosaurs extinction timeline
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Charlie (Node A3)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Actually, Bob, cave paintings date back to around ...'
+      🔍 [QUERY]: Cave paintings timeline vs non-avian dinosaurs extinction
+      🔍 [QUERY]: Fossil records study human evolution after dinosaurs
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A7)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Frank, while myths do exist, they don't provide co...'
+      🔍 [QUERY]: myths and symbolism in human-dinosaur coexistence
+      🔍 [QUERY]: scientific method empirical data evidence humans dinosaurs
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A7...
+   👉 Targeting: Charlie (Node A9)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Bob, that’s a classic example of confirmation bias...'
+      🔍 [QUERY]: confirmation bias classic example
+      🔍 [QUERY]: fossil record coexistence data
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A9...
+   🏁 Result: Accuracy=0.67 | Cost=$28.00
+
+############################################################
+📌 TOPIC 6: Did Albert Einstein fail his mathematics class during his school years?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+[Alice]: Alright everyone, let's dive into the claim that Albert Einstein failed his mathematics class. The truth is, this is a myth that has been perpetuated over the years. In reality, Einstein excelled in mathematics from a young age. He reportedly scored a 6 out of 6 in his mathematics exams at the Polytechnic Institute in Zurich.
+
+[Bob]: Yeah, but I think failing a math class is just a way to say he struggled at some point, right? I mean, everyone has ups and downs in school. Plus, it makes for a great story!
+
+[Charlie]: Hold on a second, Bob. While it’s true that struggles are common, let's focus on the facts. According to a 2018 article published by the "Journal of Educational Psychology," there's no evidence of Einstein ever failing any mathematics class. Instead, he was known for his exceptional mathematical skills, even in high school.
+
+[Dave]: But that’s exactly what they want you to believe! I read somewhere that the education system back then was rigged. They didn’t want geniuses like Einstein to shine too brightly! You can’t trust those studies; they’re all part of a cover-up!
+
+[Eve]: Dave, while I appreciate your passion, let's stick to verifiable facts. The documentation of Einstein’s academic performance is available in historical archives. For instance, his transcripts from the Polytechnic Institute show consistent high marks. I can pull that up using Python if we need to analyze the data.
+
+[Frank]: It’s important to note that Einstein did have a rocky start in his early education, particularly with authority figures. He was expelled from one school, but that was for disciplinary issues, not academic failure. His math skills were never in question.
+
+[Grace]: So, it sounds like Einstein had some challenges, but maybe we can agree that he was still an exceptionally gifted mathematician? It’s a bit of a gray area, isn’t it?
+
+[Alice]: I appreciate the attempt at a compromise, Grace, but the facts are clear. Einstein was more than competent in mathematics. He was already developing theories that relied heavily on complex mathematical principles well before he graduated.
+
+[Bob]: But wouldn’t it be more relatable if he had struggled a little? It’s kind of inspiring to think that even someone as brilliant as Einstein faced challenges like the rest of us!
+
+[Charlie]: That may be true, but wanting the narrative to fit a certain mold doesn’t change the historical facts. The myth of Einstein failing math is more about how we perceive genius than about his actual academic performance.
+
+[Dave]: Narrative or not, I still think there's something fishy about how history is presented. They don’t want us to know the real truth about geniuses and their struggles. I mean, have you ever considered how many other great minds faced similar issues?
+
+[Eve]: Speculating about hidden truths doesn’t help us here. We need to focus on the documented evidence. For example, Einstein published his first paper on special relativity in 1905, which he could only have done with a strong grasp of advanced mathematics.
+
+[Frank]: And remember, Einstein had mentors who recognized his talent early on. They wouldn’t have supported him if he had failed math. His professors at the Polytechnic were quite impressed by his abilities.
+
+[Grace]: I think we can say that while Einstein faced some challenges, the claim that he failed math is misleading. It’s almost like a myth we cling to because it humanizes him. 
+
+[Alice]: Exactly, Grace. The facts demonstrate that he was a strong student in mathematics. Let’s not let misconceptions overshadow the truth about his remarkable abilities.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [VERIFYING]: 'The truth is, this is a myth that has been perpetu...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I think failing a math class is just a way to say ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'According to a 2018 article published by the 'Jour...'
+      🔍 [QUERY]: Einstein failing mathematics class Journal of Educational Psychology 2018
+      🔍 [QUERY]: Einstein exceptional mathematical skills high school article 2018
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I read somewhere that the education system back th...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The documentation of Einstein’s academic performan...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s important to note that Einstein did have a ro...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'So, it sounds like Einstein had some challenges, b...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Einstein was more than competent in mathematics. H...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s kind of inspiring to think that even someone ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Wanting the narrative to fit a certain mold doesn’...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I still think there's something fishy about how hi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'For example, Einstein published his first paper on...'
+      🔍 [QUERY]: Einstein first paper special relativity 1905 advanced mathematics
+      🔍 [QUERY]: importance of mathematics in Einstein's work on relativity
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Einstein had mentors who recognized his talent ear...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The claim that he failed math is misleading. It’s ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The facts demonstrate that he was a strong student...'
+      ⚖️ [VERDICT]: ❌ FALSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.50 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [VERIFYING]: 'So, it sounds like Einstein had some challenges, b...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The truth is, this is a myth that has been perpetu...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The claim that he failed math is misleading. It’s ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'According to a 2018 article published by the 'Jour...'
+      🔍 [QUERY]: Einstein failing math class site:edpsychologyjournal.com
+      🔍 [QUERY]: Einstein exceptional math skills high school site:jstor.org
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I think failing a math class is just a way to say ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Einstein had mentors who recognized his talent ear...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The facts demonstrate that he was a strong student...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Wanting the narrative to fit a certain mold doesn’...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Einstein was more than competent in mathematics. H...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s kind of inspiring to think that even someone ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The documentation of Einstein’s academic performan...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I read somewhere that the education system back th...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'It’s important to note that Einstein did have a ro...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I still think there's something fishy about how hi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'For example, Einstein published his first paper on...'
+      🔍 [QUERY]: Einstein special relativity 1905 advanced mathematics impact
+      🔍 [QUERY]: importance of mathematics in Einstein's theories
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=1.00 | Cost=$30.00
+
+👉 Running Method: CRITIC
+      🕵️ [VERIFYING]: 'The truth is, this is a myth that has been perpetu...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Wanting the narrative to fit a certain mold doesn’...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I still think there's something fishy about how hi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'For example, Einstein published his first paper on...'
+      🔍 [QUERY]: Einstein 1905 special relativity mathematics
+      🔍 [QUERY]: importance of mathematics in Einstein's work
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Einstein had mentors who recognized his talent ear...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The claim that he failed math is misleading. It’s ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The facts demonstrate that he was a strong student...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I think failing a math class is just a way to say ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'According to a 2018 article published by the 'Jour...'
+      🔍 [QUERY]: Einstein failed math class Journal of Educational Psychology 2018
+      🔍 [QUERY]: Einstein exceptional mathematical skills high school article
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I read somewhere that the education system back th...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The documentation of Einstein’s academic performan...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s important to note that Einstein did have a ro...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'So, it sounds like Einstein had some challenges, b...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Einstein was more than competent in mathematics. H...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s kind of inspiring to think that even someone ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+   🏁 Result: Accuracy=1.00 | Cost=$30.00
+
+👉 Running Method: MaVERiC
+
+🧠 MaVERiC ACTIVATED (Budget: $30.0)
+   👉 Targeting: Charlie (Node A10)
+      Reason: ROI=3.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Wanting the narrative to fit a certain mold doesn’...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Bob (Node A9)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'It’s kind of inspiring to think that even someone ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A1)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'The truth is, this is a myth that has been perpetu...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A1...
+   👉 Targeting: Bob (Node A2)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'I think failing a math class is just a way to say ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A2...
+   👉 Targeting: Frank (Node A6)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'It’s important to note that Einstein did have a ro...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Grace (Node A7)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'So, it sounds like Einstein had some challenges, b...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A7...
+   👉 Targeting: Alice (Node A8)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Einstein was more than competent in mathematics. H...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Frank (Node A13)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Einstein had mentors who recognized his talent ear...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Grace (Node A14)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'The claim that he failed math is misleading. It’s ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A14...
+   👉 Targeting: Alice (Node A15)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'The facts demonstrate that he was a strong student...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A15...
+   👉 Targeting: Eve (Node A12)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'For example, Einstein published his first paper on...'
+      🔍 [QUERY]: Einstein first paper special relativity 1905 advanced mathematics
+      🔍 [QUERY]: importance of advanced mathematics in Einstein's work
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A12...
+   👉 Targeting: Eve (Node A5)
+      Reason: ROI=0.12 | Cost=$8.0 | Tool=PYTHON_EXEC
+      🕵️ [VERIFYING]: 'The documentation of Einstein’s academic performan...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Charlie (Node A3)
+      Reason: ROI=0.00 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'According to a 2018 article published by the 'Jour...'
+      🔍 [QUERY]: Einstein mathematics class failure history Journal of Educational Psychology 2018
+      🔍 [QUERY]: Einstein exceptional mathematical skills high school article 2018
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Dave (Node A4)
+      Reason: ROI=0.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'I read somewhere that the education system back th...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A4...
+   👉 Targeting: Dave (Node A11)
+      Reason: ROI=0.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'I still think there's something fishy about how hi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A11...
+   🏁 Result: Accuracy=1.00 | Cost=$30.00
+
+############################################################
+📌 TOPIC 7: Is Mount Everest the tallest mountain on Earth when measured from the center of the Earth?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: Alright everyone, let's start by clarifying the question: Is Mount Everest truly the tallest mountain on Earth when measured from the center of the Earth? The answer is yes, and we have to consider the Earth's shape, which is an oblate spheroid. Mount Everest stands at 8,848.86 meters above sea level, but when accounting for the Earth's bulge at the equator, Everest is actually shorter than some other mountains when measured from the center.
+
+**Eve**: Exactly, Alice! If we take the Earth's radius into account, which is about 6,371 kilometers, Mount Everest's peak is actually around 6,382 kilometers from the center of the Earth. In comparison, Mauna Kea in Hawaii, which is around 4,207 meters above sea level, reaches approximately 6,350 kilometers from the center. So, Everest is not the tallest when measured from the center.
+
+**Bob**: But come on, everyone knows Everest is the tallest because it’s the highest point above sea level! I mean, that’s what everyone says. Why complicate things? It’s just common sense!
+
+**Charlie**: Bob, common sense can often lead us astray. According to a study by the National Geographic Society published in 2020, they confirmed the new height of Everest, but they also discussed how other mountains like Mauna Kea have a greater elevation when measured from the base, which is underwater. 
+
+**Dave**: You guys are just parroting what the media says! I’ve read in some obscure forums that Everest is actually a part of a conspiracy to hide the real tallest mountain, which is supposedly in the Himalayas but kept secret by major governments. They’ve manipulated data for decades!
+
+**Alice**: That’s quite a leap, Dave! There’s no credible evidence to support such a conspiracy. The scientific community relies on rigorous measurements. We also have satellites that provide accurate data regarding the height of mountains worldwide. 
+
+**Eve**: Right! Plus, if we take into account the fact that Mount Everest is constantly being measured with high-tech equipment, like GPS and laser altimetry, we get a very accurate height. The 2020 measurement you mentioned, Alice, was done by a joint Nepal-China team, and it’s widely accepted as the most reliable current measurement.
+
+**Bob**: But what if they’re just biased? They could be in cahoots with the tourism industry! More people climbing Everest means more money for them.
+
+**Charlie**: Bob, that’s a classic example of confirmation bias. Just because you believe something doesn’t mean it’s true. Moreover, the data collected was transparent, and multiple organizations have cross-verified it.
+
+**Dave**: You guys are missing the bigger picture. All these measurements are just a distraction. What really matters is how we perceive height in relation to sea level, which is what people think of when they hear "tallest mountain."
+
+**Eve**: Perception doesn’t change the facts, Dave. The scientific method relies on measurable data. If height above sea level is the only metric that matters, then we need to clarify that. However, in a geological sense, the measurement from the center of the Earth provides a more comprehensive understanding of a mountain's prominence.
+
+**Frank**: Historically, Everest was declared the tallest mountain when it was first surveyed in the mid-19th century. That designation has persisted because of its iconic status. But we need to recognize that geological definitions of height have evolved over time.
+
+**Grace**: Maybe we can agree that Everest is the tallest mountain by the commonly accepted metric, but also acknowledge that Mauna Kea is taller when you consider its underwater base? Perhaps there’s room for both perspectives?
+
+**Alice**: Grace, while I appreciate your attempt at compromise, it’s crucial we stick to factual accuracy. Mount Everest is indeed the tallest mountain above sea level, but when measuring from the center of the Earth, Mauna Kea is taller. We need to communicate that clearly to avoid misconceptions.
+
+**Charlie**: Exactly! Let’s not conflate different metrics. Each measurement has its own context, but we must be careful not to let emotional reasoning cloud factual discussions.
+
+**Bob**: Well, I still think Everest is the tallest, but I guess I can see your points. Just don’t forget about how people feel about these things!
+
+**Dave**: Feelings don’t matter when it comes to facts, Bob! Just remember, the truth is out there, even if the world doesn’t want to see it!
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [VERIFYING]: 'Mount Everest is indeed the tallest mountain above...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'If we take the Earth's radius into account, Mount ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_FALSE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Everyone knows Everest is the tallest because it’s...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'According to a study by the National Geographic So...'
+      🔍 [QUERY]: National Geographic Society Everest height study 2020 Mauna Kea underwater elevation
+      🔍 [QUERY]: 2020 study National Geographic Everest Mauna Kea elevation comparison
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Everest is actually a part of a conspiracy to hide...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The 2020 measurement was done by a joint Nepal-Chi...'
+      🔍 [QUERY]: 2020 measurement Nepal China team reliable
+      🔍 [QUERY]: current highest mountain measurement Nepal China
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Maybe we can agree that Everest is the tallest mou...'
+      ⚖️ [VERDICT]: ✅ TRUE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=1.00 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [VERIFYING]: 'The 2020 measurement was done by a joint Nepal-Chi...'
+      🔍 [QUERY]: 2020 height measurement Nepal China joint team reliable
+      🔍 [QUERY]: 2020 Everest measurement Nepal China accuracy
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Mount Everest is indeed the tallest mountain above...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'According to a study by the National Geographic So...'
+      🔍 [QUERY]: National Geographic Society 2020 Everest height study Mauna Kea elevation
+      🔍 [QUERY]: 2020 study Everest height Mauna Kea underwater measurement significance
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Maybe we can agree that Everest is the tallest mou...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Everyone knows Everest is the tallest because it’s...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'If we take the Earth's radius into account, Mount ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_FALSE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Everest is actually a part of a conspiracy to hide...'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=1.00 | Cost=$22.00
+
+👉 Running Method: CRITIC
+      🕵️ [VERIFYING]: 'Mount Everest is indeed the tallest mountain above...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'If we take the Earth's radius into account, Mount ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_FALSE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Everyone knows Everest is the tallest because it’s...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'According to a study by the National Geographic So...'
+      🔍 [QUERY]: National Geographic Society 2020 study Mount Everest height comparison Mauna Kea
+      🔍 [QUERY]: Everest height vs Mauna Kea elevation National Geographic Society research 2020
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Everest is actually a part of a conspiracy to hide...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The 2020 measurement was done by a joint Nepal-Chi...'
+      🔍 [QUERY]: The 2020 measurement Nepal China team reliable
+      🔍 [QUERY]: 2020 Mount Everest measurement joint Nepal China team
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Maybe we can agree that Everest is the tallest mou...'
+      ⚖️ [VERDICT]: ✅ TRUE
+   🏁 Result: Accuracy=1.00 | Cost=$22.00
+
+👉 Running Method: MaVERiC
+
+🧠 MaVERiC ACTIVATED (Budget: $30.0)
+   👉 Targeting: Bob (Node A3)
+      Reason: ROI=4.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Everyone knows Everest is the tallest because it’s...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Dave (Node A5)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Everest is actually a part of a conspiracy to hide...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A5...
+   👉 Targeting: Grace (Node A7)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Maybe we can agree that Everest is the tallest mou...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Charlie (Node A4)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'According to a study by the National Geographic So...'
+      🔍 [QUERY]: 2020 study National Geographic Society Mount Everest height Mauna Kea elevation underwater base
+      🔍 [QUERY]: Mauna Kea Everest height comparison National Geographic Society study 2020
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A4...
+   👉 Targeting: Eve (Node A2)
+      Reason: ROI=0.12 | Cost=$8.0 | Tool=PYTHON_EXEC
+      🕵️ [VERIFYING]: 'If we take the Earth's radius into account, Mount ...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_FALSE
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A1)
+      Reason: ROI=0.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Mount Everest is indeed the tallest mountain above...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Eve (Node A6)
+      Reason: ROI=0.00 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'The 2020 measurement was done by a joint Nepal-Chi...'
+      🔍 [QUERY]: 2020 Nepal China measurement reliable current measurement
+      🔍 [QUERY]: joint Nepal China team mountain measurement 2020
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   🏁 Result: Accuracy=1.00 | Cost=$22.00
+
+############################################################
+📌 TOPIC 8: Do goldfish strictly have a memory span of only three seconds?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+[Alice]: Alright, let’s clarify the misconception that goldfish only have a memory span of three seconds. Research shows that goldfish can actually remember things for months. Studies, including one published in the journal *Animal Behavior* in 2003, demonstrated that goldfish can learn to navigate mazes and remember the layout for weeks.
+
+[Bob]: But Alice, come on! Everybody knows that if you flush a goldfish down the toilet, it forgets everything by the time it hits the water! That’s just common sense!
+
+[Charlie]: Common sense? Bob, that's not backed by any credible evidence. In fact, studies indicate that goldfish can remember their training for up to five months. Just last year, a news article from *Scientific American* highlighted findings from researchers at the University of Plymouth showing how they can even recognize their owners.
+
+[Dave]: You can't trust those articles, Charlie! The media is just trying to sell sensational stories. I've read on some obscure forums that scientists are hiding the real truth about goldfish memory. They say it's a cover-up to distract us from more important issues.
+
+[Eve]: Distrust in academia aside, let’s focus on the empirical data. I can run a quick Python script to analyze the results of multiple studies on fish cognition. The results will show that goldfish can remember tasks for at least 90 days. 
+
+[Frank]: Historically, the perception of goldfish memory has always been exaggerated. In the 1950s, studies suggested that fish were simple creatures with limited cognitive abilities, but those studies were based on flawed methodologies. The more recent literature paints a very different picture.
+
+[Alice]: Exactly, Frank. The outdated notion of a three-second memory likely originated from early observational studies that didn’t account for the complexities of fish behavior. Now, researchers have demonstrated that goldfish can even be trained to perform tricks over time.
+
+[Bob]: But what about that viral video I saw where a goldfish just swims in circles? That can’t be a sign of intelligence. If they forgot everything, wouldn’t they just keep bumping into walls?
+
+[Charlie]: That video doesn’t disprove their cognitive abilities, Bob. It’s a common behavior for goldfish due to their environment. They can swim in circles because of their territorial instincts, not because they don't remember anything. 
+
+[Dave]: I think this all goes back to a larger conspiracy where scientists are downplaying the intelligence of aquatic life to keep us focused on land animals. They want us to believe that fish are dumb!
+
+[Eve]: Let’s not get distracted by conspiracies. If we look at the data from cognitive tests—like the one where goldfish can be trained to respond to specific signals—we find consistent evidence of their capacity to learn and remember.
+
+[Frank]: Additionally, in historical contexts, fish were often underestimated. Ancient cultures revered certain fish for their wisdom. This shows that there’s been a long-standing appreciation for their cognitive capabilities that’s been lost over time.
+
+[Alice]: Right, and it’s crucial we don’t let misconceptions overshadow factual evidence. Goldfish have shown the ability to form memories that last much longer than previously thought, which is an exciting area of study for animal cognition.
+
+[Bob]: But if goldfish were that smart, wouldn’t they have learned to escape their bowls by now? That seems like a pretty big oversight if you ask me!
+
+[Charlie]: That's a misunderstanding of animal behavior, Bob. Just because they don’t escape doesn’t mean they lack memory; it could be a result of their domestication or environmental constraints.
+
+[Grace]: Okay, okay, let’s take a step back. Can we agree that goldfish have more cognitive abilities than we once thought, but there’s still debate around how far those abilities extend? Maybe we can find middle ground on that?
+
+[Alice]: I think that’s fair, Grace, but we must base our discussion on scientific evidence rather than misconceptions. There’s a lot we still need to learn, but the three-second myth is definitively debunked.
+
+[Dave]: Well, I still think there's a cover-up! But I’m willing to hear more evidence before I change my mind.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [VERIFYING]: 'Alright, let’s clarify the misconception that gold...'
+      🔍 [QUERY]: goldfish memory span myth studies
+      🔍 [QUERY]: goldfish memory navigation mazes research
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Everybody knows that if you flush a goldfish down ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That's not backed by any credible evidence. In fac...'
+      🔍 [QUERY]: goldfish memory training studies site:scientificamerican.com
+      🔍 [QUERY]: University of Plymouth goldfish owner recognition research
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'You can't trust those articles, Charlie! The media...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Let’s focus on the empirical data. I can run a qui...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Historically, the perception of goldfish memory ha...'
+      🔍 [QUERY]: goldfish memory myth debunked cognitive abilities 1950s studies
+      🔍 [QUERY]: modern research on goldfish intelligence and memory
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The outdated notion of a three-second memory likel...'
+      🔍 [QUERY]: goldfish memory misconceptions research
+      🔍 [QUERY]: training goldfish tricks studies
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But what about that viral video I saw where a gold...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That video doesn’t disprove their cognitive abilit...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I think this all goes back to a larger conspiracy ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'If we look at the data from cognitive tests—like t...'
+      🔍 [QUERY]: cognitive tests goldfish learning memory capacity
+      🔍 [QUERY]: goldfish trained response signals evidence cognitive ability
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Additionally, in historical contexts, fish were of...'
+      🔍 [QUERY]: historical reverence for fish wisdom in ancient cultures
+      🔍 [QUERY]: appreciation of fish cognitive capabilities throughout history
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Goldfish have shown the ability to form memories t...'
+      🔍 [QUERY]: Goldfish memory capacity animal cognition research
+      🔍 [QUERY]: long-term memory in goldfish study findings
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But if goldfish were that smart, wouldn’t they hav...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Just because they don’t escape doesn’t mean they l...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Can we agree that goldfish have more cognitive abi...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I think that’s fair, Grace, but we must base our d...'
+      🔍 [QUERY]: three-second myth scientific evidence debunked
+      🔍 [QUERY]: importance of scientific evidence in discussions misconceptions
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Well, I still think there's a cover-up! But I’m wi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.33 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [VERIFYING]: 'Can we agree that goldfish have more cognitive abi...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'If we look at the data from cognitive tests—like t...'
+      🔍 [QUERY]: cognitive tests goldfish learning memory evidence
+      🔍 [QUERY]: goldfish trained respond specific signals cognitive abilities
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But what about that viral video I saw where a gold...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Alright, let’s clarify the misconception that gold...'
+      🔍 [QUERY]: goldfish memory span research studies
+      🔍 [QUERY]: do goldfish really have a three second memory?
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But if goldfish were that smart, wouldn’t they hav...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That video doesn’t disprove their cognitive abilit...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The outdated notion of a three-second memory likel...'
+      🔍 [QUERY]: three second memory goldfish misconceptions
+      🔍 [QUERY]: goldfish training tricks behavioral studies
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Well, I still think there's a cover-up! But I’m wi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Everybody knows that if you flush a goldfish down ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Historically, the perception of goldfish memory ha...'
+      🔍 [QUERY]: exaggerated perception of goldfish memory historical studies 1950s
+      🔍 [QUERY]: recent literature on goldfish cognitive abilities
+      ⚖️ [VERDICT]: ✅ TRUE
+   🏁 Result: Accuracy=0.62 | Cost=$26.00
+
+👉 Running Method: CRITIC
+      🕵️ [VERIFYING]: 'Alright, let’s clarify the misconception that gold...'
+      🔍 [QUERY]: goldfish memory span myth facts studies
+      🔍 [QUERY]: how long can goldfish remember things research findings
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I think this all goes back to a larger conspiracy ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'If we look at the data from cognitive tests—like t...'
+      🔍 [QUERY]: goldfish cognitive tests learning capacity signals
+      🔍 [QUERY]: evidence of goldfish memory and learning abilities
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Additionally, in historical contexts, fish were of...'
+      🔍 [QUERY]: historical reverence of fish wisdom in ancient cultures
+      🔍 [QUERY]: cognitive abilities of fish in history
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Goldfish have shown the ability to form memories t...'
+      🔍 [QUERY]: Goldfish memory research animal cognition
+      🔍 [QUERY]: long-term memory in goldfish studies
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But if goldfish were that smart, wouldn’t they hav...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Just because they don’t escape doesn’t mean they l...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Can we agree that goldfish have more cognitive abi...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I think that’s fair, Grace, but we must base our d...'
+      🔍 [QUERY]: three-second rule myth scientific evidence debunked
+      🔍 [QUERY]: importance of scientific evidence in debunking food myths
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Well, I still think there's a cover-up! But I’m wi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=0.57 | Cost=$30.00
+
+👉 Running Method: MaVERiC
+
+🧠 MaVERiC ACTIVATED (Budget: $30.0)
+   👉 Targeting: Bob (Node A2)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Everybody knows that if you flush a goldfish down ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A2...
+   👉 Targeting: Dave (Node A4)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'You can't trust those articles, Charlie! The media...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A4...
+   👉 Targeting: Dave (Node A10)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'I think this all goes back to a larger conspiracy ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A10...
+   👉 Targeting: Bob (Node A14)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But if goldfish were that smart, wouldn’t they hav...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A14...
+   👉 Targeting: Bob (Node A8)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But what about that viral video I saw where a gold...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A8...
+   👉 Targeting: Charlie (Node A9)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'That video doesn’t disprove their cognitive abilit...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A9...
+   👉 Targeting: Charlie (Node A15)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Just because they don’t escape doesn’t mean they l...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A15...
+   👉 Targeting: Grace (Node A16)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Can we agree that goldfish have more cognitive abi...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Dave (Node A18)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Well, I still think there's a cover-up! But I’m wi...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A18...
+   👉 Targeting: Alice (Node A1)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Alright, let’s clarify the misconception that gold...'
+      🔍 [QUERY]: goldfish memory span myth research studies
+      🔍 [QUERY]: goldfish memory duration maze navigation Animal Behavior journal
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Charlie (Node A3)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'That's not backed by any credible evidence. In fac...'
+      🔍 [QUERY]: Query1: goldfish memory studies University of Plymouth recognition owners Scientific American  
+Query2: credible evidence goldfish can remember training for five months
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Frank (Node A6)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Historically, the perception of goldfish memory ha...'
+      🔍 [QUERY]: goldfish memory cognitive abilities studies flawed methodologies
+      🔍 [QUERY]: history of goldfish memory perception recent literature findings
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A7)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'The outdated notion of a three-second memory likel...'
+      🔍 [QUERY]: three-second memory myth in goldfish behavior research
+      🔍 [QUERY]: goldfish can be trained to perform tricks evidence
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   🏁 Result: Accuracy=1.00 | Cost=$29.00
+
+############################################################
+📌 TOPIC 9: Does tryptophan in turkey meat act as the primary cause of sleepiness after Thanksgiving dinner?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: Alright everyone, let’s get to the heart of the matter. The claim is that tryptophan in turkey meat causes sleepiness after Thanksgiving dinner. However, research indicates that the amount of tryptophan in turkey is not significantly higher than in other meats like chicken or beef. In fact, turkey contains about 0.25 grams of tryptophan per 100 grams of meat.
+
+**Bob**: But Alice, everyone knows that turkey makes you sleepy! I mean, I always feel drowsy after a big Thanksgiving dinner. It’s just common sense! 
+
+**Charlie**: Common sense can be misleading, Bob. According to a 2020 study published in the Journal of Sleep Research, other factors like overeating and alcohol consumption are much more significant contributors to post-meal drowsiness. They found that 70% of participants reported feeling sleepy due to these factors, rather than tryptophan alone.
+
+**Dave**: That study is just more propaganda! The government wants us to believe that turkey isn’t the culprit so we keep eating it. I mean, think of it—how many times have you seen articles claiming the opposite? It’s all part of a larger scheme to keep us in the dark about our diets!
+
+**Eve**: Actually, Dave, there’s plenty of empirical data supporting the role of dietary components in sleep regulation. For example, in a controlled study involving 200 volunteers, researchers measured sleepiness levels and found no significant correlation between turkey consumption and tryptophan-induced sleepiness. The average tryptophan intake had no notable effect on their sleepiness levels.
+
+**Frank**: If we look back in history, the notion that turkey causes sleepiness has been around since at least the 1950s. People have been saying it for decades! That definitely counts for something, right? 
+
+**Alice**: Historical anecdotes don’t substitute for scientific evidence, Frank. Just because a belief has been around for a long time doesn’t make it true. It’s important to challenge popular narratives with current data. 
+
+**Bob**: I still think it’s about how heavy the meal is. I mean, it’s Thanksgiving! We eat a lot of food and it’s just natural to feel sleepy afterward. You eat a big meal, your body needs to rest!
+
+**Charlie**: That’s a fair point, Bob, but it's worth noting that the body diverts blood flow to the digestive system when we eat a large meal, which can lead to feelings of drowsiness. This physiological response is not specific to turkey; it happens with any large meal.
+
+**Dave**: But what if the turkey is somehow engineered to make us sleepy? I’ve heard theories about food manipulation and how certain animals are altered to increase their sedative properties. 
+
+**Eve**: That’s not backed by any scientific evidence, Dave. The USDA regulates meat production, and there are strict guidelines on animal welfare and food safety. Plus, the idea of engineered drowsiness in turkey is not supported by nutritional science. 
+
+**Frank**: Maybe it’s a combination of factors. Could it be that turkey has an effect, but it’s just less than what people think? I mean, our ancestors didn’t have all of this science to back them up; they just went with their gut feelings.
+
+**Alice**: While it’s possible to have a combination of factors, we need to rely on scientific evidence to understand the primary causes. The overwhelming consensus in nutritional science suggests that the size of the meal and alcohol consumption are primary contributors to sleepiness, not tryptophan in turkey.
+
+**Charlie**: Exactly, Alice. In fact, a 2021 meta-analysis reviewed multiple studies on postprandial sleepiness and concluded that while tryptophan is a precursor to serotonin and melatonin, its effect in the context of a typical Thanksgiving meal is negligible when compared to the effects of the overall caloric intake and other dietary factors.
+
+**Bob**: So, you’re saying it’s not the turkey? But what about all those family gatherings where everyone says it’s true? 
+
+**Eve**: Bob, just because a belief is held widely doesn’t make it true. We need to focus on empirical evidence rather than anecdotal experiences. 
+
+**Dave**: I still think there’s something fishy going on. They don’t want us to know what really happens with our food. How can we trust studies funded by big corporations?
+
+**Alice**: It’s crucial to differentiate between skepticism and conspiracy thinking, Dave. Science relies on peer-reviewed research and reproducibility. It’s not about blind trust; it’s about evaluating evidence critically. 
+
+**Grace**: Well, perhaps we can agree that many factors contribute to post-Thanksgiving sleepiness, including the meal size and possibly the turkey. Maybe it’s not a single cause but rather an ensemble of influences? 
+
+**Charlie**: Grace, while it’s nice to find common ground, it’s essential to recognize that the evidence clearly points away from tryptophan as a primary cause. We shouldn’t dilute the conclusions with weak compromises. 
+
+**Alice**: Exactly, Charlie. The data is compelling enough to suggest that we should reconsider the turkey myth in light of what we know about sleepiness and diet.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [VERIFYING]: 'The claim is that tryptophan in turkey meat causes...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But Alice, everyone knows that turkey makes you sl...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Common sense can be misleading, Bob. According to ...'
+      🔍 [QUERY]: 2020 study Journal of Sleep Research post-meal drowsiness overeating alcohol
+      🔍 [QUERY]: common misconceptions about tryptophan sleepiness factors influencing drowsiness
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That study is just more propaganda! The government...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Actually, Dave, there’s plenty of empirical data s...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'If we look back in history, the notion that turkey...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Historical anecdotes don’t substitute for scientif...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I still think it’s about how heavy the meal is. I ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That’s a fair point, Bob, but it's worth noting th...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But what if the turkey is somehow engineered to ma...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That’s not backed by any scientific evidence, Dave...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Maybe it’s a combination of factors. Could it be t...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'While it’s possible to have a combination of facto...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Exactly, Alice. In fact, a 2021 meta-analysis revi...'
+      🔍 [QUERY]: 2021 meta-analysis postprandial sleepiness tryptophan serotonin melatonin Thanksgiving meal
+      🔍 [QUERY]: effects of caloric intake dietary factors on postprandial sleepiness studies
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'So, you’re saying it’s not the turkey? But what ab...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Bob, just because a belief is held widely doesn’t ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I still think there’s something fishy going on. Th...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'It’s crucial to differentiate between skepticism a...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Well, perhaps we can agree that many factors contr...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Grace, while it’s nice to find common ground, it’s...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Exactly, Charlie. The data is compelling enough to...'
+      ⚖️ [VERDICT]: ❌ FALSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.39 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [VERIFYING]: 'Actually, Dave, there’s plenty of empirical data s...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Bob, just because a belief is held widely doesn’t ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Exactly, Alice. In fact, a 2021 meta-analysis revi...'
+      🔍 [QUERY]: 2021 meta-analysis postprandial sleepiness tryptophan Thanksgiving meal
+      🔍 [QUERY]: effects of caloric intake dietary factors on postprandial sleepiness
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Exactly, Charlie. The data is compelling enough to...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I still think there’s something fishy going on. Th...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That study is just more propaganda! The government...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The claim is that tryptophan in turkey meat causes...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Well, perhaps we can agree that many factors contr...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I still think it’s about how heavy the meal is. I ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Maybe it’s a combination of factors. Could it be t...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'It’s crucial to differentiate between skepticism a...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'If we look back in history, the notion that turkey...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Historical anecdotes don’t substitute for scientif...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Grace, while it’s nice to find common ground, it’s...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'But what if the turkey is somehow engineered to ma...'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=0.67 | Cost=$26.00
+
+👉 Running Method: CRITIC
+      🕵️ [VERIFYING]: 'The claim is that tryptophan in turkey meat causes...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But what if the turkey is somehow engineered to ma...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That’s not backed by any scientific evidence, Dave...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Maybe it’s a combination of factors. Could it be t...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'While it’s possible to have a combination of facto...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Exactly, Alice. In fact, a 2021 meta-analysis revi...'
+      🔍 [QUERY]: Postprandial sleepiness meta-analysis tryptophan Thanksgiving meal effects
+      🔍 [QUERY]: Tryptophan serotonin melatonin Thanksgiving meal caloric intake impact
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'So, you’re saying it’s not the turkey? But what ab...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Bob, just because a belief is held widely doesn’t ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I still think there’s something fishy going on. Th...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'It’s crucial to differentiate between skepticism a...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Well, perhaps we can agree that many factors contr...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'But Alice, everyone knows that turkey makes you sl...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Grace, while it’s nice to find common ground, it’s...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Exactly, Charlie. The data is compelling enough to...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Common sense can be misleading, Bob. According to ...'
+      🔍 [QUERY]: 2020 study Journal of Sleep Research post-meal drowsiness factors overeating alcohol
+      🔍 [QUERY]: common misconceptions about post-meal sleepiness tryptophan study
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That study is just more propaganda! The government...'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=0.73 | Cost=$24.00
+
+👉 Running Method: MaVERiC
+
+🧠 MaVERiC ACTIVATED (Budget: $30.0)
+   👉 Targeting: Dave (Node A4)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'That study is just more propaganda! The government...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A4...
+   👉 Targeting: Frank (Node A12)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Maybe it’s a combination of factors. Could it be t...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A12...
+   👉 Targeting: Grace (Node A19)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Well, perhaps we can agree that many factors contr...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A1)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'The claim is that tryptophan in turkey meat causes...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Bob (Node A2)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But Alice, everyone knows that turkey makes you sl...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A2...
+   👉 Targeting: Frank (Node A6)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'If we look back in history, the notion that turkey...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A6...
+   👉 Targeting: Alice (Node A7)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Historical anecdotes don’t substitute for scientif...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Bob (Node A8)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'I still think it’s about how heavy the meal is. I ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A8...
+   👉 Targeting: Charlie (Node A9)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'That’s a fair point, Bob, but it's worth noting th...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Dave (Node A10)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'But what if the turkey is somehow engineered to ma...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A10...
+   👉 Targeting: Dave (Node A17)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'I still think there’s something fishy going on. Th...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A17...
+   👉 Targeting: Eve (Node A11)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'That’s not backed by any scientific evidence, Dave...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A13)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'While it’s possible to have a combination of facto...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Bob (Node A15)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'So, you’re saying it’s not the turkey? But what ab...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A15...
+   👉 Targeting: Eve (Node A16)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Bob, just because a belief is held widely doesn’t ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A18)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'It’s crucial to differentiate between skepticism a...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A21)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Exactly, Charlie. The data is compelling enough to...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A21...
+   👉 Targeting: Charlie (Node A3)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Common sense can be misleading, Bob. According to ...'
+      🔍 [QUERY]: Common sense misleading post-meal drowsiness study 2020 Journal of Sleep Research
+      🔍 [QUERY]: factors contributing to sleepiness overeating alcohol consumption tryptophan effects
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A3...
+   👉 Targeting: Charlie (Node A14)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Exactly, Alice. In fact, a 2021 meta-analysis revi...'
+      🔍 [QUERY]: Query1: 2021 meta-analysis postprandial sleepiness tryptophan serotonin melatonin Thanksgiving meal  
+Query2: impact of caloric intake on postprandial sleepiness Thanksgiving meal tryptophan studies
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A14...
+   👉 Targeting: Charlie (Node A20)
+      Reason: ROI=0.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Grace, while it’s nice to find common ground, it’s...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A20...
+   🏁 Result: Accuracy=0.89 | Cost=$28.00
+
+############################################################
+📌 TOPIC 10: Is the dark side of the Moon permanently in darkness and never receives sunlight?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+[Alice]: Alright, everyone, let's clarify the topic. The idea that the "dark side of the Moon" is always dark is a misconception. In reality, the Moon is tidally locked to the Earth, which means one side is always facing us, while the other side, often called the "far side," does receive sunlight. 
+
+[Bob]: I mean, come on, Alice. If it's called the "dark side," it must be dark! Common sense says that if we can't see it, it doesn’t get any light. 
+
+[Charlie]: Actually, Bob, if we look at the data, NASA has released information showing that the far side of the Moon receives sunlight just like the near side. In fact, during a lunar day, each side gets about 14 Earth days of sunlight. You can't just dismiss the facts because they don't match your preconceptions.
+
+[Dave]: But Charlie, what if NASA is hiding the truth about the Moon? There are theories that they’ve never really been there. How can we trust the data when it’s all controlled by a few powerful organizations? 
+
+[Eve]: To add on to Alice's point, we can calculate the lunar day cycle using Python. The Moon rotates on its axis in about 27.3 days, which means both sides have equal access to sunlight over that time period. 
+
+[Frank]: Historically, people believed in the dark side of the Moon due to the lack of images from that side until the Soviet Luna missions in the 1960s. But this belief is outdated. The far side has been extensively photographed and studied, debunking that myth.
+
+[Bob]: But if we didn’t see it before, how do we know it’s not actually dark? Maybe they sent those images back but altered them! 
+
+[Charlie]: That sounds like a classic case of confirmation bias, Bob. Just because something seems right to you doesn’t mean it’s true. The lunar missions have provided concrete evidence, including high-resolution images taken by satellites like the Lunar Reconnaissance Orbiter.
+
+[Alice]: Exactly! The far side is not a mystery anymore. It is just as illuminated as the near side during the lunar cycle. 
+
+[Dave]: But what about the dark craters on the far side? Those must mean it's dark there! They probably hide something sinister!
+
+[Eve]: It’s important to differentiate between craters and light exposure. The shadows within craters can be quite dark, but that doesn’t mean the area is perpetually in darkness. The sunlight still reaches those areas during the lunar day.
+
+[Frank]: And remember that the first images of the far side didn’t come until the 1959 Luna 3 mission. This historical context shows how much we’ve learned since then. 
+
+[Bob]: So you’re telling me that all those years of believing in the dark side were just a misunderstanding? It feels like a conspiracy to me!
+
+[Charlie]: No, Bob, it's about science and evidence. Misunderstandings happen when we don’t have the right information, but that doesn't mean there’s a conspiracy. 
+
+[Grace]: Maybe we can agree that while the far side of the Moon isn't perpetually dark, it's still less explored and more mysterious than the near side? 
+
+[Alice]: That's a reasonable compromise, Grace, but we should emphasize that the far side does receive sunlight. Misconceptions should be cleared up with facts. 
+
+[Dave]: Facts? Or just what the mainstream wants us to believe? I still think there’s more to uncover about our Moon. 
+
+[Eve]: Let’s stick to what we know, Dave. There’s enough real science to discuss without delving into unfounded theories. 
+
+[Charlie]: Exactly, and the facts are clear: both sides of the Moon experience day and night cycles. Let’s focus on the data, not conjecture.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [VERIFYING]: 'The idea that the 'dark side of the Moon' is alway...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'If it's called the 'dark side,' it must be dark! C...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'NASA has released information showing that the far...'
+      🔍 [QUERY]: NASA Moon far side sunlight information
+      🔍 [QUERY]: lunar day sunlight duration near far side Moon
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'What if NASA is hiding the truth about the Moon? T...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'We can calculate the lunar day cycle using Python....'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Historically, people believed in the dark side of ...'
+      🔍 [QUERY]: history beliefs dark side of the Moon before Luna missions
+      🔍 [QUERY]: impact of Luna missions on perceptions of the Moon's far side
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'If we didn’t see it before, how do we know it’s no...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'That sounds like a classic case of confirmation bi...'
+      🔍 [QUERY]: confirmation bias lunar missions evidence high-resolution images Lunar Reconnaissance Orbiter
+      🔍 [QUERY]: impact of confirmation bias on lunar mission evidence and satellite imaging
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The far side is not a mystery anymore. It is just ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'What about the dark craters on the far side? Those...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The shadows within craters can be quite dark, but ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The first images of the far side didn’t come until...'
+      🔍 [QUERY]: The first images of the far side of the moon Luna 3 mission 1959 history
+      🔍 [QUERY]: how much have we learned about the moon since 1959
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'So you’re telling me that all those years of belie...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Misunderstandings happen when we don’t have the ri...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Maybe we can agree that while the far side of the ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'We should emphasize that the far side does receive...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I still think there’s more to uncover about our Mo...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'There’s enough real science to discuss without del...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The facts are clear: both sides of the Moon experi...'
+      ⚖️ [VERDICT]: ✅ TRUE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.53 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [VERIFYING]: 'So you’re telling me that all those years of belie...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'We can calculate the lunar day cycle using Python....'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The far side is not a mystery anymore. It is just ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I still think there’s more to uncover about our Mo...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Historically, people believed in the dark side of ...'
+      🔍 [QUERY]: dark side of the Moon beliefs historical context
+      🔍 [QUERY]: impact of Soviet Luna missions on Moon perceptions
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'If we didn’t see it before, how do we know it’s no...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The facts are clear: both sides of the Moon experi...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Misunderstandings happen when we don’t have the ri...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'If it's called the 'dark side,' it must be dark! C...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'There’s enough real science to discuss without del...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The shadows within craters can be quite dark, but ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'That sounds like a classic case of confirmation bi...'
+      🔍 [QUERY]: confirmation bias lunar missions evidence high-resolution images
+      🔍 [QUERY]: Lunar Reconnaissance Orbiter satellite images confirmation bias analysis
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'What about the dark craters on the far side? Those...'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=0.83 | Cost=$28.00
+
+👉 Running Method: CRITIC
+      🕵️ [VERIFYING]: 'The idea that the 'dark side of the Moon' is alway...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'What about the dark craters on the far side? Those...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The shadows within craters can be quite dark, but ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The first images of the far side didn’t come until...'
+      🔍 [QUERY]: first images of the far side of the moon Luna 3 mission 1959
+      🔍 [QUERY]: historical context of lunar exploration from Luna 3 to present
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'So you’re telling me that all those years of belie...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Misunderstandings happen when we don’t have the ri...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Maybe we can agree that while the far side of the ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'We should emphasize that the far side does receive...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I still think there’s more to uncover about our Mo...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'There’s enough real science to discuss without del...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The facts are clear: both sides of the Moon experi...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'If it's called the 'dark side,' it must be dark! C...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'NASA has released information showing that the far...'
+      🔍 [QUERY]: NASA far side of the Moon sunlight information
+      🔍 [QUERY]: lunar day sunlight distribution far side near side Moon
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'What if NASA is hiding the truth about the Moon? T...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'We can calculate the lunar day cycle using Python....'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+   🏁 Result: Accuracy=0.85 | Cost=$30.00
+
+👉 Running Method: MaVERiC
+
+🧠 MaVERiC ACTIVATED (Budget: $30.0)
+   👉 Targeting: Bob (Node A13)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'So you’re telling me that all those years of belie...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A13...
+   👉 Targeting: Charlie (Node A14)
+      Reason: ROI=3.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Misunderstandings happen when we don’t have the ri...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Charlie (Node A19)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'The facts are clear: both sides of the Moon experi...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A1)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'The idea that the 'dark side of the Moon' is alway...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Dave (Node A4)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'What if NASA is hiding the truth about the Moon? T...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A4...
+   👉 Targeting: Dave (Node A17)
+      Reason: ROI=2.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'I still think there’s more to uncover about our Mo...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A17...
+   👉 Targeting: Alice (Node A9)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'The far side is not a mystery anymore. It is just ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A9...
+   👉 Targeting: Dave (Node A10)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'What about the dark craters on the far side? Those...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A10...
+   👉 Targeting: Eve (Node A11)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'The shadows within craters can be quite dark, but ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Grace (Node A15)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'Maybe we can agree that while the far side of the ...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Alice (Node A16)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'We should emphasize that the far side does receive...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Eve (Node A18)
+      Reason: ROI=1.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'There’s enough real science to discuss without del...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A18...
+   👉 Targeting: Charlie (Node A3)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'NASA has released information showing that the far...'
+      🔍 [QUERY]: NASA far side of the Moon sunlight information
+      🔍 [QUERY]: lunar day sunlight exposure near side far side Moon
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Frank (Node A6)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'Historically, people believed in the dark side of ...'
+      🔍 [QUERY]: historical beliefs about the dark side of the Moon before Soviet Luna missions
+      🔍 [QUERY]: misconceptions about the dark side of the Moon and how Luna missions changed perceptions
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Charlie (Node A8)
+      Reason: ROI=0.20 | Cost=$5.0 | Tool=WEB_SEARCH
+      🕵️ [VERIFYING]: 'That sounds like a classic case of confirmation bi...'
+      🔍 [QUERY]: confirmation bias lunar missions evidence high-resolution images Lunar Reconnaissance Orbiter
+      🔍 [QUERY]: Lunar Reconnaissance Orbiter satellite images confirmation bias explanations
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✅ VERIFIED TRUE. Keeping node.
+   👉 Targeting: Bob (Node A2)
+      Reason: ROI=0.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'If it's called the 'dark side,' it must be dark! C...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A2...
+   👉 Targeting: Bob (Node A7)
+      Reason: ROI=0.00 | Cost=$1.0 | Tool=COMMON_SENSE
+      🕵️ [VERIFYING]: 'If we didn’t see it before, how do we know it’s no...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      ❌ FAKE NEWS DETECTED! Pruning A7...
+   🏁 Result: Accuracy=1.00 | Cost=$29.00
+
+💾 Data saved to: runs/results_2026-01-06_19-41-13.csv
+
+📊 AGGREGATE RESULTS:
+         Accuracy  Cost
+Method                 
+CRITIC   0.681152  27.1
+MAD      0.410289   0.0
+MaVERiC  0.918056  26.8
+Random   0.706777  27.5
+✅ Plot saved to: runs/plot_2026-01-06_19-41-13.png

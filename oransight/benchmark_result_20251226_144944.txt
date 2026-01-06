@@ -1,0 +1,364 @@
+🚀 Khởi động hệ thống ORANSight...
+🚀 Initializing ORANSight with local vLLM model: Qwen/Qwen3-4B...
+INFO 12-26 14:49:52 [utils.py:253] non-default args: {'trust_remote_code': True, 'gpu_memory_utilization': 0.3, 'disable_log_stats': True, 'model': 'Qwen/Qwen3-4B'}
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+INFO 12-26 14:49:58 [model.py:514] Resolved architecture: Qwen3ForCausalLM
+INFO 12-26 14:49:58 [model.py:1661] Using max model len 40960
+INFO 12-26 14:49:59 [scheduler.py:230] Chunked prefill is enabled with max_num_batched_tokens=8192.
+[0;36m(EngineCore_DP0 pid=136676)[0;0m INFO 12-26 14:50:01 [core.py:93] Initializing a V1 LLM engine (v0.13.0) with config: model='Qwen/Qwen3-4B', speculative_config=None, tokenizer='Qwen/Qwen3-4B', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=True, dtype=torch.bfloat16, max_seq_len=40960, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False), seed=0, served_model_name=Qwen/Qwen3-4B, enable_prefix_caching=True, enable_chunked_prefill=True, pooler_config=None, compilation_config={'level': None, 'mode': <CompilationMode.VLLM_COMPILE: 3>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'splitting_ops': ['vllm::unified_attention', 'vllm::unified_attention_with_output', 'vllm::unified_mla_attention', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::linear_attention', 'vllm::plamo2_mamba_mixer', 'vllm::gdn_attention_core', 'vllm::kda_attention', 'vllm::sparse_attn_indexer'], 'compile_mm_encoder': False, 'compile_sizes': [], 'compile_ranges_split_points': [8192], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)>, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184, 192, 200, 208, 216, 224, 232, 240, 248, 256, 272, 288, 304, 320, 336, 352, 368, 384, 400, 416, 432, 448, 464, 480, 496, 512], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'eliminate_noops': True, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False}, 'max_cudagraph_capture_size': 512, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>, 'evaluate_guards': False}, 'local_cache_dir': None}
+[0;36m(EngineCore_DP0 pid=136676)[0;0m INFO 12-26 14:50:02 [parallel_state.py:1203] world_size=1 rank=0 local_rank=0 distributed_init_method=tcp://10.40.40.137:42537 backend=nccl
+[0;36m(EngineCore_DP0 pid=136676)[0;0m INFO 12-26 14:50:02 [parallel_state.py:1411] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank 0
+[0;36m(EngineCore_DP0 pid=136676)[0;0m INFO 12-26 14:50:03 [gpu_model_runner.py:3562] Starting to load model Qwen/Qwen3-4B...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m INFO 12-26 14:50:04 [cuda.py:351] Using FLASH_ATTN attention backend out of potential backends: ('FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION')
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [gpu_model_runner.py:3657] Failed to load model - not enough GPU memory. Try lowering --gpu-memory-utilization to free memory for weights, increasing --tensor-parallel-size, or using --quantization. See https://docs.vllm.ai/en/latest/configuration/conserving_memory/ for more tips. (original error: CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 5.65 GiB of which 38.56 MiB is free. Including non-PyTorch memory, this process has 4.92 GiB memory in use. Of the allocated memory 4.75 GiB is allocated by PyTorch, and 19.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables))
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866] EngineCore failed to start.
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866] Traceback (most recent call last):
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/core.py", line 857, in run_engine_core
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     engine_core = EngineCoreProc(*args, **kwargs)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/core.py", line 637, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     super().__init__(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         vllm_config, executor_class, log_stats, executor_fail_callback
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/core.py", line 102, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     self.model_executor = executor_class(vllm_config)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]                           ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/executor/abstract.py", line 101, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     self._init_executor()
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ~~~~~~~~~~~~~~~~~~~^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/executor/uniproc_executor.py", line 48, in _init_executor
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     self.driver_worker.load_model()
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/worker/gpu_worker.py", line 289, in load_model
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     self.model_runner.load_model(eep_scale_up=eep_scale_up)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/worker/gpu_model_runner.py", line 3658, in load_model
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     raise e
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/worker/gpu_model_runner.py", line 3581, in load_model
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     self.model = model_loader.load_model(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]                  ~~~~~~~~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         vllm_config=self.vllm_config, model_config=self.model_config
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/model_loader/base_loader.py", line 49, in load_model
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     model = initialize_model(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         vllm_config=vllm_config, model_config=model_config
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/model_loader/utils.py", line 48, in initialize_model
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     return model_class(vllm_config=vllm_config, prefix=prefix)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/qwen3.py", line 274, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     self.model = Qwen3Model(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]                  ~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         vllm_config=vllm_config, prefix=maybe_prefix(prefix, "model")
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/compilation/decorators.py", line 291, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     old_init(self, **kwargs)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ~~~~~~~~^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/qwen3.py", line 248, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     super().__init__(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         vllm_config=vllm_config, prefix=prefix, decoder_layer_type=Qwen3DecoderLayer
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/compilation/decorators.py", line 291, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     old_init(self, **kwargs)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ~~~~~~~~^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/qwen2.py", line 394, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     self.start_layer, self.end_layer, self.layers = make_layers(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]                                                     ~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         config.num_hidden_layers,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ...<6 lines>...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         prefix=f"{prefix}.layers",
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/utils.py", line 606, in make_layers
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     maybe_offload_to_cpu(layer_fn(prefix=f"{prefix}.{idx}"))
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]                          ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/qwen2.py", line 396, in <lambda>
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     lambda prefix: decoder_layer_type(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]                    ~~~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         config=config,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ...<2 lines>...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         prefix=prefix,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ),
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/qwen3.py", line 181, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     self.self_attn = Qwen3Attention(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]                      ~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         hidden_size=self.hidden_size,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ...<11 lines>...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         dual_chunk_attention_config=dual_chunk_attention_config,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/qwen3.py", line 95, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     self.qkv_proj = QKVParallelLinear(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]                     ~~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         hidden_size,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ...<5 lines>...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         prefix=f"{prefix}.qkv_proj",
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/layers/linear.py", line 935, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     super().__init__(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         input_size=input_size,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ...<8 lines>...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         disable_tp=disable_tp,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/layers/linear.py", line 484, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     self.quant_method.create_weights(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         layer=self,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ...<9 lines>...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ),
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/layers/linear.py", line 215, in create_weights
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     data=torch.empty(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]          ~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         sum(output_partition_sizes),
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         input_size_per_partition,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         dtype=params_dtype,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]         ^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ),
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/torch/utils/_device.py", line 103, in __torch_function__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866]     return func(*args, **kwargs)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m ERROR 12-26 14:50:04 [core.py:866] torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 5.65 GiB of which 38.56 MiB is free. Including non-PyTorch memory, this process has 4.92 GiB memory in use. Of the allocated memory 4.75 GiB is allocated by PyTorch, and 19.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m Process EngineCore_DP0:
+[0;36m(EngineCore_DP0 pid=136676)[0;0m Traceback (most recent call last):
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/multiprocessing/process.py", line 313, in _bootstrap
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     self.run()
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ~~~~~~~~^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/multiprocessing/process.py", line 108, in run
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     self._target(*self._args, **self._kwargs)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/core.py", line 870, in run_engine_core
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     raise e
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/core.py", line 857, in run_engine_core
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     engine_core = EngineCoreProc(*args, **kwargs)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/core.py", line 637, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     super().__init__(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         vllm_config, executor_class, log_stats, executor_fail_callback
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/core.py", line 102, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     self.model_executor = executor_class(vllm_config)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m                           ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/executor/abstract.py", line 101, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     self._init_executor()
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ~~~~~~~~~~~~~~~~~~~^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/executor/uniproc_executor.py", line 48, in _init_executor
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     self.driver_worker.load_model()
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/worker/gpu_worker.py", line 289, in load_model
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     self.model_runner.load_model(eep_scale_up=eep_scale_up)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/worker/gpu_model_runner.py", line 3658, in load_model
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     raise e
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/worker/gpu_model_runner.py", line 3581, in load_model
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     self.model = model_loader.load_model(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m                  ~~~~~~~~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         vllm_config=self.vllm_config, model_config=self.model_config
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/model_loader/base_loader.py", line 49, in load_model
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     model = initialize_model(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         vllm_config=vllm_config, model_config=model_config
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/model_loader/utils.py", line 48, in initialize_model
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     return model_class(vllm_config=vllm_config, prefix=prefix)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/qwen3.py", line 274, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     self.model = Qwen3Model(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m                  ~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         vllm_config=vllm_config, prefix=maybe_prefix(prefix, "model")
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/compilation/decorators.py", line 291, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     old_init(self, **kwargs)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ~~~~~~~~^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/qwen3.py", line 248, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     super().__init__(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         vllm_config=vllm_config, prefix=prefix, decoder_layer_type=Qwen3DecoderLayer
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/compilation/decorators.py", line 291, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     old_init(self, **kwargs)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ~~~~~~~~^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/qwen2.py", line 394, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     self.start_layer, self.end_layer, self.layers = make_layers(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m                                                     ~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         config.num_hidden_layers,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ...<6 lines>...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         prefix=f"{prefix}.layers",
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/utils.py", line 606, in make_layers
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     maybe_offload_to_cpu(layer_fn(prefix=f"{prefix}.{idx}"))
+[0;36m(EngineCore_DP0 pid=136676)[0;0m                          ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/qwen2.py", line 396, in <lambda>
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     lambda prefix: decoder_layer_type(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m                    ~~~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         config=config,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ...<2 lines>...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         prefix=prefix,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ),
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/qwen3.py", line 181, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     self.self_attn = Qwen3Attention(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m                      ~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         hidden_size=self.hidden_size,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ...<11 lines>...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         dual_chunk_attention_config=dual_chunk_attention_config,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/models/qwen3.py", line 95, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     self.qkv_proj = QKVParallelLinear(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m                     ~~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         hidden_size,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ...<5 lines>...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         prefix=f"{prefix}.qkv_proj",
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/layers/linear.py", line 935, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     super().__init__(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         input_size=input_size,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ...<8 lines>...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         disable_tp=disable_tp,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/layers/linear.py", line 484, in __init__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     self.quant_method.create_weights(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         layer=self,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ...<9 lines>...
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ),
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     )
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/model_executor/layers/linear.py", line 215, in create_weights
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     data=torch.empty(
+[0;36m(EngineCore_DP0 pid=136676)[0;0m          ~~~~~~~~~~~^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         sum(output_partition_sizes),
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         input_size_per_partition,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         dtype=params_dtype,
+[0;36m(EngineCore_DP0 pid=136676)[0;0m         ^^^^^^^^^^^^^^^^^^^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ),
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     ^
+[0;36m(EngineCore_DP0 pid=136676)[0;0m   File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/torch/utils/_device.py", line 103, in __torch_function__
+[0;36m(EngineCore_DP0 pid=136676)[0;0m     return func(*args, **kwargs)
+[0;36m(EngineCore_DP0 pid=136676)[0;0m torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 30.00 MiB. GPU 0 has a total capacity of 5.65 GiB of which 38.56 MiB is free. Including non-PyTorch memory, this process has 4.92 GiB memory in use. Of the allocated memory 4.75 GiB is allocated by PyTorch, and 19.02 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+❌ Error loading model 'Qwen/Qwen3-4B': Engine core initialization failed. See root cause above. Failed core proc(s): {}
+Please check if the model name is correct and you have access/internet connection.
+Traceback (most recent call last):
+  File "/home/tungnvt5re/research-projects/reinforcement_learning_intro_books/oransight/main_benchmark.py", line 138, in <module>
+    oransight = ORANSightRAG()
+  File "/home/tungnvt5re/research-projects/reinforcement_learning_intro_books/oransight/oransight.py", line 31, in __init__
+    raise e
+  File "/home/tungnvt5re/research-projects/reinforcement_learning_intro_books/oransight/oransight.py", line 21, in __init__
+    self.llm = LLM(
+               ~~~^
+        model=model_name,
+        ^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        dtype="auto" # Automatically use float16 or bfloat16 based on GPU
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/entrypoints/llm.py", line 351, in __init__
+    self.llm_engine = LLMEngine.from_engine_args(
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        engine_args=engine_args, usage_context=UsageContext.LLM_CLASS
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/llm_engine.py", line 183, in from_engine_args
+    return cls(
+        vllm_config=vllm_config,
+    ...<4 lines>...
+        multiprocess_mode=enable_multiprocessing,
+    )
+  File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/llm_engine.py", line 109, in __init__
+    self.engine_core = EngineCoreClient.make_client(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        multiprocess_mode=multiprocess_mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        log_stats=self.log_stats,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/core_client.py", line 93, in make_client
+    return SyncMPClient(vllm_config, executor_class, log_stats)
+  File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/core_client.py", line 648, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        asyncio_mode=False,
+        ^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        log_stats=log_stats,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/core_client.py", line 477, in __init__
+    with launch_core_engines(vllm_config, executor_class, log_stats) as (
+         ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tungnvt5re/miniconda3/lib/python3.13/contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/utils.py", line 903, in launch_core_engines
+    wait_for_engine_startup(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        handshake_socket,
+        ^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        coordinator.proc if coordinator else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/tungnvt5re/miniconda3/lib/python3.13/site-packages/vllm/v1/engine/utils.py", line 960, in wait_for_engine_startup
+    raise RuntimeError(
+    ...<3 lines>...
+    )
+RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {}

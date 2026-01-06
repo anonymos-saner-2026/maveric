@@ -1,0 +1,156 @@
+📄 LOG FILE CREATED: runs/experiment_2026-01-06_22-40-48.log
+============================================================
+🚀 STARTING BATCH EXPERIMENT (N=2 Topics)
+============================================================
+
+############################################################
+📌 TOPIC 1: Does the Great Wall of China appear visible to the naked eye from the Moon?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: Alright class, today we’re discussing whether the Great Wall of China is visible to the naked eye from the Moon. To start, I want to clarify that the Wall is not visible from the Moon without aid. The popular myth stems from the fact that the Wall is long, but it’s not wide enough to be seen from such a great distance.
+
+**Bob**: I totally agree with Alice! I mean, it just makes sense, right? If you were up there, wouldn't you just look down and see this massive structure? It’s like a giant snake on the Earth! 
+
+**Charlie**: Actually, Bob, there have been various studies and reports that indicate the Wall is not visible from the Moon. NASA has stated that the human eye can only see objects that are around 1.5 meters wide from that distance. The Great Wall, while long, is only about 4 to 5 meters wide at its widest points. This means it's practically invisible without powerful optics. 
+
+**Dave**: But that’s what they want you to believe! Mainstream science has been pushing this idea for years. I read somewhere that astronauts have seen the Wall with their own eyes, but they’re not allowed to talk about it. It’s all part of a cover-up!
+
+**Eve**: Dave, while I appreciate your skepticism, let’s rely on some empirical data. According to an analysis I ran in Python, if we consider the curvature of the Earth and the distance of approximately 384,400 kilometers to the Moon, the Wall would be too narrow to discern without advanced telescopes. The calculations show that even with a superhuman vision, you’d need a magnification of at least 100x to see it clearly.
+
+**Frank**: Historically, this misconception has been around since at least the 1930s. There was a famous article published in a travel magazine that claimed the Wall was visible from space, and it’s been repeated ever since. However, we should note that no credible evidence supports this claim from anyone who has actually been to the Moon.
+
+**Bob**: But I think the point is lost here! Even if it’s hard to see, it’s still a huge structure! People have been saying it’s visible for decades, and that’s gotta mean something, right?
+
+**Charlie**: That’s a classic example of anecdotal reasoning, Bob. Just because many people believe it doesn't make it true. We have to base our conclusions on empirical evidence, not just on popular opinion.
+
+**Dave**: All I’m saying is that the truth is out there. There are too many coincidences that make me doubt what the authorities tell us. It’s like they’re trying to erase the cultural significance of the Wall by saying it’s not visible!
+
+**Eve**: Dave, it’s important to distinguish between cultural significance and physical reality. The Great Wall is a marvel in its own right, but that doesn’t change the facts about visibility. Using Python, I ran simulations that clearly show the Wall's dimensions don’t meet the visibility threshold from the Moon.
+
+**Alice**: Exactly, Eve. The visible threshold is about 1.5 meters, and the Great Wall is significantly less discernible than that from such a distance. We need to rely on scientific principles rather than emotional responses or conspiracy theories.
+
+**Grace**: Okay, okay! What if we say that while it might not be visible to the naked eye, people still have a strong cultural belief that it is? Can't we agree that there’s some value in that belief? 
+
+**Charlie**: Grace, it’s important to recognize that cultural beliefs don’t change physical laws. We can appreciate the significance of the Wall without misrepresenting its visibility from space.
+
+**Bob**: But wouldn’t it be cool if it were true? I mean, think about it! A symbol of human achievement visible from the Moon! 
+
+**Dave**: Exactly! That’s what I’m saying! It’s a powerful image that they just don’t want to acknowledge. It’s about human pride!
+
+**Eve**: While pride is important, we must not confuse belief with fact. We can be proud of our achievements without distorting the truth. 
+
+**Alice**: Well said, Eve. The Great Wall is a historic marvel, but visibility from the Moon remains a myth. Let’s stick to the evidence and ensure our discussions are grounded in reality.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.50 | Cost=$0.00
+
+👉 Running Method: Random
+   🏁 Result: Accuracy=0.83 | Cost=$25.00
+
+👉 Running Method: CRITIC
+   🏁 Result: Accuracy=0.83 | Cost=$25.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'If you were up there, wouldn't...' | ROI: 2.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A2
+   🎯 Target: 'The Great Wall of China is not...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A1
+   🎯 Target: 'The visible threshold is about...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A9
+   🎯 Target: 'Cultural beliefs don’t change ...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'We must not confuse belief wit...' | ROI: 1.00 | Tool: COMMON_SENSE
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'The Great Wall is a historic m...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A12
+   🎯 Target: 'If we consider the curvature o...' | ROI: 0.37 | Tool: PYTHON_EXEC
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   ⚠️ Not enough budget for selected tool. Stopping.
+   🏁 Result: Accuracy=0.38 | Cost=$27.50
+
+############################################################
+📌 TOPIC 2: Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+[Alice]: Alright everyone, let's get started. The claim that Napoleon Bonaparte was significantly shorter than the average Frenchman of his time is a misconception. Historical records show that he was approximately 5 feet 6 inches tall, which was actually about average for Frenchmen in the early 19th century.
+
+[Bob]: I mean, come on, Alice! Everyone knows Napoleon was short. They even have those little toy figurines of him that make him look tiny. If he was actually average height, why do we always think of him as being short? 
+
+[Charlie]: Well, Bob, it's worth noting that the average height of Frenchmen during Napoleon's time was around 5 feet 5 inches. So, Napoleon being 5 feet 6 inches would put him just slightly above average. In fact, a 2010 study published in the Journal of Historical Biology confirmed this.
+
+[Eve]: Exactly! And if we run a quick calculation using Python, we can verify that the average height for men in France during the early 1800s was between 5 feet 5 inches and 5 feet 7 inches. Napoleon fits right in that range. 
+
+[Dave]: But you know what? I read somewhere that the British propagandized his height to make him look small and weak. They even used different measurement systems! There’s a conspiracy that they wanted to paint him as less of a threat!
+
+[Grace]: Well, while the idea of British propaganda is interesting, it’s important to remember that historical context matters. It seems like there’s a mix of truth and exaggeration on both sides. Maybe he was average height, but his personality made him seem larger than life?
+
+[Alice]: Grace, while your point about personality is valid, it doesn't change the fact that the measurements are clear. The myth of his short stature likely arose from the confusion between French and British inches. 
+
+[Charlie]: Exactly, Alice! The French inch is longer than the British inch. If we look at how the British recorded Napoleon's height, they might have been using a different standard altogether. 
+
+[Bob]: But if everyone thinks he was short, isn’t there something to that? Maybe height isn’t everything, but it does show how people view him. Common sense says shorter people tend to be looked down upon.
+
+[Eve]: But Bob, common sense isn’t a reliable metric for historical accuracy. If we rely solely on perception, we risk ignoring hard data. Using Python's `statistics` library, I can show that height perception has shifted over time based on societal norms.
+
+[Dave]: Well, I just think it’s too convenient that everyone agrees he was average height now. Our historical figures are often elevated or diminished based on what society wants to believe at the time. Have you ever thought that the narrative is being controlled?
+
+[Charlie]: It’s not about control, Dave; it’s about evidence. We have artifacts, paintings, and even written accounts from that time. They all corroborate the same height range. The data is consistent. 
+
+[Grace]: Right, but can't we accept that history is sometimes shaped by narrative? Maybe Napoleon being labeled as short serves a larger story. It doesn't necessarily mean he was actually shorter in reality.
+
+[Alice]: While narratives are important, they shouldn't distort facts. The data speaks for itself: Napoleon was not significantly shorter than his contemporaries. We should separate emotion and myth from historical accuracy. 
+
+[Frank]: Drawing from historical accounts, many leaders have been misrepresented in height. The case of Napoleon is similar to that of Julius Caesar, who was also said to be shorter than he was. This pattern of distortion is common in history.
+
+[Bob]: But can’t we just agree that the image of a "short" Napoleon has stuck with us for a reason? It’s catchy! 
+
+[Eve]: Catchy or not, it’s essential to distinguish between catchy narratives and factual information. Historical context and measurement standards are crucial to understanding this issue properly. 
+
+[Charlie]: Absolutely! If we rely on the data and historical context, we can dismantle the misconceptions surrounding Napoleon’s height, ensuring we approach history with a fact-based mindset.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.33 | Cost=$0.00
+
+👉 Running Method: Random
+   🏁 Result: Accuracy=0.67 | Cost=$29.00
+
+👉 Running Method: CRITIC
+   🏁 Result: Accuracy=0.67 | Cost=$29.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'Everyone knows Napoleon was sh...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A2
+   🎯 Target: 'I read somewhere that the Brit...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A5
+   🎯 Target: 'There’s a mix of truth and exa...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A6
+   🎯 Target: 'It’s too convenient that every...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'We have artifacts, paintings, ...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A11
+   🎯 Target: 'History is sometimes shaped by...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A12
+   🏁 Result: Accuracy=0.57 | Cost=$30.00
+
+💾 Data saved to: runs/results_2026-01-06_22-40-48.csv
+
+📊 AGGREGATE RESULTS:
+         Accuracy   Cost
+Method                  
+CRITIC   0.750000  27.00
+MAD      0.416667   0.00
+MaVERiC  0.473214  28.75
+Random   0.750000  27.00
+✅ Plot saved to: runs/plot_2026-01-06_22-40-48.png

@@ -1,0 +1,150 @@
+📄 LOG FILE CREATED: runs/experiment_2026-01-06_22-48-25.log
+============================================================
+🚀 STARTING BATCH EXPERIMENT (N=2 Topics)
+============================================================
+
+############################################################
+📌 TOPIC 1: Does the Great Wall of China appear visible to the naked eye from the Moon?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**[Alice]:** Alright everyone, let's get into the question: Can the Great Wall of China be seen from the Moon with the naked eye? The consensus among scientists is that it cannot be seen. The Wall is only about 30 feet wide on average, which is not enough to be distinguishable from that distance.
+
+**[Bob]:** But Alice, I’ve heard so many people say they’ve seen it! I mean, if you’re up there in space, you can see a lot of things. It just makes sense that something as big as the Great Wall would stand out!
+
+**[Charlie]:** Actually, Bob, studies show that astronauts themselves have confirmed they can't see the Wall from the Moon. A survey published in 2003 by NASA noted that the Wall is indistinguishable from its surroundings. It blends in with the landscape, which makes it virtually invisible.
+
+**[Dave]:** But have we really sent people to the Moon? I mean, who can trust those NASA reports? There are countless conspiracy theories suggesting that the Moon landings were staged. How can we trust what they've said about visibility?
+
+**[Eve]:** Well, Dave, let's focus on the physics. The visibility from the Moon is also a matter of light refraction and atmospheric conditions. I ran a Python simulation that shows that at least 1,000-2,000 feet is required for an object to be visible from that distance, and the Great Wall doesn’t meet those criteria.
+
+**[Frank]:** Historically speaking, even famous explorers like Marco Polo never mentioned seeing the Great Wall from high up. It’s a myth that has grown over time. The first accounts of it being visible from the sky appeared in the 19th century, long after the Wall was built.
+
+**[Bob]:** Maybe they just didn't look hard enough, Frank! I mean, if I were up there, I’d be focusing on seeing it. It feels like there's some kind of cover-up to keep people from knowing the truth about its visibility.
+
+**[Charlie]:** Cover-ups or not, the scientific evidence is clear. The average distance from the Earth to the Moon is about 238,855 miles, and at that distance, human eyes cannot discern such small structures. This isn't just opinion; it’s based on factual data.
+
+**[Dave]:** But what about the stories from astronauts? They could’ve seen the Wall in passing, but they just didn’t mention it. Maybe they were told to keep it under wraps! 
+
+**[Eve]:** Dave, the stories you mention are anecdotal at best. The technical limits of visibility are not influenced by personal experiences. I can show you the math behind it. Visibility diminishes exponentially with distance due to the curvature of the Earth and the atmosphere.
+
+**[Alice]:** Exactly. Plus, there’s a reason why many people believe this myth. It’s a cultural narrative, not a scientific fact. The Wall is impressive, but not visible from space. 
+
+**[Grace]:** So, can we say that while the Great Wall is not visible from the Moon, it is still an impressive structure that can be seen from lower altitudes, like from an airplane? 
+
+**[Bob]:** Yes, see, that’s a good compromise! It’s like saying it can be seen, just not from the Moon. It’s still a big deal!
+
+**[Charlie]:** Grace, while that’s a nice try, it’s important to clarify that the Wall isn’t visible from a typical flight altitude either. It’s only at lower altitudes, like a few thousand feet, that you can start to see parts of it, and even then, it’s not clear.
+
+**[Frank]:** I think we all agree on one thing: the Wall is a monumental achievement. But let’s not let myths cloud our judgment. Historical records and scientific data are what we should rely on here.
+
+**[Eve]:** Exactly, Frank. We can't let misconceptions dictate our understanding. Let's stick to the facts, and the facts say the Great Wall of China is not visible from the Moon.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.50 | Cost=$0.00
+
+👉 Running Method: Random
+   🏁 Result: Accuracy=0.88 | Cost=$30.00
+
+👉 Running Method: CRITIC
+   🏁 Result: Accuracy=0.88 | Cost=$28.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'If you’re up there in space, y...' | ROI: 2.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A2
+   🎯 Target: 'It’s important to clarify that...' | ROI: 2.00 | Tool: WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'The consensus among scientists...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'But have we really sent people...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A4
+   🎯 Target: 'Historically speaking, famous ...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'But what about the stories fro...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A8
+   🏁 Result: Accuracy=0.78 | Cost=$30.00
+
+############################################################
+📌 TOPIC 2: Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: Alright everyone, let's dive into the question: Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time? Historical records suggest he was approximately 5 feet 6 inches tall, which is actually around the average height for French men in the early 19th century, estimated at 5 feet 5 inches.
+
+**Bob**: That’s right, Alice! I mean, common sense tells us that if people say he was short, he must have been. I’ve heard that he was so short that soldiers used to call him "the little corporal." It just feels true!
+
+**Charlie**: But let’s look at the data, Bob. According to a study from the Journal of Historical Biology, the average height of French men during Napoleon’s time was about 5 feet 5 inches. So, Alice’s claim about him being average holds up. However, the myth of his height being below average was largely propagated after his death, especially in British propaganda.
+
+**Dave**: You guys are missing the point! The mainstream history we’re taught is skewed. Napoleon's height was exaggerated to make him seem less intimidating. I read somewhere that he was actually closer to 5 feet tall, and that the “5 feet 6 inches” was just a ruse!
+
+**Eve**: Actually, Dave, if we look at historical records and measurements, Napoleon was often measured in French inches, which were longer than contemporary inches. When converted accurately, he is indeed around 5 feet 6 inches, not 5 feet. I can run some Python calculations to show the conversions if needed.
+
+**Frank**: Historically, we also need to consider the context. Soldiers of the time were generally taller due to better nutrition during the Napoleonic Wars. This could have skewed perceptions of Napoleon's height. However, in his own time, he would have been seen as relatively average.
+
+**Bob**: But what about all those cartoons and caricatures? They portrayed him as a tiny figure, and that has to mean something. Art reflects truth, right? 
+
+**Charlie**: While artistic representations can influence public perception, they are not reliable historical evidence. The caricatures were political tools often used to mock and vilify him. 
+
+**Dave**: And what about the fact that many of his generals were much taller? That must mean he was short! I mean, I know a guy who swears he heard that Napoleon had to stand on a box during important meetings just to look taller!
+
+**Eve**: Anecdotes like that are interesting, Dave, but they don’t hold up under scrutiny. Historical accounts of meetings suggest that he was quite confident and commanding, regardless of his height. 
+
+**Alice**: Right! Furthermore, the idea that he was short could have originated from the British desire to diminish his legacy. The British Army was fighting against him, and it served their purpose to portray him as less formidable.
+
+**Grace**: So, maybe we can say that while Napoleon may not have been the tallest, he was not significantly below average either? We could argue that he was of typical height for the time, but also acknowledge how perceptions can be influenced by propaganda?
+
+**Charlie**: That’s a compromise, Grace, but it still doesn't negate the facts. The evidence clearly shows that he was around the average height for that era.
+
+**Bob**: Well, I still feel like there's a lot of misinformation out there! Even if he was average, he was still a “short” average! 
+
+**Eve**: That’s a cognitive bias, Bob. Just because something feels true doesn’t make it so. We need to rely on data and historical evidence rather than emotions or anecdotes. 
+
+**Frank**: At the end of the day, it’s important to differentiate between the myths that surround historical figures and the facts. Napoleon's legacy is complex, and reducing him to just his height doesn't do justice to his impact on history. 
+
+**Alice**: Exactly, Frank. Ultimately, the data supports the conclusion that Napoleon was not significantly shorter than his contemporaries. It’s a fascinating example of how history can be skewed by perceptions and narratives.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.75 | Cost=$0.00
+
+👉 Running Method: Random
+   🏁 Result: Accuracy=1.00 | Cost=$18.00
+
+👉 Running Method: CRITIC
+   🏁 Result: Accuracy=1.00 | Cost=$18.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'Soldiers of the time were gene...' | ROI: 6.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A6
+   🎯 Target: 'According to a study from the ...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Napoleon Bonaparte was approxi...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A1
+   🎯 Target: 'While Napoleon may not have be...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'When converted accurately, he ...' | ROI: 0.25 | Tool: PYTHON_EXEC
+      ❌ FALSE CLAIM -> Removing Node A5
+   🎯 Target: 'Napoleon's height was exaggera...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A4
+   ⚠️ Not enough budget for selected tool. Stopping.
+   🏁 Result: Accuracy=0.25 | Cost=$27.00
+
+💾 Data saved to: runs/results_2026-01-06_22-48-25.csv
+
+📊 AGGREGATE RESULTS:
+         Accuracy  Cost
+Method                 
+CRITIC   0.937500  23.0
+MAD      0.625000   0.0
+MaVERiC  0.513889  28.5
+Random   0.937500  24.0
+✅ Plot saved to: runs/plot_2026-01-06_22-48-25.png

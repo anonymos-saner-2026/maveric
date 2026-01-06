@@ -1,0 +1,118 @@
+📄 LOG FILE CREATED: runs/experiment_2026-01-06_23-54-49.log
+============================================================
+🚀 STARTING BATCH EXPERIMENT (N=1 Topics)
+============================================================
+
+############################################################
+📌 TOPIC 1: Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+[Alice]: Let’s clarify the question: Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time? To begin, historical records suggest that Napoleon was around 5 feet 6 inches tall, which was actually average for French men in the early 19th century, around 5 feet 5 inches.
+
+[Bob]: Absolutely, Alice! I mean, everyone just assumes he was short because of those silly cartoons. It’s common sense that if people keep saying it, it must be true! Besides, he was a brilliant general, and shorter people are often more strategic, right?
+
+[Charlie]: Well, Bob, let’s not rely solely on common sense here. According to a 2005 study by the British Medical Journal, Napoleon’s height was misreported due to unit conversion errors. In centimeters, he was about 169 cm, which might seem short, but for his time, that was actually quite average. 
+
+[Eve]: Exactly, Charlie! If we analyze the data, we can see that the average height for French men fluctuated due to various factors such as nutrition and health standards. An average height of 5 feet 5 inches was common due to these conditions, and Napoleon fit right in. I can run a quick Python script to show the correlation between height and average health metrics of that era if needed.
+
+[Dave]: You see, the whole height debate is just a façade! Historians have an agenda! They want to diminish Napoleon’s legacy. Have you considered that the elite might have spread these short-man myths to make him look less imposing? I read somewhere that it’s all part of a larger conspiracy to rewrite history!
+
+[Frank]: While I appreciate conspiracy theories, Dave, we should focus on established historical records. In fact, contemporary accounts from his soldiers and acquaintances describe him as of average height. The British propaganda after his defeat certainly exaggerated his stature to mock him.
+
+[Grace]: So, what I’m hearing is that we all agree that there’s a lot of noise around Napoleon's height. Perhaps we can say that while he was average or slightly below, it’s okay to accept that some misconceptions exist. Maybe we should just accept he was “about average” and leave it at that?
+
+[Alice]: But Grace, the nuance is important! Accepting “about average” without acknowledging the actual metrics can lead to misinformation. The key here is to understand that the myths around his height were not only inaccurate but also stemmed from cultural biases against him.
+
+[Charlie]: Right! And we can’t overlook that some of the sources claiming he was short were indeed biased. For example, the famous British cartoonists often depicted him as a tiny figure to ridicule him. This should demonstrate how much our perception can be skewed by media.
+
+[Bob]: Come on, everyone! These artists were just having fun! Why do we have to overanalyze everything? Isn’t it good enough that people just accept he was short? I mean, who cares about the specifics when the legend is so much more entertaining?
+
+[Eve]: But that’s precisely the issue, Bob! Legends can distort reality. If we’re truly interested in understanding history, we must rely on tangible evidence rather than entertainment value. I can use Python to analyze historical height data across Europe and plot it against significant events to illustrate this.
+
+[Dave]: Pfft, those data models are just a way for you to control the narrative, Eve! Numbers can lie just as easily as words. I found a website that claims Napoleon was actually 4 feet 11 inches tall! That’s the real truth, and it’s just been covered up!
+
+[Frank]: We must be cautious about fringe sources, Dave. The overwhelming consensus based on multiple historical analyses shows that Napoleon was not significantly shorter than his peers. His military strategies were far more impactful than his physical stature.
+
+[Grace]: I see both sides here. While it’s important to challenge the narratives, we shouldn’t dismiss the substantial evidence suggesting Napoleon was average height for his time. Can't we just agree that it’s a complex issue with room for interpretation?
+
+[Alice]: Grace, I appreciate your attempt at compromise, but the facts matter. In the interest of historical accuracy, we cannot let misconceptions cloud our understanding. It is vital to differentiate between myth and reality.
+
+[Charlie]: Exactly, and if we want to uphold the integrity of historical discourse, we need to confront these misconceptions head-on with data and logic.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [Check]: 'Let’s clarify the question: Did Napoleon...' via COMMON_SENSE
+      🕵️ [Check]: 'Absolutely, Alice! I mean, everyone just...' via COMMON_SENSE
+      🕵️ [Check]: 'According to a 2005 study by the British...' via WEB_SEARCH
+      🕵️ [Check]: 'If we analyze the data, we can see that ...' via PYTHON_EXEC
+      🕵️ [Check]: 'The whole height debate is just a façade...' via COMMON_SENSE
+      🕵️ [Check]: 'In fact, contemporary accounts from his ...' via WEB_SEARCH
+      🕵️ [Check]: 'While he was average or slightly below, ...' via COMMON_SENSE
+      🕵️ [Check]: 'Legends can distort reality. If we’re tr...' via PYTHON_EXEC
+      🕵️ [Check]: 'I found a website that claims Napoleon w...' via WEB_SEARCH
+      🕵️ [Check]: 'The overwhelming consensus based on mult...' via COMMON_SENSE
+      🕵️ [Check]: 'In the interest of historical accuracy, ...' via COMMON_SENSE
+      🕵️ [Check]: 'If we want to uphold the integrity of hi...' via COMMON_SENSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.45 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [Check]: 'While he was average or slightly below, ...' via COMMON_SENSE
+      🕵️ [Check]: 'Legends can distort reality. If we’re tr...' via PYTHON_EXEC
+      🕵️ [Check]: 'The whole height debate is just a façade...' via COMMON_SENSE
+      🕵️ [Check]: 'If we want to uphold the integrity of hi...' via COMMON_SENSE
+      🕵️ [Check]: 'Absolutely, Alice! I mean, everyone just...' via COMMON_SENSE
+      🕵️ [Check]: 'I found a website that claims Napoleon w...' via WEB_SEARCH
+      🕵️ [Check]: 'According to a 2005 study by the British...' via WEB_SEARCH
+      🕵️ [Check]: 'If we analyze the data, we can see that ...' via PYTHON_EXEC
+   🏁 Result: Accuracy=0.70 | Cost=$30.00
+
+👉 Running Method: CRITIC
+      🕵️ [Check]: 'Let’s clarify the question: Did Napoleon...' via COMMON_SENSE
+      🕵️ [Check]: 'The overwhelming consensus based on mult...' via COMMON_SENSE
+      🕵️ [Check]: 'In the interest of historical accuracy, ...' via COMMON_SENSE
+      🕵️ [Check]: 'If we want to uphold the integrity of hi...' via COMMON_SENSE
+      🕵️ [Check]: 'Absolutely, Alice! I mean, everyone just...' via COMMON_SENSE
+      🕵️ [Check]: 'According to a 2005 study by the British...' via WEB_SEARCH
+      🕵️ [Check]: 'If we analyze the data, we can see that ...' via PYTHON_EXEC
+      🕵️ [Check]: 'The whole height debate is just a façade...' via COMMON_SENSE
+      🕵️ [Check]: 'In fact, contemporary accounts from his ...' via WEB_SEARCH
+      🕵️ [Check]: 'While he was average or slightly below, ...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$25.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'The whole height debate is jus...' | ROI: 3.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'The whole height debate is just a façade...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Absolutely, Alice! I mean, eve...' | ROI: 2.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Absolutely, Alice! I mean, everyone just...' via WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A2
+   🎯 Target: 'While he was average or slight...' | ROI: 1.00 | Tool: COMMON_SENSE
+      🕵️ [Check]: 'While he was average or slightly below, ...' via COMMON_SENSE
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'The overwhelming consensus bas...' | ROI: 1.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'The overwhelming consensus based on mult...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'In the interest of historical ...' | ROI: 1.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'In the interest of historical accuracy, ...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'If we want to uphold the integ...' | ROI: 1.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'If we want to uphold the integrity of hi...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   ⚠️ Not enough budget for selected tool. Stopping.
+   🏁 Result: Accuracy=0.60 | Cost=$25.50
+
+💾 Data saved to: runs/results_2026-01-06_23-54-49.csv
+
+📊 AGGREGATE RESULTS:
+         Accuracy  Cost
+Method                 
+CRITIC   1.000000  25.0
+MAD      0.454545   0.0
+MaVERiC  0.600000  25.5
+Random   0.700000  30.0
+✅ Plot saved to: runs/plot_2026-01-06_23-54-49.png

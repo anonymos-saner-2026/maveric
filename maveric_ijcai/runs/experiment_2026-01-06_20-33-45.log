@@ -1,0 +1,354 @@
+📄 LOG FILE CREATED: runs/experiment_2026-01-06_20-33-45.log
+============================================================
+🚀 STARTING BATCH EXPERIMENT (N=2 Topics)
+============================================================
+
+############################################################
+📌 TOPIC 1: Does tryptophan in turkey meat act as the primary cause of sleepiness after Thanksgiving dinner?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: Let's start by looking at the biochemical properties of tryptophan. Turkey does contain tryptophan, an amino acid that is a precursor to serotonin, which is known to regulate sleep. However, the amount in turkey is not significantly higher than in other meats. In fact, chicken has a similar tryptophan content, and it doesn’t cause the same level of sleepiness. 
+
+**Bob**: But Alice, everyone knows that after a big Thanksgiving meal, you just feel so sleepy because of the turkey! I mean, it’s common sense, right? It’s like a universal truth that we all accept. 
+
+**Charlie**: Bob, while common sense might have its place, let’s look at the data. According to a 2021 study published in the Journal of Sleep Research, the primary causes of post-meal sleepiness are actually due to the sheer volume of food consumed, especially carbohydrates, which lead to increased insulin production. The turkey’s tryptophan plays a very minor role.
+
+**Dave**: You’re all missing the point! The whole idea that turkey makes you sleepy is part of a larger conspiracy to distract us from the real issues at Thanksgiving—like the fact that they want us to focus on food rather than the economic downturn. It’s all about keeping us compliant and distracted!
+
+**Eve**: Dave, that’s a wild claim that lacks any substantial evidence. Let's focus on the actual numbers. A typical serving of turkey contains about 0.24 grams of tryptophan per 100 grams. In comparison, cheese has about 0.56 grams, and fish has even more. If tryptophan was the primary culprit, we would feel sleepy after those foods too, but we don’t.
+
+**Alice**: Exactly, Eve! And let’s not forget the role of other factors. Research shows that factors such as alcohol consumption and the overall caloric intake during Thanksgiving can lead to feelings of drowsiness. It’s a multifaceted issue, not just the turkey.
+
+**Bob**: But what about that time my uncle fell asleep right after dinner? That has to count for something! It’s like a rite of passage to nap after turkey. 
+
+**Charlie**: Anecdotal evidence doesn’t really hold up against scientific data, Bob. Plus, the so-called “food coma” effect has been documented to relate more to overeating than the presence of tryptophan. 
+
+**Frank**: Historically speaking, the belief in turkey-induced sleepiness goes back decades. In the 1950s, it was popularized in various media, and it has stuck around ever since, regardless of the science behind it. 
+
+**Grace**: I think we can all agree that there are multiple factors at play. Maybe tryptophan does contribute a little, but it’s not the sole cause. Perhaps we should consider both sides of the argument and find some compromise here.
+
+**Alice**: Grace, while I appreciate your attempt to mediate, we must distinguish between what is scientifically valid and what is merely a cultural belief. The science is clear; tryptophan is not the main reason for post-Thanksgiving dinner sleepiness.
+
+**Dave**: But if you look at the patterns, the more they push the idea of tryptophan, the less we talk about what’s really going on, like food industry lobbying for meat consumption. 
+
+**Eve**: That’s an interesting theory, Dave, but it detracts from the data we have. The human body’s reaction to food can be measured; it’s not just a narrative. The body’s biochemical response to a large meal is well-documented.
+
+**Bob**: Still, I think it’s just a matter of how we feel. I mean, why else would everyone talk about it? It’s almost like a cultural phenomenon that just can’t be ignored!
+
+**Charlie**: Cultural phenomena can be based on misconceptions. Just because many people believe something doesn’t make it true. We need to rely on rigorous scientific studies, not just popular opinion.
+
+**Grace**: Okay, but maybe we can say that while turkey might have a minor effect, it’s really the combination of factors that leads to the sleepiness. That way everyone can feel validated in their experiences!
+
+**Alice**: But that diminishes the importance of accurate information. We should aim to clarify misconceptions rather than reinforce them. The evidence is clear: tryptophan in turkey is not the primary cause of sleepiness. 
+
+**Dave**: Or maybe the evidence is skewed? You never know what they might be hiding!
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [VERIFYING]: 'Turkey does contain tryptophan, an amino acid that...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s like a universal truth that we all accept....'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'According to a 2021 study published in the Journal...'
+      🔍 [QUERY]: 2021 study Journal of Sleep Research post-meal sleepiness causes carbohydrates
+      🔍 [QUERY]: effects of food volume on sleepiness after eating 2021 study
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The whole idea that turkey makes you sleepy is par...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'A typical serving of turkey contains about 0.24 gr...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I think we can all agree that there are multiple f...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Historically speaking, the belief in turkey-induce...'
+      🔍 [QUERY]: turkey-induced sleepiness historical beliefs
+      🔍 [QUERY]: why does turkey make you sleepy history
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The science is clear; tryptophan is not the main r...'
+      ⚖️ [VERDICT]: ✅ TRUE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.40 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [VERIFYING]: 'Turkey does contain tryptophan, an amino acid that...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The science is clear; tryptophan is not the main r...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Historically speaking, the belief in turkey-induce...'
+      🔍 [QUERY]: history of turkey-induced sleepiness belief
+      🔍 [QUERY]: does turkey make you sleepy scientific explanation
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The whole idea that turkey makes you sleepy is par...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'According to a 2021 study published in the Journal...'
+      🔍 [QUERY]: 2021 Journal of Sleep Research study post-meal sleepiness causes carbohydrates
+      🔍 [QUERY]: how does food volume affect post-meal drowsiness sleep research 2021
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'I think we can all agree that there are multiple f...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'A typical serving of turkey contains about 0.24 gr...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s like a universal truth that we all accept....'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=1.00 | Cost=$23.00
+
+👉 Running Method: CRITIC
+      🕵️ [VERIFYING]: 'Turkey does contain tryptophan, an amino acid that...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'It’s like a universal truth that we all accept....'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'According to a 2021 study published in the Journal...'
+      🔍 [QUERY]: 2021 study Journal of Sleep Research causes of post-meal sleepiness
+      🔍 [QUERY]: effects of carbohydrate consumption on sleepiness after meals
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The whole idea that turkey makes you sleepy is par...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'A typical serving of turkey contains about 0.24 gr...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I think we can all agree that there are multiple f...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Historically speaking, the belief in turkey-induce...'
+      🔍 [QUERY]: turkey-induced sleepiness history
+      🔍 [QUERY]: do turkeys cause sleepiness scientific studies
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The science is clear; tryptophan is not the main r...'
+      ⚖️ [VERDICT]: ✅ TRUE
+   🏁 Result: Accuracy=1.00 | Cost=$23.00
+
+👉 Running Method: MaVERiC
+      🕵️ [VERIFYING]: 'Turkey does contain tryptophan, an amino acid that...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'I think we can all agree that there are multiple f...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The science is clear; tryptophan is not the main r...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'A typical serving of turkey contains about 0.24 gr...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      ✂️ FIXING GRAPH: Removing invalid edge A5 -> A4
+      🕵️ [VERIFYING]: 'The whole idea that turkey makes you sleepy is par...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'According to a 2021 study published in the Journal...'
+      🔍 [QUERY]: Query1: 2021 study Journal of Sleep Research post-meal sleepiness causes carbohydrates volume of food  
+Query2: causes of post-meal sleepiness carbohydrates food volume study Journal of Sleep Research 2021
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'It’s like a universal truth that we all accept....'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Historically speaking, the belief in turkey-induce...'
+      🔍 [QUERY]: history of turkey-induced sleepiness belief
+      🔍 [QUERY]: why does turkey make you sleepy facts
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=1.00 | Cost=$23.50
+
+############################################################
+📌 TOPIC 2: Is the dark side of the Moon permanently in darkness and never receives sunlight?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Setting: A university logic class, students are seated in a circle, with a whiteboard at the front displaying the topic: "Is the dark side of the Moon permanently in darkness?"**
+
+---
+
+**Alice**: Alright, everyone, let’s clarify this misconception about the so-called "dark side" of the Moon. The term itself is misleading. The Moon is tidally locked to Earth, which means it rotates on its axis in the same time it takes to orbit us. Thus, both sides receive sunlight—just not at the same time.
+
+**Bob**: Exactly! I mean, it just makes sense, right? If one side is dark all the time, how could it ever get light? That’s spooky! I think it’s just common sense to think that it’s always dark.
+
+**Charlie**: But if we look at the data, there are lunar missions, like the Lunar Reconnaissance Orbiter launched in 2009, that have mapped the Moon's surface. They’ve shown that both sides receive sunlight. In fact, the far side gets about 14 Earth days of sunlight during its lunar day.
+
+**Dave**: You know, I read somewhere that NASA has a vested interest in keeping the truth about the Moon hidden. What if the far side is actually a base for aliens? They wouldn’t want us knowing that, would they? That’s why they call it "dark!" They’re trying to keep us in the dark!
+
+**Eve**: Dave, that’s a pretty far-fetched claim. The science is straightforward. The Moon has a 27.3-day orbital period, which means it experiences a cycle of day and night similar to Earth’s, just much longer. I can quickly run a Python script to show you the lunar day lengths if you’d like.
+
+**Bob**: But what about the stories of astronauts saying they saw the dark side? They were out there, and if they said it was dark, it must have been dark! Who are we to question their experiences?
+
+**Charlie**: Astronauts did go to the far side of the Moon during the Apollo missions, but they reported that it was not perpetually dark. They completed missions in the 1960s and 70s, like Apollo 8, which orbited the Moon and provided extensive data showing that sunlight reaches all parts of the Moon at some point.
+
+**Frank**: Historically, the concept of the "dark side" dates back to ancient astronomy when it was thought to be unexplored and unseen. However, with advancements in technology and space exploration, we’ve learned a lot since then. It’s crucial to rely on credible sources and historical context.
+
+**Grace**: I think we can agree that both sides have their points. Perhaps it's a matter of perspective. While the far side may not always be illuminated at the same time as the near side, it's not completely dark all the time either. 
+
+**Alice**: Grace, while I appreciate your mediation, the science is clear. The far side does receive sunlight, and it’s proven through various lunar missions. It’s not just about perspective; it’s about factual understanding.
+
+**Bob**: But what if there’s a part of the far side that never sees light? I mean, maybe there are craters or something, and that’s why they call it dark!
+
+**Eve**: Actually, there are indeed craters on the far side, notably the Shackleton Crater, but even they receive sunlight at certain angles. The idea of "permanent darkness" applies to specific areas within those craters, not the entire far side. I can show you data from the Lunar Reconnaissance Orbiter that details sunlight exposure in these regions.
+
+**Charlie**: Exactly! It’s crucial to rely on statistics and data. The majority of the lunar surface, including the far side, experiences sunlight at some point. We have to base our arguments on facts, not speculation.
+
+**Dave**: But have you considered that the data might be manipulated? I mean, if we can’t trust what we see and hear from space programs, how can we trust the data? They could be hiding the real truth from us!
+
+**Alice**: Trusting established scientific methods and peer-reviewed research is essential. Dismissing data because of conspiracy theories undermines our understanding of astronomy. The facts don’t support the idea that the far side is perpetually dark.
+
+**Grace**: Maybe we should all take a step back. While I can understand the emotional appeal of both sides, perhaps we could agree that the far side does receive sunlight, but certain areas may have shadows. It’s all about finding that balance, right?
+
+---
+
+**End of Dialogue** 
+
+**Reader's Task**: Identify which arguments are factually brittle.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [VERIFYING]: 'The Moon is tidally locked to Earth, which means i...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'If one side is dark all the time, how could it eve...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'There are lunar missions, like the Lunar Reconnais...'
+      🔍 [QUERY]: Lunar Reconnaissance Orbiter mission details and lunar surface mapping
+      🔍 [QUERY]: How both sides of the Moon receive sunlight and lunar exploration missions
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'NASA has a vested interest in keeping the truth ab...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The Moon has a 27.3-day orbital period, which mean...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'What about the stories of astronauts saying they s...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Astronauts did go to the far side of the Moon duri...'
+      🔍 [QUERY]: Apollo missions astronauts far side of the Moon sunlight reports
+      🔍 [QUERY]: Does sunlight reach all parts of the Moon Apollo missions data
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The concept of the 'dark side' dates back to ancie...'
+      🔍 [QUERY]: dark side of the moon ancient astronomy
+      🔍 [QUERY]: advancements in space exploration dark side knowledge
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'While the far side may not always be illuminated a...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The far side does receive sunlight, and it’s prove...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'What if there’s a part of the far side that never ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'There are craters on the far side, notably the Sha...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The majority of the lunar surface, including the f...'
+      🔍 [QUERY]: The majority of the lunar surface experiences sunlight
+      🔍 [QUERY]: sunlight exposure on the far side of the moon
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'What if the data might be manipulated? If we can’t...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Trusting established scientific methods and peer-r...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'While I can understand the emotional appeal of bot...'
+      ⚖️ [VERDICT]: ❌ FALSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.40 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [VERIFYING]: 'The concept of the 'dark side' dates back to ancie...'
+      🔍 [QUERY]: dark side of the moon ancient astronomy
+      🔍 [QUERY]: advancements in space exploration dark side discoveries
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'While I can understand the emotional appeal of bot...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'There are craters on the far side, notably the Sha...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Trusting established scientific methods and peer-r...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'What if the data might be manipulated? If we can’t...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The far side does receive sunlight, and it’s prove...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The Moon is tidally locked to Earth, which means i...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The majority of the lunar surface, including the f...'
+      🔍 [QUERY]: The majority of the lunar surface experiences sunlight
+      🔍 [QUERY]: Facts about sunlight exposure on the Moon's far side
+      ⚖️ [VERDICT]: ✅ TRUE
+   🏁 Result: Accuracy=0.50 | Cost=$23.00
+
+👉 Running Method: CRITIC
+      🕵️ [VERIFYING]: 'The Moon is tidally locked to Earth, which means i...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The far side does receive sunlight, and it’s prove...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'What if there’s a part of the far side that never ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'There are craters on the far side, notably the Sha...'
+      🐍 [GENERATING SCRIPT]...
+      🐍 [RESULT]: VERIFIED_TRUE
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The majority of the lunar surface, including the f...'
+      🔍 [QUERY]: The majority of the lunar surface experiences sunlight facts
+      🔍 [QUERY]: Far side of the moon sunlight exposure
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'What if the data might be manipulated? If we can’t...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'Trusting established scientific methods and peer-r...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'While I can understand the emotional appeal of bot...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'If one side is dark all the time, how could it eve...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'There are lunar missions, like the Lunar Reconnais...'
+      🔍 [QUERY]: Lunar Reconnaissance Orbiter mapping Moon's surface information
+      🔍 [QUERY]: lunar missions sunlight on both sides of the Moon
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'NASA has a vested interest in keeping the truth ab...'
+      ⚖️ [VERDICT]: ❌ FALSE
+   🏁 Result: Accuracy=0.73 | Cost=$26.00
+
+👉 Running Method: MaVERiC
+      🕵️ [VERIFYING]: 'NASA has a vested interest in keeping the truth ab...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The Moon is tidally locked to Earth, which means i...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'If one side is dark all the time, how could it eve...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'What if the data might be manipulated? If we can’t...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'What if there’s a part of the far side that never ...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'What about the stories of astronauts saying they s...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'While the far side may not always be illuminated a...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The far side does receive sunlight, and it’s prove...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Trusting established scientific methods and peer-r...'
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'While I can understand the emotional appeal of bot...'
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'There are lunar missions, like the Lunar Reconnais...'
+      🔍 [QUERY]: Lunar Reconnaissance Orbiter mission overview and surface mapping
+      🔍 [QUERY]: Moon sunlight exposure on both sides of the lunar surface
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'Astronauts did go to the far side of the Moon duri...'
+      🔍 [QUERY]: Apollo missions far side of the Moon sunlight data
+      🔍 [QUERY]: Astronauts reports sunlight on Moon's far side
+      ⚖️ [VERDICT]: ❌ FALSE
+      🕵️ [VERIFYING]: 'The concept of the 'dark side' dates back to ancie...'
+      🔍 [QUERY]: history of the dark side of the moon in ancient astronomy
+      🔍 [QUERY]: advancements in technology and space exploration dark side discovery
+      ⚖️ [VERDICT]: ✅ TRUE
+      🕵️ [VERIFYING]: 'The majority of the lunar surface, including the f...'
+      🔍 [QUERY]: 1. lunar surface sunlight far side facts
+      🔍 [QUERY]: 2. how often does the far side of the moon receive sunlight
+      ⚖️ [VERDICT]: ✅ TRUE
+   🏁 Result: Accuracy=0.89 | Cost=$30.00
+
+💾 Data saved to: runs/results_2026-01-06_20-33-45.csv
+
+📊 AGGREGATE RESULTS:
+         Accuracy   Cost
+Method                  
+CRITIC   0.863636  24.50
+MAD      0.400000   0.00
+MaVERiC  0.944444  26.75
+Random   0.750000  23.00
+✅ Plot saved to: runs/plot_2026-01-06_20-33-45.png

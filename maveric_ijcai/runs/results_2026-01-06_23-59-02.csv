@@ -1,0 +1,41 @@
+Topic ID,Topic,Method,Accuracy,Cost
+1,Does the Great Wall of China appear visible to the naked eye from the Moon?,MAD,0.9,0.0
+1,Does the Great Wall of China appear visible to the naked eye from the Moon?,Random,0.9,28.0
+1,Does the Great Wall of China appear visible to the naked eye from the Moon?,CRITIC,1.0,27.0
+1,Does the Great Wall of China appear visible to the naked eye from the Moon?,MaVERiC,0.9,30.0
+2,Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?,MAD,0.8888888888888888,0.0
+2,Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?,Random,1.0,19.0
+2,Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?,CRITIC,1.0,19.0
+2,Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?,MaVERiC,0.7777777777777778,30.0
+3,Do bulls get angry specifically because of the color red in matador capes?,MAD,0.7857142857142857,0.0
+3,Do bulls get angry specifically because of the color red in matador capes?,Random,0.8461538461538461,28.0
+3,Do bulls get angry specifically because of the color red in matador capes?,CRITIC,1.0,29.0
+3,Do bulls get angry specifically because of the color red in matador capes?,MaVERiC,0.9230769230769231,30.0
+4,Did the Vikings wear horned helmets during battle as commonly depicted?,MAD,0.6666666666666666,0.0
+4,Did the Vikings wear horned helmets during battle as commonly depicted?,Random,1.0,29.0
+4,Did the Vikings wear horned helmets during battle as commonly depicted?,CRITIC,0.8181818181818182,26.0
+4,Did the Vikings wear horned helmets during battle as commonly depicted?,MaVERiC,0.75,26.5
+5,Did humans and non-avian dinosaurs coexist on Earth at the same time?,MAD,0.6923076923076923,0.0
+5,Did humans and non-avian dinosaurs coexist on Earth at the same time?,Random,1.0,20.0
+5,Did humans and non-avian dinosaurs coexist on Earth at the same time?,CRITIC,1.0,20.0
+5,Did humans and non-avian dinosaurs coexist on Earth at the same time?,MaVERiC,0.9166666666666666,25.5
+6,Did Albert Einstein fail his mathematics class during his school years?,MAD,1.0,0.0
+6,Did Albert Einstein fail his mathematics class during his school years?,Random,1.0,19.0
+6,Did Albert Einstein fail his mathematics class during his school years?,CRITIC,1.0,19.0
+6,Did Albert Einstein fail his mathematics class during his school years?,MaVERiC,0.0,27.0
+7,Is Mount Everest the tallest mountain on Earth when measured from the center of the Earth?,MAD,0.7857142857142857,0.0
+7,Is Mount Everest the tallest mountain on Earth when measured from the center of the Earth?,Random,0.7857142857142857,30.0
+7,Is Mount Everest the tallest mountain on Earth when measured from the center of the Earth?,CRITIC,0.9230769230769231,23.0
+7,Is Mount Everest the tallest mountain on Earth when measured from the center of the Earth?,MaVERiC,0.9230769230769231,30.0
+8,Do goldfish strictly have a memory span of only three seconds?,MAD,0.75,0.0
+8,Do goldfish strictly have a memory span of only three seconds?,Random,1.0,26.0
+8,Do goldfish strictly have a memory span of only three seconds?,CRITIC,1.0,26.0
+8,Do goldfish strictly have a memory span of only three seconds?,MaVERiC,0.75,30.0
+9,Does tryptophan in turkey meat act as the primary cause of sleepiness after Thanksgiving dinner?,MAD,0.75,0.0
+9,Does tryptophan in turkey meat act as the primary cause of sleepiness after Thanksgiving dinner?,Random,0.75,24.0
+9,Does tryptophan in turkey meat act as the primary cause of sleepiness after Thanksgiving dinner?,CRITIC,0.9090909090909091,30.0
+9,Does tryptophan in turkey meat act as the primary cause of sleepiness after Thanksgiving dinner?,MaVERiC,0.6923076923076923,26.0
+10,Is the dark side of the Moon permanently in darkness and never receives sunlight?,MAD,0.75,0.0
+10,Is the dark side of the Moon permanently in darkness and never receives sunlight?,Random,0.8181818181818182,26.0
+10,Is the dark side of the Moon permanently in darkness and never receives sunlight?,CRITIC,1.0,25.0
+10,Is the dark side of the Moon permanently in darkness and never receives sunlight?,MaVERiC,0.9090909090909091,30.0

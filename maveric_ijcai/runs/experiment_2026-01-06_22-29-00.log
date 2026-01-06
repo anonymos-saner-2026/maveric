@@ -1,0 +1,75 @@
+📄 LOG FILE CREATED: runs/experiment_2026-01-06_22-29-00.log
+============================================================
+🚀 STARTING BATCH EXPERIMENT (N=1 Topics)
+============================================================
+
+############################################################
+📌 TOPIC 1: Is the dark side of the Moon permanently in darkness and never receives sunlight?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+[Alice]: Alright class, let's clarify the misconception that the "dark side of the Moon" is permanently dark. The Moon is tidally locked with Earth, which means that it rotates on its axis in the same time it takes to orbit Earth. Therefore, each side experiences sunlight, including what is often called the "dark side." In fact, the far side of the Moon receives sunlight for about 14 Earth days at a time.
+
+[Bob]: Exactly! But I mean, isn't it just common sense that if it’s called the dark side, it must be dark all the time? I mean, who would call it that if it gets sunlight, right? 
+
+[Charlie]: Bob, that's a bit simplistic. The term "dark side" is a misnomer. It refers to the side of the Moon that we can't see from Earth, not that it’s actually dark all the time. In fact, NASA's Lunar Reconnaissance Orbiter has confirmed that this side receives sunlight just like the near side. 
+
+[Eve]: Exactly, Charlie! And Alice, did you know that during the Apollo missions in the late '60s and early '70s, astronauts actually photographed the far side of the Moon? They collected data that directly contradicts the idea of it being permanently dark. 
+
+[Dave]: But what if those missions were faked? You know, there are people who believe that the Moon landings were staged by the government. How can we trust any of the data from those missions, especially when they say the far side gets sunlight? 
+
+[Alice]: Dave, the scientific community relies on multiple sources of verification. The data is corroborated by numerous space agencies worldwide. Plus, the far side is a subject of ongoing study. The sunlight exposure is a well-documented phenomenon.
+
+[Bob]: But Dave has a point! If the government can stage something as big as the Moon landing, who’s to say they aren’t manipulating information about sunlight too? 
+
+[Charlie]: That’s a slippery slope, Bob. Just because one event might be questioned doesn’t mean all data from space exploration is unreliable. We have satellite images and data from other countries, like China’s Chang’e missions, which have also confirmed the sunlight exposure on the far side.
+
+[Frank]: Historically speaking, the concept of a "dark side" dates back centuries, and it’s been a part of folklore. But science has evolved. It’s crucial to distinguish between historical misconceptions and current scientific understanding. 
+
+[Eve]: To add to that, the Moon's orbit and rotation are well understood. The average lunar day lasts about 29.5 Earth days, which means that each side of the Moon gets equal time in sunlight and darkness. 
+
+[Dave]: But maybe they just want us to think that! I mean, what’s so wrong about believing that there’s something more to the Moon that we’re not being told? 
+
+[Alice]: There’s nothing wrong with questioning, but skepticism should be based on evidence. The data is available and accessible. Just look at the lunar cycle we can observe from Earth! 
+
+[Grace]: Okay, but can’t we see it from both perspectives? Maybe there’s a little truth in what Dave’s saying about questioning the narrative, but also acknowledge that the Moon is not permanently dark. 
+
+[Charlie]: Grace, while seeking middle ground is commendable, the evidence against the "dark side" myth is overwhelming. The scientific consensus is that both sides of the Moon receive sunlight.
+
+[Eve]: And to reiterate, if you look at the lunar phases, you can clearly see the cycles of light and dark, which further debunks the myth. 
+
+[Bob]: But what if the phases themselves are part of the conspiracy to hide the truth? I mean, it’s easy to manipulate visuals, right? 
+
+[Alice]: Bob, at this point, it seems your argument is based more on a feeling of distrust than on factual evidence. We have scientific methodologies in place that yield reliable results. 
+
+[Grace]: I just think we should all be open to the possibility of different views while also grounding our arguments in solid facts. Maybe we should just agree to disagree? 
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      ⚠️ Verification Error: Error code: 400 - {'error': {'code': 'content_policy_violation', 'message': 'The response was filtered due to the prompt triggering the content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://***.com/***?linkid=*** (request id: 20260106222936708419147TM3GejJ7)', 'param': 'prompt', 'type': 'yescale_api_error'}}
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.00 | Cost=$0.00
+
+👉 Running Method: Random
+      ⚠️ Verification Error: Error code: 400 - {'error': {'code': 'content_policy_violation', 'message': 'The response was filtered due to the prompt triggering the content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://***.com/***?linkid=*** (request id: 20260106222953517985624ofIVya8S)', 'param': 'prompt', 'type': 'yescale_api_error'}}
+   🏁 Result: Accuracy=1.00 | Cost=$30.00
+
+👉 Running Method: CRITIC
+      ⚠️ Verification Error: Error code: 400 - {'error': {'code': 'content_policy_violation', 'message': 'The response was filtered due to the prompt triggering the content management policy. Please modify your prompt and retry. To learn more about our content filtering policies please read our documentation: https://***.com/***?linkid=*** (request id: 20260106223030380531666CaQy4pxf)', 'param': 'prompt', 'type': 'yescale_api_error'}}
+   🏁 Result: Accuracy=1.00 | Cost=$30.00
+
+👉 Running Method: MaVERiC
+   🏁 Result: Accuracy=0.00 | Cost=$30.00
+
+💾 Data saved to: runs/results_2026-01-06_22-29-00.csv
+
+📊 AGGREGATE RESULTS:
+         Accuracy  Cost
+Method                 
+CRITIC        1.0  30.0
+MAD           0.0   0.0
+MaVERiC       0.0  30.0
+Random        1.0  30.0
+✅ Plot saved to: runs/plot_2026-01-06_22-29-00.png

@@ -1,0 +1,124 @@
+📄 LOG FILE CREATED: runs/experiment_2026-01-06_22-59-58.log
+============================================================
+🚀 STARTING BATCH EXPERIMENT (N=2 Topics)
+============================================================
+
+############################################################
+📌 TOPIC 1: Does the Great Wall of China appear visible to the naked eye from the Moon?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: Alright everyone, let's discuss whether the Great Wall of China is visible from the Moon. The prevailing scientific consensus, based on both optical physics and observational data, suggests that it is not visible to the naked eye from that distance.
+
+**Bob**: But come on, Alice! Everyone has heard that it’s the only man-made structure visible from the Moon. I mean, my uncle travels a lot and he swears he saw it! That’s gotta count for something, right?
+
+**Charlie**: Actually, Bob, that’s a common myth. According to a 2003 NASA study, the Great Wall is generally indistinguishable from the surrounding terrain due to its color and the narrowness of the structure. They found that even the most experienced astronauts could not see it without aid.
+
+**Dave**: You can’t trust NASA! They’ve been lying to us for decades. I read on a conspiracy forum that they even edited photos to hide the Wall. Have you seen those blurry images? They’re clearly hiding something!
+
+**Eve**: Let’s get technical here. The Great Wall averages about 30 feet wide. From the Moon, which is approximately 238,855 miles away, that width translates to about 0.0000126 degrees of angular size. Human vision can typically resolve objects down to about 0.5 arcminutes, or 0.0000833 degrees. So, by basic geometry, it’s simply too small to be seen.
+
+**Frank**: Historically, the myth dates back to at least the 1930s, when it was propagated by various travel writers. In fact, the idea has persisted despite numerous studies that have debunked it. I found a great article from 1999 discussing how this myth was debunked over and over again in popular culture.
+
+**Bob**: But I remember my history teacher telling us that astronauts confirmed they could see it! Isn’t it possible that they just didn’t look closely enough? It seems plausible to me!
+
+**Charlie**: It’s not about looking closely enough, Bob. Astronauts like Alan Bean and others have explicitly stated they couldn’t see it without binoculars. It’s more about the optical limits of human vision than whether they tried hard enough.
+
+**Dave**: You see, this just proves my point! They’re all in on it together, hiding the truth! There are thousands of people who believe in these cover-ups. Why would they start lying about something so trivial if there wasn’t something bigger at stake?
+
+**Eve**: Dave, we need to separate fact from fiction. If we look at the actual physics involved, we can create a simple Python program to model visibility based on distance and angular resolution. Would you like me to run that?
+
+**Alice**: Absolutely! A simple simulation could confirm that at the distance of the Moon, the Great Wall’s visibility is negligible. It’s vital to rely on empirical data rather than anecdotal evidence.
+
+**Grace**: Okay, can’t we agree that there’s some truth in both sides? Maybe it’s not visible but some people have seen something they think is the wall? Perhaps we can just say it’s a matter of perspective?
+
+**Frank**: Grace, while I appreciate your attempt to mediate, it’s important to recognize that blending facts with misconceptions dilutes the truth. We shouldn’t compromise on accuracy.
+
+**Bob**: But isn’t there some merit to the idea that people have their experiences? Those experiences can’t just be dismissed! 
+
+**Charlie**: Personal anecdotes are not a substitute for scientific evidence, Bob. The data clearly shows that the Great Wall is not visible from the Moon, and clinging to old myths only perpetuates misinformation.
+
+**Dave**: And that’s what they want! To keep us confused and divided! Don’t trust the so-called ‘experts’—they have their own agenda!
+
+**Eve**: The only agenda here is to find the truth. If you want, I can share the Python code I used to calculate the visibility. It might help clarify things further. 
+
+**Alice**: Let’s stick to the facts, everyone. The Great Wall is an incredible structure, but it’s not a landmark from space. We need to respect scientific evidence over myths.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      ⚠️ Python Error, falling back to LLM Logic: [Runtime Error]: invalid syntax (<string>, line 1)
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.50 | Cost=$0.00
+
+👉 Running Method: Random
+      ⚠️ Python Error, falling back to LLM Logic: [Runtime Error]: invalid syntax (<string>, line 1)
+   🏁 Result: Accuracy=1.00 | Cost=$22.00
+
+👉 Running Method: CRITIC
+      ⚠️ Python Error, falling back to LLM Logic: [Runtime Error]: invalid syntax (<string>, line 1)
+   🏁 Result: Accuracy=1.00 | Cost=$22.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'Maybe it’s not visible, but so...' | ROI: 2.00 | Tool: WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'The Great Wall averages 30 fee...' | ROI: 0.62 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A5
+   🎯 Target: 'I read on a conspiracy forum t...' | ROI: 3.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A4
+   🎯 Target: 'The prevailing scientific cons...' | ROI: 1.00 | Tool: WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'The myth dates back to the 193...' | ROI: 0.40 | Tool: WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Everyone has heard that it’s t...' | ROI: 0.00 | Tool: WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A2
+   🏁 Result: Accuracy=1.00 | Cost=$30.00
+
+############################################################
+📌 TOPIC 2: Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice:** According to historical records, Napoleon Bonaparte was approximately 5 feet 6 inches tall. This height is often misrepresented as being shorter than the average Frenchman of his time, which was around 5 feet 7 inches. When you consider the metrics of height, we must also factor in the differences in measurement systems. 
+
+**Bob:** But Alice, everyone knows that Napoleon was called "the Little Corporal." That nickname alone shows he was much shorter than everyone else! I mean, if people are saying it, there must be some truth to it, right? 
+
+**Charlie:** Actually, Bob, that's a misconception. The nickname "the Little Corporal" wasn't necessarily about his height; it was more about his rank and military prowess. In fact, several studies show that the average height of French men during Napoleon's time varied, but it was not significantly taller than Napoleon himself.
+
+**Dave:** I read somewhere that Napoleon’s height was a conspiracy! They say he was actually much shorter and that the British spread the "tall tales" about his height to demean him. Who can trust what the historians say anyway? 
+
+**Eve:** Well, if we analyze the data using Python, we can see that the average height for French soldiers during the Napoleonic Wars was about 5 feet 5 inches. This aligns closely with Napoleon's reported height, suggesting he was not unusually short compared to his peers.
+
+**Frank:** But let’s remember the context of the time. The average height of men can differ based on region and social class. For example, in Paris, the height was slightly taller than in rural areas. Napoleon was born on Corsica, which might have skewed the statistics. 
+
+**Alice:** Those regional differences are interesting, Frank, but they don't significantly change the fact that Napoleon’s height was within the average range for many French men of that era. We should also consider that the perception of height can be influenced by propaganda.
+
+**Bob:** Yeah, but isn’t it possible that everyone else just looked taller next to him? That’s what I think! Plus, I saw a documentary that said he was like 5 feet 2 inches. 
+
+**Charlie:** Documentaries can be misleading, Bob. The claim that he was 5 feet 2 inches often confuses centimeters and inches. When converted, that height doesn't hold up against historical records. 
+
+**Dave:** I stand by my belief that Napoleon’s height was intentionally manipulated by historians. They want us to think he was average to diminish his larger-than-life image. 
+
+**Eve:** If we take a closer look using Python again, I can pull up various historical documents that consistently report Napoleon’s height around 5 feet 6 inches, which is well-documented and verified by multiple sources. 
+
+**Frank:** Historical records do suggest a height of around 5 feet 6 inches, but we must consider personal accounts from that time—many people exaggerated details to make stories more appealing.
+
+**Alice:** True, but exaggeration doesn’t change the documented evidence we have today. It’s crucial to differentiate between myth and fact. The numbers don’t lie; Napoleon’s height was average for his time, regardless of the narratives surrounding it.
+
+**Grace:** I think we can agree that there are misconceptions about Napoleon's height, but maybe it’s also important to recognize that perceptions of height can vary. So there might be a bit of truth in both sides of the argument. 
+
+**Charlie:** While it’s good to seek a middle ground, Grace, the evidence strongly supports the fact that Napoleon was not significantly shorter than his contemporaries. Let’s focus on the data rather than perceptions. 
+
+**Bob:** But common sense tells me that if everyone keeps calling him short, there’s got to be something there! 
+
+**Dave:** Exactly! Common sense is all we need! Who needs numbers and records when you have intuition? 
+
+**Eve:** That’s where we diverge, Dave. Intuition can often lead us astray, especially when the empirical evidence is clear. It’s essential to rely on facts rather than feelings to reach an accurate conclusion about historical figures like Napoleon.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      ⚠️ Python Error, falling back to LLM Logic: [Runtime Error]: invalid syntax (<string>, line 1)
+      ⚠️ Python Error, falling back to LLM Logic: [Runtime Error]: unterminated string literal (detected at line 3) (<string>, line 3)

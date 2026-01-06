@@ -1,0 +1,9 @@
+Topic ID,Topic,Method,Accuracy,Cost
+1,Does the Great Wall of China appear visible to the naked eye from the Moon?,MAD,0.29411764705882354,0.0
+1,Does the Great Wall of China appear visible to the naked eye from the Moon?,Random,0.5,30.0
+1,Does the Great Wall of China appear visible to the naked eye from the Moon?,CRITIC,0.6363636363636364,23.0
+1,Does the Great Wall of China appear visible to the naked eye from the Moon?,MaVERiC,0.6666666666666666,26.0
+2,Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?,MAD,0.4,0.0
+2,Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?,Random,0.6363636363636364,24.0
+2,Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?,CRITIC,0.8,26.0
+2,Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?,MaVERiC,1.0,26.5

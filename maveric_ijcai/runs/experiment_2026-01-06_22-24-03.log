@@ -1,0 +1,98 @@
+📄 LOG FILE CREATED: runs/experiment_2026-01-06_22-24-03.log
+============================================================
+🚀 STARTING BATCH EXPERIMENT (N=1 Topics)
+============================================================
+
+############################################################
+📌 TOPIC 1: Is the dark side of the Moon permanently in darkness and never receives sunlight?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: The idea that the dark side of the Moon is permanently in darkness is a common misconception. In reality, the Moon is tidally locked to Earth, meaning it rotates on its axis at the same rate it orbits us. This results in only one side being visible from Earth, but both sides receive sunlight. In fact, each side of the Moon experiences about 14 Earth days of sunlight followed by 14 days of darkness.
+
+**Bob**: Exactly, Alice! I mean, it just makes sense, right? If one side is dark, it must be permanently dark. I can't imagine how that side could ever see the Sun!
+
+**Charlie**: Bob, your reasoning is flawed. According to NASA's data, the far side of the Moon—or what people mistakenly call the “dark side”—is illuminated by the Sun, just as the near side is. In fact, the lunar cycle allows the far side to experience sunlight regularly, just like the near side. That’s been confirmed by numerous lunar missions.
+
+**Dave**: You guys are missing the bigger picture! There are conspiracy theories that suggest the government knows about secret structures on the dark side of the Moon. They don’t want us to know what’s really happening there. You can't trust everything NASA says; they might be hiding the truth!
+
+**Eve**: Dave, while I appreciate your creativity, let’s focus on the facts. The actual lunar rotation period is approximately 27.3 days, and during this period, both sides get equal exposure to sunlight. I can run a quick simulation in Python to show how the sunlight travels across the lunar surface if anyone is interested.
+
+**Frank**: Historically speaking, this misconception dates back to when we first started exploring the Moon in the 1960s. The lack of images from the far side led to many myths. However, missions like Luna 3 in 1959 provided the first photographs of the far side, which clearly showed it receiving sunlight.
+
+**Grace**: I think we can all agree that the Moon does have a cycle of light and dark. But it’s also worth considering how the terminology can confuse people. The “dark side” might just refer to our ignorance of that part of the Moon rather than its literal darkness.
+
+**Alice**: While that’s a valid point, Grace, it’s crucial to clarify that scientifically, both sides of the Moon experience day and night due to its synchronous rotation. The term “dark side” is a misnomer that perpetuates misunderstanding.
+
+**Bob**: But what about the shadows? I’ve seen pictures that show the far side looking completely dark! Surely that must mean it doesn’t get sunlight!
+
+**Charlie**: Bob, shadows exist wherever there are objects blocking sunlight. Just like on Earth, when a hill or a mountain casts a shadow, parts of the Moon's surface can also be in shadow, even when it’s daytime on the Moon. These phenomena are not indicative of permanent darkness.
+
+**Dave**: Still, how do we know those photos aren’t doctored? I mean, with the technology available today, who’s to say what’s real? There could be a whole civilization living there, and they’re just keeping it under wraps!
+
+**Eve**: If there were a civilization, we would have detected something by now. The scientific community has continuously studied the Moon using various methods, including radio waves, seismic activity, and even sample returns. 
+
+**Frank**: And let’s not forget the Apollo missions. Astronauts walked on the Moon and took samples from both sides. They confirmed the sunlight exposure firsthand. There’s a wealth of documented evidence to counter these theories.
+
+**Grace**: While all of this is interesting, maybe we should consider that some people find comfort in these conspiracy theories. It could be a way to explain the unknown. 
+
+**Alice**: Comfort or not, facts are facts. The Moon has a regular cycle of sunlight and darkness. It’s fundamental to our understanding of lunar science. We need to rely on empirical evidence rather than speculation.
+
+**Charlie**: Exactly. Let’s rely on credible sources and verified data. The far side of the Moon does not remain in darkness permanently; it receives sunlight just as the near side does. 
+
+**Bob**: I still think it’s a little suspicious, but I guess you guys have made some good points. Maybe I need to rethink how I view the Moon...
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.00 | Cost=$0.00
+
+👉 Running Method: Random
+   🏁 Result: Accuracy=0.00 | Cost=$29.00
+
+👉 Running Method: CRITIC
+   🏁 Result: Accuracy=0.00 | Cost=$28.00
+
+👉 Running Method: MaVERiC
+      🤖 [AUTO-ROUTER]: 'Exactly, Alice! I mean, it jus...' --> COMMON_SENSE
+      🤖 [AUTO-ROUTER]: 'You guys are missing the bigge...' --> WEB_SEARCH
+      🤖 [AUTO-ROUTER]: 'But what about the shadows? I’...' --> WIKIPEDIA
+      📚 [WIKI LOOKUP]: But what about the shadows? I’ve seen pictures tha...
+      🤖 [AUTO-ROUTER]: 'Still, how do we know those ph...' --> WEB_SEARCH
+      🤖 [AUTO-ROUTER]: 'The idea that the dark side of...' --> WIKIPEDIA
+      📚 [WIKI LOOKUP]: The idea that the dark side of the Moon is permane...
+      🤖 [AUTO-ROUTER]: 'I think we can all agree that ...' --> WIKIPEDIA
+      📚 [WIKI LOOKUP]: I think we can all agree that the Moon does have a...
+      🤖 [AUTO-ROUTER]: 'While that’s a valid point, Gr...' --> WIKIPEDIA
+      📚 [WIKI LOOKUP]: While that’s a valid point, Grace, it’s crucial to...
+      🤖 [AUTO-ROUTER]: 'Bob, shadows exist wherever th...' --> WIKIPEDIA
+      📚 [WIKI LOOKUP]: Bob, shadows exist wherever there are objects bloc...
+      🤖 [AUTO-ROUTER]: 'If there were a civilization, ...' --> WIKIPEDIA
+      📚 [WIKI LOOKUP]: If there were a civilization, we would have detect...
+      🤖 [AUTO-ROUTER]: 'While all of this is interesti...' --> COMMON_SENSE
+      🤖 [AUTO-ROUTER]: 'Comfort or not, facts are fact...' --> WIKIPEDIA
+      📚 [WIKI LOOKUP]: Comfort or not, facts are facts. The Moon has a re...
+      🤖 [AUTO-ROUTER]: 'Exactly. Let’s rely on credibl...' --> WIKIPEDIA
+      📚 [WIKI LOOKUP]: Exactly. Let’s rely on credible sources and verifi...
+      🤖 [AUTO-ROUTER]: 'I still think it’s a little su...' --> WIKIPEDIA
+      📚 [WIKI LOOKUP]: I still think it’s a little suspicious, but I gues...
+      🤖 [AUTO-ROUTER]: 'Bob, your reasoning is flawed....' --> WIKIPEDIA
+      📚 [WIKI LOOKUP]: Bob, your reasoning is flawed. According to NASA's...
+      🤖 [AUTO-ROUTER]: 'Historically speaking, this mi...' --> WIKIPEDIA
+      📚 [WIKI LOOKUP]: Historically speaking, this misconception dates ba...
+      🤖 [AUTO-ROUTER]: 'And let’s not forget the Apoll...' --> WIKIPEDIA
+      📚 [WIKI LOOKUP]: And let’s not forget the Apollo missions. Astronau...
+   🏁 Result: Accuracy=0.00 | Cost=$28.00
+
+💾 Data saved to: runs/results_2026-01-06_22-24-03.csv
+
+📊 AGGREGATE RESULTS:
+         Accuracy  Cost
+Method                 
+CRITIC        0.0  28.0
+MAD           0.0   0.0
+MaVERiC       0.0  28.0
+Random        0.0  29.0
+✅ Plot saved to: runs/plot_2026-01-06_22-24-03.png
