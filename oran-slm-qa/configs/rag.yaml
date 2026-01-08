@@ -1,0 +1,12 @@
+model:
+  base_model: "Qwen/Qwen2.5-1.5B-Instruct"
+  lora_dir: "outputs/oran-slm-lora"
+
+retrieval:
+  index_dir: "data/index"
+  embed_model: "sentence-transformers/all-MiniLM-L6-v2"
+  top_k: 5
+
+generation:
+  max_new_tokens: 256
+  temperature: 0.2

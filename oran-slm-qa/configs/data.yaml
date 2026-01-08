@@ -1,0 +1,9 @@
+raw_dir: "data/raw_specs"
+corpus_out: "data/corpus/chunks.jsonl"
+
+chunking:
+  max_chars: 2200
+  overlap_chars: 300
+
+pdf_parse:
+  keep_page_numbers: true

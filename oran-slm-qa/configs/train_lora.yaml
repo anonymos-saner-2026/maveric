@@ -1,0 +1,42 @@
+# Base model: choose your SLM (examples: Qwen2.5-1.5B-Instruct, Llama-3.2-1B-Instruct, Phi-3-mini, etc.)
+base_model: "Qwen/Qwen3-4B"
+
+train_file: "data/mcq/train.jsonl"
+eval_file: "data/mcq/valid.jsonl"
+
+# Output
+
+output_dir: "outputs/oran-qwen3-4b-mcq-lora"
+
+prompt_style: "mcq_v1"
+max_seq_len: 1024   # MCQ ngắn, 1024 đủ (tuỳ bạn)
+save_steps: 200
+eval_steps: 200
+
+# Training
+max_seq_len: 2048
+# batch/accum bạn chỉnh theo VRAM
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8
+
+per_device_eval_batch_size: 2
+gradient_accumulation_steps: 8
+num_train_epochs: 1
+learning_rate: 2.0e-4
+warmup_ratio: 0.03
+weight_decay: 0.0
+logging_steps: 20
+
+# QLoRA
+use_4bit: true
+lora_r: 16
+lora_alpha: 32
+lora_dropout: 0.05
+target_modules: ["q_proj", "k_proj", "v_proj", "o_proj"]
+
+# Mixed precision
+bf16: true
+fp16: false
+
+# Prompting
+prompt_style: "evidence_qa_v1"

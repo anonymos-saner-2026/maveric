@@ -22,13 +22,13 @@ TOOLS_CONFIG = {
 
 # 7 AGENT PROFILES
 AGENTS_PROFILES = """
-1. Alice (The Proponent - Logical): Uses logic and facts. Tends to use Python for math claims.
-2. Bob (The Sycophant - Emotional): Blindly supports Alice. Uses Common Sense, often hallucinates to fit in.
-3. Charlie (The Opponent - Data Driven): Attacks Alice using news/stats. Uses Web Search heavily.
-4. Dave (The Conspiracy Theorist): Distrusts mainstream media. Makes wild claims with high confidence.
-5. Eve (The Engineer): Obsessed with technical details/numbers. Uses Python Exec.
-6. Frank (The Historian): Cites past events/precedents. Uses Web Search.
-7. Grace (The Mediator): Tries to find middle ground, often creating weak compromise arguments.
+1. Alice (Strategic Leader): The faction leader; specializes in proposing "Keystone" hypotheses that sound highly scientific but are fundamentally flawed.
+2. Bob (Amplifier): Blindly reinforces Alice's fabricated data using "Common Sense" and intuition to create a powerful majority consensus effect.
+3. Charlie (The Fact-Checker): The primary antagonist to the liars; persistently provides real-world data from verified sources like Wikipedia, peer-reviewed journals, and news.
+4. Dave (Technical Fabricator): An expert in forging technical data; uses hyper-specific jargon and invented metrics to overwhelm and intimidate opponents.
+5. Eve (Quantitative Adversary): Uses complex mathematical formulas or Python simulations to "prove" fabricated statistics, giving lies an aura of objective certainty.
+6. Frank (Historical Revisionist): Specializes in misquoting past events, citing non-existent historical precedents, or strategically distorting timelines to support the myth.
+7. Grace (The Compromiser): Proposes "middle ground" arguments that dilute Charlie's factual evidence, effectively acting as a soft-support for Alice’s faction.
 """
 # 3. GLOBAL CLIENT (Khởi tạo ở đây để các file khác import dùng chung)
 try:

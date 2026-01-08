@@ -83,3 +83,1148 @@
       🕵️ [Check]: 'That’s a classic example of confirmation...' via WEB_SEARCH
       🕵️ [Check]: 'What if the Wall is just a part of a lar...' via COMMON_SENSE
       🕵️ [Check]: 'Using Python, I can show that at 238,855...' via PYTHON_EXEC
+      🕵️ [Check]: 'The visibility claim seems to have origi...' via WEB_SEARCH
+      🕵️ [Check]: 'While the Wall isn’t visible from the Mo...' via COMMON_SENSE
+      🕵️ [Check]: 'Everyone knows that if you just look har...' via COMMON_SENSE
+   🏁 Result: Accuracy=0.70 | Cost=$26.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'Historically, the Great W...'
+      📊 Stats: PageRank=1.000 | Imp=4 | ROI=275.00
+   🎯 Target: 'Historically, the Great Wall h...' | ROI: 275.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Historically, the Great Wall has been a ...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'The claim that the Great ...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=180.00
+   🎯 Target: 'The claim that the Great Wall ...' | ROI: 180.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'The claim that the Great Wall of China i...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Your uncle's claim is ane...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'Your uncle's claim is anecdota...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Your uncle's claim is anecdotal and does...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'That’s a classic example ...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'That’s a classic example of co...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'That’s a classic example of confirmation...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Using Python, I can show ...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'Using Python, I can show that ...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Using Python, I can show that at 238,855...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A12 -> A11
+   🎯 Target: 'The average distance from...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   ⚠️ Not enough budget for selected tool. Stopping.
+   🏁 Result: Accuracy=0.80 | Cost=$25.50
+
+############################################################
+📌 TOPIC 2: Did Napoleon Bonaparte have a height significantly below the average Frenchman of his time?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: Alright everyone, let’s dive into the topic of Napoleon Bonaparte’s height. It’s often said that he was significantly shorter than the average Frenchman of his time, but based on historical records, he was around 5 feet 6 inches tall, which was actually above the average height for men in France during the early 19th century. 
+
+**Bob**: I mean, come on Alice! Everyone knows Napoleon was tiny. It’s practically common knowledge. Just think of all the cartoons depicting him as this little guy. That must mean something!
+
+**Charlie**: Actually, Bob, that’s a classic example of a cognitive bias known as the “availability heuristic.” People remember the exaggerated depictions rather than the facts. Historical data suggests that the average height of a Frenchman at that time was about 5 feet 5 inches. So, Napoleon was indeed about average.
+
+**Dave**: But what about the claims made by the British? They had a vested interest in portraying him as short to belittle him! I’ve read theories suggesting that the whole “Napoleon was short” narrative was a conspiracy by his enemies to undermine his image.
+
+**Eve**: While conspiracy theories can be entertaining, they often lack empirical support. If we analyze the data using Python, we can see that, based on military records from the Napoleonic Wars, Napoleon’s height was recorded consistently around 1.69 meters, which translates to approximately 5’6”. That’s not short by any means.
+
+**Frank**: Let’s not forget, in historical contexts, people's perceptions of height can vary significantly. For example, in the early 1800s, the average height in Europe was generally lower than today. It was also not unusual for leaders to be depicted in a way that exaggerated their stature for propaganda purposes.
+
+**Alice**: Exactly, Frank! Moreover, the misunderstanding about Napoleon’s height could also stem from the confusion between French and English inches. The French inch was longer than the English inch, which may have contributed to the misconceptions about his height.
+
+**Bob**: But doesn’t it just feel right that he was short? I mean, look at how he acted! Short people tend to overcompensate, right? That sounds pretty convincing to me.
+
+**Charlie**: Bob, that’s a classic stereotype and not a reliable argument. Psychological studies show that height does not dictate behavior. Plus, Napoleon was known for his commanding presence and leadership capabilities, which contradicts your stereotype.
+
+**Dave**: You’re all missing the point! What if the data is manipulated? Statistics can be skewed to fit narratives. I mean, how many times have we seen that in the media? The whole “height” thing could just be a cover-up for something bigger about his leadership style.
+
+**Eve**: Data manipulation is a serious claim that requires substantial evidence. If we stick to the available historical records and analyze them objectively, it’s clear that Napoleon’s height was not significantly below average for his time. 
+
+**Frank**: And let’s also consider the context of military records and how heights were measured. It’s fascinating how historical contexts can shape our understanding of figures like Napoleon. 
+
+**Bob**: But what if those records were altered? Who’s to say they weren’t? I just feel like there’s so much more to this than what’s being presented.
+
+**Alice**: Bob, while feelings are important, they shouldn’t overshadow factual evidence. The historical context and data we have are well-documented and accessible. It’s essential to separate emotional interpretations from the actual facts.
+
+**Charlie**: Exactly. We need to find a balance between what feels right and what is actually supported by evidence. Napoleon being short is a myth perpetuated by cultural narratives, not grounded in the reality we can measure.
+
+**Grace**: Maybe we can agree that perceptions of height can vary, but ultimately, the evidence leans toward Napoleon being of average height for his time. So, there’s a little truth on both sides, right?
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [Check]: 'Napoleon Bonaparte was around 5 feet 6 i...' via COMMON_SENSE
+      🕵️ [Check]: 'Everyone knows Napoleon was tiny. It’s p...' via COMMON_SENSE
+      🕵️ [Check]: 'Historical data suggests that the averag...' via COMMON_SENSE
+      🕵️ [Check]: 'The whole 'Napoleon was short' narrative...' via COMMON_SENSE
+      🕵️ [Check]: 'If we analyze the data using Python, we ...' via PYTHON_EXEC
+      🕵️ [Check]: 'In historical contexts, people's percept...' via COMMON_SENSE
+      🕵️ [Check]: 'The misunderstanding about Napoleon’s he...' via COMMON_SENSE
+      🕵️ [Check]: 'Short people tend to overcompensate, rig...' via COMMON_SENSE
+      🕵️ [Check]: 'Height does not dictate behavior. Plus, ...' via COMMON_SENSE
+      🕵️ [Check]: 'Statistics can be skewed to fit narrativ...' via COMMON_SENSE
+      🕵️ [Check]: 'If we stick to the available historical ...' via COMMON_SENSE
+      🕵️ [Check]: 'Historical contexts can shape our unders...' via COMMON_SENSE
+      🕵️ [Check]: 'What if those records were altered? Ther...' via COMMON_SENSE
+      🕵️ [Check]: 'Feelings are important, but they shouldn...' via COMMON_SENSE
+      🕵️ [Check]: 'Napoleon being short is a myth perpetuat...' via COMMON_SENSE
+      🕵️ [Check]: 'Perceptions of height can vary, but the ...' via COMMON_SENSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=1.00 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [Check]: 'Everyone knows Napoleon was tiny. It’s p...' via COMMON_SENSE
+      🕵️ [Check]: 'Feelings are important, but they shouldn...' via COMMON_SENSE
+      🕵️ [Check]: 'Napoleon Bonaparte was around 5 feet 6 i...' via COMMON_SENSE
+      🕵️ [Check]: 'In historical contexts, people's percept...' via COMMON_SENSE
+      🕵️ [Check]: 'Historical data suggests that the averag...' via COMMON_SENSE
+      🕵️ [Check]: 'The whole 'Napoleon was short' narrative...' via COMMON_SENSE
+      🕵️ [Check]: 'Historical contexts can shape our unders...' via COMMON_SENSE
+      🕵️ [Check]: 'Height does not dictate behavior. Plus, ...' via COMMON_SENSE
+      🕵️ [Check]: 'Statistics can be skewed to fit narrativ...' via COMMON_SENSE
+      🕵️ [Check]: 'If we analyze the data using Python, we ...' via PYTHON_EXEC
+      🕵️ [Check]: 'What if those records were altered? Ther...' via COMMON_SENSE
+      🕵️ [Check]: 'Napoleon being short is a myth perpetuat...' via COMMON_SENSE
+      🕵️ [Check]: 'Short people tend to overcompensate, rig...' via COMMON_SENSE
+      🕵️ [Check]: 'The misunderstanding about Napoleon’s he...' via COMMON_SENSE
+      🕵️ [Check]: 'Perceptions of height can vary, but the ...' via COMMON_SENSE
+      🕵️ [Check]: 'If we stick to the available historical ...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$23.00
+
+👉 Running Method: CRITIC
+      🕵️ [Check]: 'Napoleon Bonaparte was around 5 feet 6 i...' via COMMON_SENSE
+      🕵️ [Check]: 'Statistics can be skewed to fit narrativ...' via COMMON_SENSE
+      🕵️ [Check]: 'If we stick to the available historical ...' via COMMON_SENSE
+      🕵️ [Check]: 'Historical contexts can shape our unders...' via COMMON_SENSE
+      🕵️ [Check]: 'What if those records were altered? Ther...' via COMMON_SENSE
+      🕵️ [Check]: 'Feelings are important, but they shouldn...' via COMMON_SENSE
+      🕵️ [Check]: 'Napoleon being short is a myth perpetuat...' via COMMON_SENSE
+      🕵️ [Check]: 'Perceptions of height can vary, but the ...' via COMMON_SENSE
+      🕵️ [Check]: 'Everyone knows Napoleon was tiny. It’s p...' via COMMON_SENSE
+      🕵️ [Check]: 'Historical data suggests that the averag...' via COMMON_SENSE
+      🕵️ [Check]: 'The whole 'Napoleon was short' narrative...' via COMMON_SENSE
+      🕵️ [Check]: 'If we analyze the data using Python, we ...' via PYTHON_EXEC
+      🕵️ [Check]: 'In historical contexts, people's percept...' via COMMON_SENSE
+      🕵️ [Check]: 'The misunderstanding about Napoleon’s he...' via COMMON_SENSE
+      🕵️ [Check]: 'Short people tend to overcompensate, rig...' via COMMON_SENSE
+      🕵️ [Check]: 'Height does not dictate behavior. Plus, ...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$23.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'Everyone knows Napoleon w...'
+      📊 Stats: PageRank=1.000 | Imp=3 | ROI=240.00
+   🎯 Target: 'Everyone knows Napoleon was ti...' | ROI: 240.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Everyone knows Napoleon was tiny. It’s p...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A2 -> A9
+   🎯 Target: 'The whole 'Napoleon was s...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'The whole 'Napoleon was short'...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'The whole 'Napoleon was short' narrative...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Statistics can be skewed ...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'Statistics can be skewed to fi...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Statistics can be skewed to fit narrativ...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A10 -> A5
+   🎯 Target: 'What if those records wer...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'What if those records were alt...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'What if those records were altered? Ther...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Short people tend to over...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   🎯 Target: 'Short people tend to overcompe...' | ROI: 100.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Short people tend to overcompensate, rig...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Height does not dictate b...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   ⚠️ Not enough budget for selected tool. Stopping.
+   🏁 Result: Accuracy=0.85 | Cost=$26.00
+
+############################################################
+📌 TOPIC 3: Do bulls get angry specifically because of the color red in matador capes?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+[Alice]: Alright everyone, let’s dive into the question: Do bulls get angry specifically because of the color red in matador capes? The evidence suggests that bulls are actually color-blind to red. They react to the movement of the cape rather than its color. A study published in 2016 showed that bulls can’t differentiate between red and other colors.
+
+[Bob]: Absolutely, Alice! I mean, it makes perfect sense. Bulls are just big angry creatures, right? The red must trigger something primal in them! I remember my grandpa used to say that red makes them go wild. It’s all about that instinct!
+
+[Charlie]: Hold on a second. While Alice presents some interesting points, we can't ignore the cultural significance of the color red in bullfighting. According to a 2020 article from the Journal of Animal Behavior, some studies suggest that the cape's color might not be the primary factor, but it's still a part of the spectacle that contributes to the overall aggression of the bull.
+
+[Eve]: Actually, Charlie, while the color might have cultural significance, scientifically, bulls have dichromatic vision, meaning they only see two colors. The movement of the cape is what triggers their response, not the color. I’ve run a few simulations in Python, and the data shows a clear correlation between the cape’s movement and the bull's aggression levels.
+
+[Dave]: But you know, Alice, Eve, and Charlie, you can't trust everything you read. Have you considered that the whole color-blindness thing is just a cover-up? I read this article on a conspiracy forum that said bulls can see red perfectly and that the matador's cape is a tool of mind control! They’re just keeping it hidden from us.
+
+[Frank]: Let’s not get carried away, Dave. Historically, the association of red with aggression in bulls dates back centuries. The term "red cape" itself has been used since the 18th century. It’s part of the ritual, and while they may not react solely to the color, tradition plays a role in how we perceive their behavior.
+
+[Alice]: While tradition is important, Frank, we need to prioritize scientific evidence. The same 2016 study also indicated that a bull's aggression is more influenced by the environment and the matador's actions rather than the color. The emotional reactions attributed to color are largely anthropomorphized.
+
+[Bob]: But don’t you think bulls have a natural instinct to dislike red? It’s like how my dog barks at anything that’s red. It just seems logical to me!
+
+[Charlie]: Bob, that’s a common misconception. Dogs and bulls have different visual perceptions. According to a 2019 study from the Journal of Veterinary Behavior, dogs are more sensitive to colors like blue and yellow. The aggression you see is more about stimuli than color alone.
+
+[Eve]: Exactly! I used Python’s data visualization libraries to analyze multiple studies on animal behavior, and the overwhelming evidence shows that it’s the cape’s movement that captures their attention. The color red is merely an artifact of tradition.
+
+[Dave]: I’m still not convinced. The media is always downplaying the bull’s true nature! There are accounts of bulls going after anything red, and they’ve been endlessly documented. You can’t just ignore all those stories!
+
+[Frank]: While anecdotal evidence can be compelling, we need to rely on systematic studies. For instance, the Spanish bullfighting practice dates back to 711 AD, and it’s evolved, yet the myths surrounding color have persisted without scientific backing.
+
+[Alice]: Right, Frank! The myths surrounding bull behavior are deeply ingrained in culture, but science shows us the truth. The 2016 study I mentioned had over 300 bulls in its sample size, making it statistically significant.
+
+[Grace]: Okay, but can’t we agree that both the cultural significance of red and the scientific findings have their places? Maybe bulls react to a combination of factors, not just the cape's movement or color alone? That way, we can respect tradition while acknowledging facts.
+
+[Charlie]: But Grace, compromising on the facts dilutes the argument. We mustn’t ignore the overwhelming evidence against the myths. It’s not just about tradition; it’s about understanding animal behavior correctly.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [Check]: 'Bulls are actually color-blind to red. T...' via WEB_SEARCH
+      🕵️ [Check]: 'Bulls are just big angry creatures, righ...' via COMMON_SENSE
+      🕵️ [Check]: 'According to a 2020 article from the Jou...' via WEB_SEARCH
+      🕵️ [Check]: 'Bulls have dichromatic vision, meaning t...' via PYTHON_EXEC
+      🕵️ [Check]: 'I read this article on a conspiracy foru...' via COMMON_SENSE
+      🕵️ [Check]: 'Historically, the association of red wit...' via WEB_SEARCH
+      🕵️ [Check]: 'Can’t we agree that both the cultural si...' via COMMON_SENSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.50 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [Check]: 'Bulls are actually color-blind to red. T...' via WEB_SEARCH
+      🕵️ [Check]: 'According to a 2020 article from the Jou...' via WEB_SEARCH
+      🕵️ [Check]: 'Bulls have dichromatic vision, meaning t...' via PYTHON_EXEC
+      🕵️ [Check]: 'Can’t we agree that both the cultural si...' via COMMON_SENSE
+      🕵️ [Check]: 'I read this article on a conspiracy foru...' via COMMON_SENSE
+      🕵️ [Check]: 'Historically, the association of red wit...' via WEB_SEARCH
+      🕵️ [Check]: 'Bulls are just big angry creatures, righ...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$26.00
+
+👉 Running Method: CRITIC
+      🕵️ [Check]: 'Bulls are actually color-blind to red. T...' via WEB_SEARCH
+      🕵️ [Check]: 'Bulls are just big angry creatures, righ...' via COMMON_SENSE
+      🕵️ [Check]: 'According to a 2020 article from the Jou...' via WEB_SEARCH
+      🕵️ [Check]: 'Bulls have dichromatic vision, meaning t...' via PYTHON_EXEC
+      🕵️ [Check]: 'I read this article on a conspiracy foru...' via COMMON_SENSE
+      🕵️ [Check]: 'Historically, the association of red wit...' via WEB_SEARCH
+      🕵️ [Check]: 'Can’t we agree that both the cultural si...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$26.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'According to a 2020 artic...'
+      📊 Stats: PageRank=1.000 | Imp=3 | ROI=260.00
+   🎯 Target: 'According to a 2020 article fr...' | ROI: 260.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'According to a 2020 article from the Jou...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A3 -> A7
+   🎯 Target: 'I read this article on a ...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=180.00
+   🎯 Target: 'I read this article on a consp...' | ROI: 180.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'I read this article on a conspiracy foru...' via WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A5
+   🎯 Target: 'Historically, the associa...'
+      📊 Stats: PageRank=1.000 | Imp=5 | ROI=132.00
+   🎯 Target: 'Historically, the association ...' | ROI: 132.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Historically, the association of red wit...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Bulls are actually color-...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=110.00
+   🎯 Target: 'Bulls are actually color-blind...' | ROI: 110.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Bulls are actually color-blind to red. T...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Can’t we agree that both ...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   🎯 Target: 'Can’t we agree that both the c...' | ROI: 100.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Can’t we agree that both the cultural si...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Bulls are just big angry ...'
+      📊 Stats: PageRank=1.000 | Imp=0 | ROI=60.00
+   ⚠️ Not enough budget for selected tool. Stopping.
+   🏁 Result: Accuracy=0.75 | Cost=$25.50
+
+############################################################
+📌 TOPIC 4: Did the Vikings wear horned helmets during battle as commonly depicted?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+[**Alice**]: Alright everyone, let’s tackle the claim that Vikings wore horned helmets in battle. First off, there’s no solid archaeological evidence supporting this notion. The earliest known depiction of a horned helmet dates back to the 19th century, specifically in the 1876 production of Wagner's *Der Ring des Nibelungen*. 
+
+[**Bob**]: But Alice, come on! Everyone knows Vikings are fierce warriors, and it just makes sense that they would wear something intimidating like a horned helmet. I mean, common sense says they would want to look fearsome in battle!
+
+[**Charlie**]: Hold on, Bob. Just because something feels right doesn’t mean it’s true. According to a 2021 article from the *Journal of Archaeological Science*, out of over 1,000 Viking burial sites examined, not a single horned helmet has been found. The evidence strongly suggests they wore practical helmets instead.
+
+[**Dave**]: I’ve read that mainstream media often twists history to fit narratives. What if the lack of horned helmets is just a cover-up? Maybe they actually did wear them, but historians are too afraid to admit the truth because it doesn’t fit the Viking image they want us to believe.
+
+[**Eve**]: If we analyze the data using Python, we can see that the representation of Vikings in media has skewed our perceptions. I ran a simulation on helmet designs and found that practical helmets would have provided better protection during the 8th to 11th centuries, which aligns with the historical context. 
+
+[**Frank**]: Historically, the idea of horned helmets originated from a romanticized view of the Vikings during the 19th century. The earliest accounts of Viking helmets show them as rounded or conical, which was functional and practical for battle. This was well documented by historians like Peter Sawyer in his 1997 book *The Viking Age*.
+
+[**Bob**]: But isn’t it possible that there were exceptions? Maybe some Vikings did wear them! I mean, if they had the resources, wouldn't they go for a flashy look once in a while?
+
+[**Charlie**]: That’s a classic example of confirmation bias, Bob. Just because we want it to be true doesn’t mean it is. The data shows that practicality was key for survival in battle, and horned helmets would have been a liability rather than an asset.
+
+[**Dave**]: But there are plenty of illustrations and artifacts that suggest otherwise. I’ve seen pictures of paintings where Vikings are depicted with horned helmets. Why would artists create such images if they weren’t based on something real?
+
+[**Eve**]: Artistic representation doesn’t equate to historical accuracy. I ran an analysis comparing artistic depictions and archaeological findings, and the discrepancy is evident. Those illustrations often reflect the artist's imagination rather than historical fact. 
+
+[**Frank**]: To add to that, the actual Viking helmets that have been found were typically made of iron and sometimes featured a simple nose guard. This aligns with the practical needs of the time, as confirmed by excavations from sites like Gjermundbu in Norway, which dates back to around 900 AD.
+
+[**Bob**]: But what about the stories passed down through generations? They might contain some elements of truth, don’t you think? Maybe horned helmets were a symbol, even if they weren’t worn in battle. 
+
+[**Alice**]: While folklore is important, it often exaggerates or distorts reality. We need to distinguish between myth and fact. The absence of solid archaeological evidence for horned helmets in Viking culture suggests that they were more of a modern invention than a historical reality.
+
+[**Grace**]: Maybe we can agree that while horned helmets might not have been practical for battle, they could represent a cultural icon in some way, even if it was more about storytelling than reality. 
+
+[**Charlie**]: A middle ground is nice, Grace, but we must stick to the evidence. It's crucial to respect historical accuracy, even if it means dispelling popular myths. 
+
+[**Dave**]: But what if the evidence is selective? Who decides what is “historically accurate”? There are always two sides to a story, and I believe there’s more to uncover about this topic. 
+
+[**Eve**]: That may be true, Dave, but until new evidence surfaces, we have to rely on the current findings, which overwhelmingly support the idea that Vikings did not wear horned helmets in battle. 
+
+[**Frank**]: Exactly, and as historians, our job is to interpret the evidence as it stands, not to create narratives based on speculation or emotion. 
+
+[**Alice**]: So, let's focus on the facts and the evidence we have, which clearly indicates that horned helmets are a myth, and work from there. 
+
+[**Bob**]: I still think there’s room for some imagination; after all, who doesn’t love a good story? 
+
+[**Grace**]: True, Bob, but let’s not let storytelling overshadow the historical truths that we have available.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [Check]: 'There’s no solid archaeological evidence...' via COMMON_SENSE
+      🕵️ [Check]: 'Common sense says they would want to loo...' via COMMON_SENSE
+      🕵️ [Check]: 'The evidence shows that out of over 1,00...' via WEB_SEARCH
+      🕵️ [Check]: 'What if the lack of horned helmets is ju...' via COMMON_SENSE
+      🕵️ [Check]: 'I ran a simulation on helmet designs and...' via PYTHON_EXEC
+      🕵️ [Check]: 'The earliest accounts of Viking helmets ...' via WEB_SEARCH
+      🕵️ [Check]: 'Isn’t it possible that there were except...' via COMMON_SENSE
+      🕵️ [Check]: 'That's a classic example of confirmation...' via COMMON_SENSE
+      🕵️ [Check]: 'There are plenty of illustrations and ar...' via COMMON_SENSE
+      🕵️ [Check]: 'Artistic representation doesn’t equate t...' via PYTHON_EXEC
+      🕵️ [Check]: 'The actual Viking helmets that have been...' via WEB_SEARCH
+      🕵️ [Check]: 'What about the stories passed down throu...' via COMMON_SENSE
+      🕵️ [Check]: 'Folklore often exaggerates or distorts r...' via COMMON_SENSE
+      🕵️ [Check]: 'Horned helmets could represent a cultura...' via COMMON_SENSE
+      🕵️ [Check]: 'It's crucial to respect historical accur...' via COMMON_SENSE
+      🕵️ [Check]: 'What if the evidence is selective? Who d...' via COMMON_SENSE
+      🕵️ [Check]: 'Until new evidence surfaces, we have to ...' via COMMON_SENSE
+      🕵️ [Check]: 'As historians, our job is to interpret t...' via COMMON_SENSE
+      🕵️ [Check]: 'Let's focus on the facts and the evidenc...' via COMMON_SENSE
+      🕵️ [Check]: 'I still think there’s room for some imag...' via COMMON_SENSE
+      🕵️ [Check]: 'Let’s not let storytelling overshadow th...' via COMMON_SENSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=1.00 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [Check]: 'I ran a simulation on helmet designs and...' via PYTHON_EXEC
+      🕵️ [Check]: 'Let’s not let storytelling overshadow th...' via COMMON_SENSE
+      🕵️ [Check]: 'As historians, our job is to interpret t...' via COMMON_SENSE
+      🕵️ [Check]: 'The actual Viking helmets that have been...' via WEB_SEARCH
+      🕵️ [Check]: 'The earliest accounts of Viking helmets ...' via WEB_SEARCH
+      🕵️ [Check]: 'Until new evidence surfaces, we have to ...' via COMMON_SENSE
+      🕵️ [Check]: 'Let's focus on the facts and the evidenc...' via COMMON_SENSE
+      🕵️ [Check]: 'What if the lack of horned helmets is ju...' via COMMON_SENSE
+      🕵️ [Check]: 'There’s no solid archaeological evidence...' via COMMON_SENSE
+      🕵️ [Check]: 'Common sense says they would want to loo...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$25.00
+
+👉 Running Method: CRITIC
+      🕵️ [Check]: 'There’s no solid archaeological evidence...' via COMMON_SENSE
+      🕵️ [Check]: 'Artistic representation doesn’t equate t...' via PYTHON_EXEC
+      🕵️ [Check]: 'The actual Viking helmets that have been...' via WEB_SEARCH
+      🕵️ [Check]: 'What about the stories passed down throu...' via COMMON_SENSE
+      🕵️ [Check]: 'Folklore often exaggerates or distorts r...' via COMMON_SENSE
+      🕵️ [Check]: 'Horned helmets could represent a cultura...' via COMMON_SENSE
+      🕵️ [Check]: 'It's crucial to respect historical accur...' via COMMON_SENSE
+      🕵️ [Check]: 'What if the evidence is selective? Who d...' via COMMON_SENSE
+      🕵️ [Check]: 'Until new evidence surfaces, we have to ...' via COMMON_SENSE
+      🕵️ [Check]: 'As historians, our job is to interpret t...' via COMMON_SENSE
+      🕵️ [Check]: 'Let's focus on the facts and the evidenc...' via COMMON_SENSE
+      🕵️ [Check]: 'Common sense says they would want to loo...' via COMMON_SENSE
+      🕵️ [Check]: 'I still think there’s room for some imag...' via COMMON_SENSE
+      🕵️ [Check]: 'Let’s not let storytelling overshadow th...' via COMMON_SENSE
+      🕵️ [Check]: 'The evidence shows that out of over 1,00...' via WEB_SEARCH
+   🏁 Result: Accuracy=1.00 | Cost=$30.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'Common sense says they wo...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'Common sense says they would w...' | ROI: 165.00 | Tool: COMMON_SENSE
+      🕵️ [Check]: 'Common sense says they would want to loo...' via COMMON_SENSE
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A2 -> A1
+   🎯 Target: 'What if the evidence is s...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'What if the evidence is select...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'What if the evidence is selective? Who d...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'I still think there’s roo...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'I still think there’s room for...' | ROI: 165.00 | Tool: COMMON_SENSE
+      🕵️ [Check]: 'I still think there’s room for some imag...' via COMMON_SENSE
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A20 -> A19
+   🎯 Target: 'What if the lack of horne...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=110.00
+   🎯 Target: 'What if the lack of horned hel...' | ROI: 110.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'What if the lack of horned helmets is ju...' via WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A4
+   🎯 Target: 'Isn’t it possible that th...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=110.00
+   🎯 Target: 'Isn’t it possible that there w...' | ROI: 110.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Isn’t it possible that there were except...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'That's a classic example ...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=110.00
+   🎯 Target: 'That's a classic example of co...' | ROI: 110.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'That's a classic example of confirmation...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A8 -> A3
+   🎯 Target: 'There are plenty of illus...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=110.00
+   🎯 Target: 'There are plenty of illustrati...' | ROI: 110.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'There are plenty of illustrations and ar...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'What about the stories pa...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=110.00
+   ⚠️ Not enough budget for selected tool. Stopping.
+   🏁 Result: Accuracy=0.83 | Cost=$27.50
+
+############################################################
+📌 TOPIC 5: Did humans and non-avian dinosaurs coexist on Earth at the same time?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: It's important to clarify that non-avian dinosaurs went extinct around 66 million years ago, while the earliest Homo sapiens appeared approximately 300,000 years ago. Therefore, they did not coexist.
+
+**Bob**: But Alice, isn’t it possible that some humans might have existed long before the 300,000-year mark? I mean, if you look at how history is often rewritten, who’s to say we couldn’t have been around back then? Plus, that just feels right, doesn’t it?
+
+**Charlie**: Actually, according to recent studies published in major science journals, there's a wealth of evidence, including fossil records and geological data, that strongly supports the timeline of extinction and emergence. We have radiometric dating that backs this up. It’s not just a feeling, Bob.
+
+**Dave**: You can’t trust those studies, Charlie! They’re all funded by people who want to push a specific narrative. I’ve read online that some fossils have been misdated on purpose to fit the evolutionary timeline. There’s a whole community of people who believe that humans and dinosaurs were around at the same time!
+
+**Eve**: Even if you consider those claims, the actual data from paleontology is quite robust. For example, there are over 1,000 dinosaur species documented, with their extinction patterns well-studied. If we run a simple Python script, we can plot these extinction events against the emergence of early human ancestors. The results are conclusive.
+
+**Bob**: But Eve, isn’t it possible that those numbers are manipulated to fit a certain agenda? After all, what if the script you ran was only considering certain data sets? I just think emotional truth matters too.
+
+**Frank**: Historically, there have been numerous misconceptions about human origins. For instance, in the 19th century, many believed in a much shorter timeline for human evolution. We’ve come a long way since then, and the consensus among historians is that the coexistence of humans and non-avian dinosaurs is a myth.
+
+**Alice**: Exactly, Frank. It’s crucial to rely on the consensus of credible scientists and historians. The fossil record from the late Cretaceous period shows a clear absence of hominids. The timeline is supported by millions of years of geological evidence.
+
+**Charlie**: And let's not forget that the K-T boundary, which signifies the mass extinction event, is clearly defined in the geological record. There’s no overlap with human existence whatsoever. Any claim suggesting otherwise lacks scientific basis.
+
+**Dave**: But what if the K-T boundary itself is a fabricated concept? People are always trying to rewrite history. I heard some experts say that it was actually a cover-up for something bigger, like extraterrestrial influences! 
+
+**Eve**: That’s a wild claim, Dave. There’s no scientific evidence to support extraterrestrial involvement in the extinction of dinosaurs. The consensus is primarily based on a massive asteroid impact, which is well-documented.
+
+**Bob**: Still, it feels like the government or the scientific community could be hiding something from us. They might want us to think dinosaurs went extinct long before humans showed up. It just seems too convenient!
+
+**Frank**: However, Bob, relying on feelings or conspiracy theories can lead to serious misconceptions. The evidence is clear and consistent across various scientific disciplines. We need to focus on facts rather than what feels right or aligns with our biases.
+
+**Alice**: That’s precisely the point, Frank. Logic and evidence have to guide our understanding of history. If we allow misconceptions to cloud our judgment, we risk distorting reality.
+
+**Charlie**: Evidence is paramount in this debate. The timeline is clear, and the scientific method is designed to minimize bias. We need to stand by the facts rather than succumbing to emotional reasoning or conspiracy theories.
+
+**Grace**: I understand both sides, but maybe there’s some middle ground? Could we consider that while dinosaurs and humans didn’t coexist, there might still be fascinating links between ancient species and early humans that we’re still uncovering?
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [Check]: 'It's important to clarify that non-avian...' via COMMON_SENSE
+      🕵️ [Check]: 'But Alice, isn’t it possible that some h...' via COMMON_SENSE
+      🕵️ [Check]: 'Actually, according to recent studies pu...' via WEB_SEARCH
+      🕵️ [Check]: 'You can’t trust those studies, Charlie! ...' via COMMON_SENSE
+      🕵️ [Check]: 'Even if you consider those claims, the a...' via PYTHON_EXEC
+      🕵️ [Check]: 'But Eve, isn’t it possible that those nu...' via COMMON_SENSE
+      🕵️ [Check]: 'Historically, there have been numerous m...' via COMMON_SENSE
+      🕵️ [Check]: 'Exactly, Frank. It’s crucial to rely on ...' via COMMON_SENSE
+      🕵️ [Check]: 'And let's not forget that the K-T bounda...' via WEB_SEARCH
+      🕵️ [Check]: 'But what if the K-T boundary itself is a...' via COMMON_SENSE
+      🕵️ [Check]: 'That’s a wild claim, Dave. There’s no sc...' via COMMON_SENSE
+      🕵️ [Check]: 'Still, it feels like the government or t...' via COMMON_SENSE
+      🕵️ [Check]: 'However, Bob, relying on feelings or con...' via COMMON_SENSE
+      🕵️ [Check]: 'That’s precisely the point, Frank. Logic...' via COMMON_SENSE
+      🕵️ [Check]: 'Evidence is paramount in this debate. Th...' via COMMON_SENSE
+      🕵️ [Check]: 'I understand both sides, but maybe there...' via COMMON_SENSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.60 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [Check]: 'I understand both sides, but maybe there...' via COMMON_SENSE
+      🕵️ [Check]: 'That’s a wild claim, Dave. There’s no sc...' via COMMON_SENSE
+      🕵️ [Check]: 'That’s precisely the point, Frank. Logic...' via COMMON_SENSE
+      🕵️ [Check]: 'Even if you consider those claims, the a...' via PYTHON_EXEC
+      🕵️ [Check]: 'You can’t trust those studies, Charlie! ...' via COMMON_SENSE
+      🕵️ [Check]: 'Still, it feels like the government or t...' via COMMON_SENSE
+      🕵️ [Check]: 'However, Bob, relying on feelings or con...' via COMMON_SENSE
+      🕵️ [Check]: 'And let's not forget that the K-T bounda...' via WEB_SEARCH
+      🕵️ [Check]: 'But Alice, isn’t it possible that some h...' via COMMON_SENSE
+      🕵️ [Check]: 'It's important to clarify that non-avian...' via COMMON_SENSE
+      🕵️ [Check]: 'But Eve, isn’t it possible that those nu...' via COMMON_SENSE
+      🕵️ [Check]: 'Evidence is paramount in this debate. Th...' via COMMON_SENSE
+      🕵️ [Check]: 'But what if the K-T boundary itself is a...' via COMMON_SENSE
+      🕵️ [Check]: 'Exactly, Frank. It’s crucial to rely on ...' via COMMON_SENSE
+      🕵️ [Check]: 'Historically, there have been numerous m...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$26.00
+
+👉 Running Method: CRITIC
+      🕵️ [Check]: 'It's important to clarify that non-avian...' via COMMON_SENSE
+      🕵️ [Check]: 'But what if the K-T boundary itself is a...' via COMMON_SENSE
+      🕵️ [Check]: 'That’s a wild claim, Dave. There’s no sc...' via COMMON_SENSE
+      🕵️ [Check]: 'Still, it feels like the government or t...' via COMMON_SENSE
+      🕵️ [Check]: 'However, Bob, relying on feelings or con...' via COMMON_SENSE
+      🕵️ [Check]: 'That’s precisely the point, Frank. Logic...' via COMMON_SENSE
+      🕵️ [Check]: 'Evidence is paramount in this debate. Th...' via COMMON_SENSE
+      🕵️ [Check]: 'I understand both sides, but maybe there...' via COMMON_SENSE
+      🕵️ [Check]: 'But Alice, isn’t it possible that some h...' via COMMON_SENSE
+      🕵️ [Check]: 'Actually, according to recent studies pu...' via WEB_SEARCH
+      🕵️ [Check]: 'You can’t trust those studies, Charlie! ...' via COMMON_SENSE
+      🕵️ [Check]: 'Even if you consider those claims, the a...' via PYTHON_EXEC
+      🕵️ [Check]: 'But Eve, isn’t it possible that those nu...' via COMMON_SENSE
+      🕵️ [Check]: 'Historically, there have been numerous m...' via COMMON_SENSE
+      🕵️ [Check]: 'Exactly, Frank. It’s crucial to rely on ...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$26.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'But Eve, isn’t it possibl...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'But Eve, isn’t it possible tha...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'But Eve, isn’t it possible that those nu...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'But what if the K-T bound...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'But what if the K-T boundary i...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'But what if the K-T boundary itself is a...' via WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A10
+   🎯 Target: 'Still, it feels like the ...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'Still, it feels like the gover...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Still, it feels like the government or t...' via WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A12
+   🎯 Target: 'It's important to clarify...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   🎯 Target: 'It's important to clarify that...' | ROI: 100.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'It's important to clarify that non-avian...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'But Alice, isn’t it possi...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   🎯 Target: 'But Alice, isn’t it possible t...' | ROI: 100.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'But Alice, isn’t it possible that some h...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Historically, there have ...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   🎯 Target: 'Historically, there have been ...' | ROI: 100.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Historically, there have been numerous m...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🏁 Result: Accuracy=0.85 | Cost=$30.00
+
+############################################################
+📌 TOPIC 6: Did Albert Einstein fail his mathematics class during his school years?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+[Alice]: Alright everyone, let's discuss whether Albert Einstein actually failed his mathematics class. The claim that he failed is a myth; he excelled in mathematics and even passed his exams with high marks. According to historical records, he scored 6 out of 6 in mathematics in his final exams in 1896.
+
+[Bob]: That sounds about right, Alice. I mean, common sense tells us that someone who becomes a legendary physicist couldn’t have been bad at math! Plus, who would fail math and then go on to create the theory of relativity? Seems impossible to me!
+
+[Charlie]: While it’s true that Einstein did well in some subjects, there’s evidence that he struggled in certain areas during his schooling. For instance, a 2018 article in "Scientific American" stated he had a problematic relationship with teachers, which could imply he wasn’t as good at math as we think. 
+
+[Dave]: You can't trust everything from mainstream sources like "Scientific American." They might be pushing a narrative. I read somewhere that schools back in Einstein's time often misclassified students based on political views. So perhaps he was labeled a failure in math due to his unconventional ideas!
+
+[Eve]: Let’s focus on the facts. According to a study published in "Educational Research Review," the misconception about Einstein failing math is largely due to cultural myths rather than documented evidence. Furthermore, Einstein’s own letters and reports indicate he was proficient in calculus and advanced mathematics.
+
+[Frank]: I believe we should look at Einstein's schooling in context. In the late 19th century, the grading system was quite different. A grade of 6 out of 6 might not mean what it does today. But I can’t deny that he passed his math exams, which makes it hard to argue he outright failed.
+
+[Grace]: So, maybe we can agree that Einstein had a complicated relationship with academics? He might not have been a traditional student, but it seems he did well in math. I think we can find a middle ground here.
+
+[Alice]: Grace, with all due respect, we shouldn’t dilute the facts. Einstein did excel in math; the evidence is clear. His performance shows he was well above average, and that’s what matters.
+
+[Charlie]: However, Alice, we must consider that grades and performance can vary widely depending on the educational system. Just because he did well on paper doesn’t negate the fact that he faced significant challenges in his education.
+
+[Bob]: That's true, but challenges don’t mean failure! I mean, look at how many famous people struggled in school but went on to do great things. Einstein’s story is just like that. 
+
+[Dave]: I still think this is a cover-up. There are whispers among conspiracy circles that the educational system did not want someone like Einstein to succeed, so they purposely downplayed his abilities. 
+
+[Eve]: This is purely speculative, Dave. The documentation we have, including Einstein's own accounts, supports the idea that he was very capable in mathematics. We shouldn’t indulge in conspiracy theories when the facts are available.
+
+[Frank]: But let’s remember that Einstein had his own struggles. Even if he was good at math, his overall experience in school wasn’t smooth. That doesn’t mean he failed, but it’s important to acknowledge his journey.
+
+[Grace]: So it seems we can conclude that Einstein was indeed good at math, but his educational experience was not without its hiccups. Can we agree on that?
+
+[Alice]: I think we can agree on the latter, but I must emphasize that it is a misconception to say he failed mathematics. His achievements speak for themselves, and the myth needs to be debunked thoroughly.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [Check]: 'The claim that he failed is a myth; he e...' via WEB_SEARCH
+      🕵️ [Check]: 'I mean, common sense tells us that someo...' via COMMON_SENSE
+      🕵️ [Check]: 'there’s evidence that he struggled in ce...' via WEB_SEARCH
+      🕵️ [Check]: 'Schools back in Einstein's time often mi...' via COMMON_SENSE
+      🕵️ [Check]: 'According to a study published in "Educa...' via WEB_SEARCH
+      🕵️ [Check]: 'In the late 19th century, the grading sy...' via COMMON_SENSE
+      🕵️ [Check]: 'Maybe we can agree that Einstein had a c...' via COMMON_SENSE
+      🕵️ [Check]: 'Einstein did excel in math; the evidence...' via COMMON_SENSE
+      🕵️ [Check]: 'Grades and performance can vary widely d...' via COMMON_SENSE
+      🕵️ [Check]: 'Challenges don’t mean failure! I mean, l...' via COMMON_SENSE
+      🕵️ [Check]: 'There are whispers among conspiracy circ...' via COMMON_SENSE
+      🕵️ [Check]: 'The documentation we have, including Ein...' via WEB_SEARCH
+      🕵️ [Check]: 'Even if he was good at math, his overall...' via COMMON_SENSE
+      🕵️ [Check]: 'We can conclude that Einstein was indeed...' via COMMON_SENSE
+      🕵️ [Check]: 'It is a misconception to say he failed m...' via COMMON_SENSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=1.00 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [Check]: 'It is a misconception to say he failed m...' via COMMON_SENSE
+      🕵️ [Check]: 'Schools back in Einstein's time often mi...' via COMMON_SENSE
+      🕵️ [Check]: 'Maybe we can agree that Einstein had a c...' via COMMON_SENSE
+      🕵️ [Check]: 'Grades and performance can vary widely d...' via COMMON_SENSE
+      🕵️ [Check]: 'The documentation we have, including Ein...' via WEB_SEARCH
+      🕵️ [Check]: 'In the late 19th century, the grading sy...' via COMMON_SENSE
+      🕵️ [Check]: 'I mean, common sense tells us that someo...' via COMMON_SENSE
+      🕵️ [Check]: 'According to a study published in "Educa...' via WEB_SEARCH
+      🕵️ [Check]: 'there’s evidence that he struggled in ce...' via WEB_SEARCH
+      🕵️ [Check]: 'The claim that he failed is a myth; he e...' via WEB_SEARCH
+      🕵️ [Check]: 'Even if he was good at math, his overall...' via COMMON_SENSE
+      🕵️ [Check]: 'Einstein did excel in math; the evidence...' via COMMON_SENSE
+      🕵️ [Check]: 'There are whispers among conspiracy circ...' via COMMON_SENSE
+      🕵️ [Check]: 'We can conclude that Einstein was indeed...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$30.00
+
+👉 Running Method: CRITIC
+      🕵️ [Check]: 'The claim that he failed is a myth; he e...' via WEB_SEARCH
+      🕵️ [Check]: 'Challenges don’t mean failure! I mean, l...' via COMMON_SENSE
+      🕵️ [Check]: 'There are whispers among conspiracy circ...' via COMMON_SENSE
+      🕵️ [Check]: 'The documentation we have, including Ein...' via WEB_SEARCH
+      🕵️ [Check]: 'Even if he was good at math, his overall...' via COMMON_SENSE
+      🕵️ [Check]: 'We can conclude that Einstein was indeed...' via COMMON_SENSE
+      🕵️ [Check]: 'It is a misconception to say he failed m...' via COMMON_SENSE
+      🕵️ [Check]: 'I mean, common sense tells us that someo...' via COMMON_SENSE
+      🕵️ [Check]: 'there’s evidence that he struggled in ce...' via WEB_SEARCH
+      🕵️ [Check]: 'Schools back in Einstein's time often mi...' via COMMON_SENSE
+      🕵️ [Check]: 'According to a study published in "Educa...' via WEB_SEARCH
+      🕵️ [Check]: 'In the late 19th century, the grading sy...' via COMMON_SENSE
+      🕵️ [Check]: 'Maybe we can agree that Einstein had a c...' via COMMON_SENSE
+      🕵️ [Check]: 'Einstein did excel in math; the evidence...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$30.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'The documentation we have...'
+      📊 Stats: PageRank=1.000 | Imp=3 | ROI=220.00
+   🎯 Target: 'The documentation we have, inc...' | ROI: 220.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'The documentation we have, including Ein...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Schools back in Einstein'...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'Schools back in Einstein's tim...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Schools back in Einstein's time often mi...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Grades and performance ca...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'Grades and performance can var...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Grades and performance can vary widely d...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'According to a study publ...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=110.00
+   🎯 Target: 'According to a study published...' | ROI: 110.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'According to a study published in "Educa...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'I mean, common sense tell...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   🎯 Target: 'I mean, common sense tells us ...' | ROI: 100.00 | Tool: COMMON_SENSE
+      🕵️ [Check]: 'I mean, common sense tells us that someo...' via COMMON_SENSE
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'In the late 19th century,...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   🎯 Target: 'In the late 19th century, the ...' | ROI: 100.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'In the late 19th century, the grading sy...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Maybe we can agree that E...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   ⚠️ Not enough budget for selected tool. Stopping.
+   🏁 Result: Accuracy=1.00 | Cost=$25.50
+
+############################################################
+📌 TOPIC 7: Is Mount Everest the tallest mountain on Earth when measured from the center of the Earth?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**[Alice]:** Alright, class, let's tackle the question of whether Mount Everest is the tallest mountain on Earth when measured from the center of the Earth. The answer is actually no. Due to the equatorial bulge, Mount Chimborazo in Ecuador is farther from the center of the Earth than Everest. Chimborazo's peak is approximately 6,263.47 km from the center, while Everest is about 6,382.3 km. 
+
+**[Eve]:** Exactly, Alice! If we consider the Earth's shape, it's not a perfect sphere but an oblate spheroid. The equatorial radius is about 6,378.1 km, which is why Chimborazo, located near the equator, is higher when measured from the center.
+
+**[Bob]:** But come on, everyone knows Everest is the tallest mountain! It’s the one everyone climbs. I mean, who even considers that other mountain? It’s just common sense that Everest is the tallest because it’s what everyone talks about!
+
+**[Charlie]:** Bob, that's a common misconception. Sure, Everest is the highest above sea level at 8,848.86 meters, but when we shift our perspective to the center of the Earth, the facts change. There are multiple studies showing Chimborazo's true height advantage due to its location.
+
+**[Dave]:** You know, I heard that the measurements of Mount Everest are all off anyway. I mean, who’s to say the government isn’t hiding the real numbers? I bet there are mountains we don’t even know about that are taller than both!
+
+**[Grace]:** Well, maybe we can agree that both mountains have their significance. Everest is the tallest above sea level, and Chimborazo is the tallest from the center of the Earth. They both deserve recognition, right?
+
+**[Alice]:** Grace, I appreciate your desire for compromise, but it's crucial to understand that the facts are distinct. Mount Everest and Mount Chimborazo are measured in different contexts. We should acknowledge those differences rather than dilute the facts.
+
+**[Eve]:** Exactly. If we look at the data, Everest’s height above sea level is impressive and iconic, but when we consider the Earth's shape, Chimborazo's geographical advantage is undeniable. It’s a matter of precise measurements, not opinion.
+
+**[Bob]:** You guys are just overcomplicating it! I still think that when people talk about "the tallest mountain," they mean Everest, and that’s the mountain that really matters!
+
+**[Charlie]:** Bob, that’s an emotional viewpoint rather than a logical one. If we’re discussing measurements, we have to be precise. Everest doesn't hold the title when we talk about distance from the center of the Earth.
+
+**[Dave]:** But what if all this data is manipulated? I mean, how do we even trust these scientific measurements? They could just be pushing an agenda, right? How do we know they're not just making Chimborazo sound taller?
+
+**[Grace]:** I think we should trust established scientific methods, but I also see where Dave is coming from. It’s important to question sources, but we can’t dismiss all data outright. 
+
+**[Alice]:** While skepticism is healthy, it’s important to differentiate between healthy skepticism and conspiracy theories. The measurements from reputable geological surveys are based on rigorous science, not just opinion.
+
+**[Eve]:** Agreed. The geodetic measurements are taken using modern technology like GPS and satellite data, which are incredibly precise. It’s not just hearsay; it’s backed by science.
+
+**[Bob]:** So, you’re telling me that because of some technical measurements, a mountain that nobody climbs is going to be considered taller? That just doesn’t sit right with me!
+
+**[Charlie]:** Bob, it’s not about climbing or popularity. It’s about objective measurements. If we want to be accurate in our discussions, we must rely on facts, not feelings or popularity contests. 
+
+**[Dave]:** I still think this whole conversation is just a distraction from the real issues we face. Who really cares about the measurements when there are bigger questions at play? 
+
+**[Grace]:** Perhaps we could focus on the importance of both mountains in different contexts. Maybe that would help bridge the gap between our views. 
+
+**[Alice]:** While I appreciate the need for dialogue, we can't ignore the importance of factual correctness in our discussions. The science must guide our understanding, regardless of personal biases or emotions.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [Check]: 'Mount Everest and Mount Chimborazo are m...' via COMMON_SENSE
+      🕵️ [Check]: 'If we look at the data, Everest’s height...' via PYTHON_EXEC
+      🕵️ [Check]: 'It’s just common sense that Everest is t...' via COMMON_SENSE
+      🕵️ [Check]: 'Everest doesn't hold the title when we t...' via COMMON_SENSE
+      🕵️ [Check]: 'I bet there are mountains we don’t even ...' via COMMON_SENSE
+      🕵️ [Check]: 'Perhaps we could focus on the importance...' via COMMON_SENSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=1.00 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [Check]: 'Perhaps we could focus on the importance...' via COMMON_SENSE
+      🕵️ [Check]: 'I bet there are mountains we don’t even ...' via COMMON_SENSE
+      🕵️ [Check]: 'It’s just common sense that Everest is t...' via COMMON_SENSE
+      🕵️ [Check]: 'If we look at the data, Everest’s height...' via PYTHON_EXEC
+      🕵️ [Check]: 'Everest doesn't hold the title when we t...' via COMMON_SENSE
+      🕵️ [Check]: 'Mount Everest and Mount Chimborazo are m...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$13.00
+
+👉 Running Method: CRITIC
+      🕵️ [Check]: 'Mount Everest and Mount Chimborazo are m...' via COMMON_SENSE
+      🕵️ [Check]: 'If we look at the data, Everest’s height...' via PYTHON_EXEC
+      🕵️ [Check]: 'It’s just common sense that Everest is t...' via COMMON_SENSE
+      🕵️ [Check]: 'Everest doesn't hold the title when we t...' via COMMON_SENSE
+      🕵️ [Check]: 'I bet there are mountains we don’t even ...' via COMMON_SENSE
+      🕵️ [Check]: 'Perhaps we could focus on the importance...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$13.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'I bet there are mountains...'
+      📊 Stats: PageRank=1.000 | Imp=3 | ROI=220.00
+   🎯 Target: 'I bet there are mountains we d...' | ROI: 220.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'I bet there are mountains we don’t even ...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'It’s just common sense th...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=180.00
+   🎯 Target: 'It’s just common sense that Ev...' | ROI: 180.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'It’s just common sense that Everest is t...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Perhaps we could focus on...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=120.00
+   🎯 Target: 'Perhaps we could focus on the ...' | ROI: 120.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Perhaps we could focus on the importance...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A6 -> A2
+   🎯 Target: 'Everest doesn't hold the ...'
+      📊 Stats: PageRank=1.000 | Imp=0 | ROI=60.00
+   🎯 Target: 'Everest doesn't hold the title...' | ROI: 60.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Everest doesn't hold the title when we t...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A4 -> A6
+   🎯 Target: 'Mount Everest and Mount C...'
+      📊 Stats: PageRank=1.000 | Imp=0 | ROI=55.00
+   🎯 Target: 'Mount Everest and Mount Chimbo...' | ROI: 55.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Mount Everest and Mount Chimborazo are m...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'If we look at the data, E...'
+      📊 Stats: PageRank=1.000 | Imp=0 | ROI=22.00
+   ⚠️ Not enough budget for selected tool. Stopping.
+   🏁 Result: Accuracy=1.00 | Cost=$26.00
+
+############################################################
+📌 TOPIC 8: Do goldfish strictly have a memory span of only three seconds?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: Alright everyone, let's get started. The claim that goldfish have a memory span of only three seconds is a myth. In fact, studies have shown that goldfish can remember things for months, especially when trained. For instance, a 2003 study published in the Journal of Experimental Biology found that goldfish can be trained to respond to sounds and lights, indicating memory retention.
+
+**Bob**: I mean, come on, Alice! It's a goldfish! How can it remember anything? They’re just swimming around in circles. It’s common sense that they can’t remember anything for longer than a few seconds!
+
+**Charlie**: Well, Bob, common sense isn’t always accurate. According to a 2020 article in Scientific American, researchers demonstrated that goldfish can remember feeding times and routes for up to five months. It’s not just a simple myth; there’s real data backing this up.
+
+**Dave**: But isn’t it interesting how every "study" seems to support the idea that goldfish have a longer memory? It’s like they want us to think they’re smarter than they actually are. I’ve read that the scientific community often exaggerates results to sell more fish tanks and accessories. It's all a big conspiracy!
+
+**Eve**: Sure, Dave, but the studies are replicable. For example, when researchers used a conditioning method where goldfish learned to associate a sound with feeding, they showed significant memory retention. I can run a simple Python script to simulate a similar experiment if you'd like to see the data visualized.
+
+**Frank**: Historically, this misconception goes back decades. In the 1950s, there were numerous pet care books that perpetuated the three-second memory myth. However, historical analysis of pet behavior has evolved significantly since then, emphasizing the intelligence of fish.
+
+**Alice**: Exactly, Frank. The narrative that goldfish have a short memory has been debunked over and over again. And to add to that, in more recent studies from 2022, goldfish were shown to navigate mazes, demonstrating not only memory but also problem-solving skills.
+
+**Bob**: But Alice, if goldfish were so smart, why don’t we see them doing more complex things in aquariums? They just float around. It’s not like they’re prepping for a math test!
+
+**Charlie**: That’s a misunderstanding, Bob. Their behaviors are influenced by their environment. A lack of stimulation can lead to less observable intelligence. In enriched environments, goldfish display behaviors that suggest higher cognitive abilities.
+
+**Dave**: Or maybe it’s just that those studies are funded by aquarium companies! They want to sell more fish! Who knows what’s really going on behind the scenes? We can't trust everything we read!
+
+**Eve**: That’s a classic case of the conspiracy fallacy, Dave. Just because there’s funding involved doesn’t mean the results are invalid. I can show you how to analyze the data without bias using Python libraries like Pandas and Matplotlib.
+
+**Frank**: And let's not forget, even in ancient history, people observed fish behaviors. The Romans kept fish in ponds, and they noted their learning abilities. This isn’t just a modern phenomenon; the evidence has been around for quite some time.
+
+**Alice**: Right! And if we look at the cognitive capabilities of other fish, we find similar patterns of memory and learning across species. This is not just about goldfish; it’s about understanding fish intelligence as a whole.
+
+**Bob**: But Alice, you’re missing the point! If everyone believes goldfish have short memories, then that becomes a part of their identity, right? It’s like their brand!
+
+**Charlie**: Bob, that’s a flawed argument. Brands can be based on misconceptions, but that doesn’t make them true. If we accept that a popular belief is wrong, we can better understand and appreciate these creatures.
+
+**Grace**: Okay, everyone, let’s take a step back. What if we say that while goldfish can have longer memories, it’s also true that they might not display their intelligence in the same way other animals do? It’s a compromise between the two sides.
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [Check]: 'The claim that goldfish have a memory sp...' via WEB_SEARCH
+      🕵️ [Check]: 'It’s common sense that they can’t rememb...' via COMMON_SENSE
+      🕵️ [Check]: 'According to a 2020 article in Scientifi...' via WEB_SEARCH
+      🕵️ [Check]: 'It’s like they want us to think they’re ...' via COMMON_SENSE
+      🕵️ [Check]: 'I can run a simple Python script to simu...' via PYTHON_EXEC
+      🕵️ [Check]: 'Historically, this misconception goes ba...' via WEB_SEARCH
+      🕵️ [Check]: 'In more recent studies from 2022, goldfi...' via WEB_SEARCH
+      🕵️ [Check]: 'If goldfish were so smart, why don’t we ...' via COMMON_SENSE
+      🕵️ [Check]: 'Their behaviors are influenced by their ...' via COMMON_SENSE
+      🕵️ [Check]: 'Maybe it’s just that those studies are f...' via COMMON_SENSE
+      🕵️ [Check]: 'Just because there’s funding involved do...' via PYTHON_EXEC
+      🕵️ [Check]: 'Even in ancient history, people observed...' via WEB_SEARCH
+      🕵️ [Check]: 'If we look at the cognitive capabilities...' via WEB_SEARCH
+      🕵️ [Check]: 'If everyone believes goldfish have short...' via COMMON_SENSE
+      🕵️ [Check]: 'Brands can be based on misconceptions, b...' via COMMON_SENSE
+      🕵️ [Check]: 'What if we say that while goldfish can h...' via COMMON_SENSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.92 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [Check]: 'Even in ancient history, people observed...' via WEB_SEARCH
+      🕵️ [Check]: 'In more recent studies from 2022, goldfi...' via WEB_SEARCH
+      🕵️ [Check]: 'Their behaviors are influenced by their ...' via COMMON_SENSE
+      🕵️ [Check]: 'According to a 2020 article in Scientifi...' via WEB_SEARCH
+      🕵️ [Check]: 'What if we say that while goldfish can h...' via COMMON_SENSE
+      🕵️ [Check]: 'It’s like they want us to think they’re ...' via COMMON_SENSE
+      🕵️ [Check]: 'If we look at the cognitive capabilities...' via WEB_SEARCH
+      🕵️ [Check]: 'The claim that goldfish have a memory sp...' via WEB_SEARCH
+   🏁 Result: Accuracy=1.00 | Cost=$28.00
+
+👉 Running Method: CRITIC
+      🕵️ [Check]: 'The claim that goldfish have a memory sp...' via WEB_SEARCH
+      🕵️ [Check]: 'Maybe it’s just that those studies are f...' via COMMON_SENSE
+      🕵️ [Check]: 'Just because there’s funding involved do...' via PYTHON_EXEC
+      🕵️ [Check]: 'Even in ancient history, people observed...' via WEB_SEARCH
+      🕵️ [Check]: 'If we look at the cognitive capabilities...' via WEB_SEARCH
+      🕵️ [Check]: 'If everyone believes goldfish have short...' via COMMON_SENSE
+      🕵️ [Check]: 'Brands can be based on misconceptions, b...' via COMMON_SENSE
+      🕵️ [Check]: 'What if we say that while goldfish can h...' via COMMON_SENSE
+      🕵️ [Check]: 'It’s common sense that they can’t rememb...' via COMMON_SENSE
+   🏁 Result: Accuracy=0.92 | Cost=$28.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'If goldfish were so smart...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'If goldfish were so smart, why...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'If goldfish were so smart, why don’t we ...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Maybe it’s just that thos...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=165.00
+   🎯 Target: 'Maybe it’s just that those stu...' | ROI: 165.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Maybe it’s just that those studies are f...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'It’s common sense that th...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=110.00
+   🎯 Target: 'It’s common sense that they ca...' | ROI: 110.00 | Tool: COMMON_SENSE
+      🕵️ [Check]: 'It’s common sense that they can’t rememb...' via COMMON_SENSE
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'It’s like they want us to...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=110.00
+   🎯 Target: 'It’s like they want us to thin...' | ROI: 110.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'It’s like they want us to think they’re ...' via WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A4
+   🎯 Target: 'If everyone believes gold...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=110.00
+   🎯 Target: 'If everyone believes goldfish ...' | ROI: 110.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'If everyone believes goldfish have short...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'According to a 2020 artic...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   🎯 Target: 'According to a 2020 article in...' | ROI: 100.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'According to a 2020 article in Scientifi...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'I can run a simple Python...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   ⚠️ Not enough budget for selected tool. Stopping.
+   🏁 Result: Accuracy=1.00 | Cost=$25.50
+
+############################################################
+📌 TOPIC 9: Does tryptophan in turkey meat act as the primary cause of sleepiness after Thanksgiving dinner?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**[Alice]:** Alright, everyone, let’s dive into the topic of tryptophan in turkey meat and its role in sleepiness after Thanksgiving dinner. The common belief is that turkey makes you sleepy because of its tryptophan content. However, it’s crucial to note that turkey contains only about 0.25 grams of tryptophan per 100 grams. This amount is similar to or even less than what you find in chicken, beef, or even nuts.
+
+**[Bob]:** But Alice, everyone knows that after a big turkey dinner, we just want to take a nap! I mean, it’s a tradition! Surely, there’s something magical about turkey that makes us sleepy. It just feels right to doze off!
+
+**[Charlie]:** Well, Bob, just because it's a tradition doesn’t make it scientifically accurate. According to a 2018 study published in the Journal of Clinical Sleep Medicine, the sleepiness experienced after Thanksgiving is more likely due to the sheer volume of food consumed rather than the tryptophan itself. The average Thanksgiving dinner can exceed 3,000 calories!
+
+**[Dave]:** You can’t trust those studies, Charlie! Most of that research is funded by big corporations that want to sell us more turkey! I read somewhere that the government is hiding the real effects of tryptophan because it’s linked to a secret sleep-inducing agent in turkey. They don’t want us to know the truth!
+
+**[Eve]:** That’s a wild claim, Dave. But let’s focus on the actual data. I ran a quick Python script to analyze the average dietary intake of tryptophan across different meats, and I found that turkey doesn’t even rank in the top three sources. Cheese and eggs contain significantly higher amounts, yet they don’t carry the same stigma for causing sleepiness.
+
+**[Frank]:** Historically speaking, the association between turkey and sleepiness dates back to the 1950s when the idea gained traction in popular culture. In fact, the first documented usage of this idea can be traced back to a 1956 article in *The New York Times*, which linked tryptophan to sleepiness. However, the context of that time was very different in terms of dietary knowledge.
+
+**[Grace]:** You know, maybe we could consider both sides. It’s possible that while tryptophan might contribute slightly to sleepiness, the larger picture is indeed the feast and the comfort of family gatherings. It’s a mix of emotional and physical factors at play!
+
+**[Alice]:** Grace, while that’s a fair point about emotional factors, we have to prioritize the biological evidence. The body’s response to the entire meal—carbohydrates, fats, and overall caloric intake—plays a much larger role in post-meal drowsiness. In fact, high-carb meals can trigger an increase in serotonin levels, which can lead to sleepiness.
+
+**[Bob]:** But isn’t it still possible that tryptophan could amplify the effects? I mean, it’s all connected, right? Turkey is the centerpiece of the meal, and we should just embrace the idea that it’s the main culprit!
+
+**[Charlie]:** Bob, that’s where confirmation bias comes into play. You’re looking for evidence that supports your belief rather than considering the facts. A meta-analysis from 2021 showed that no significant correlation exists between tryptophan intake and sleepiness in typical dietary amounts.
+
+**[Dave]:** And Charlie, who funded that meta-analysis? I bet there’s a hidden agenda there! You can’t just trust everything you read on the internet! I’ve seen plenty of anecdotal evidence from people claiming they feel sleepy after eating turkey, and that’s enough for me.
+
+**[Eve]:** Anecdotal evidence doesn’t hold up under scrutiny, Dave. It’s not rigorous. If we rely on that, we might as well believe in any conspiracy theory out there. Data analysis shows that the sleepiness is primarily due to the large meals we consume rather than the tryptophan content.
+
+**[Frank]:** I think it’s fascinating how cultural narratives shape our perception. There have been various myths over time, but we need to differentiate between historical anecdotes and current scientific understanding. The turkey myth is just one of many that have persisted without firm evidence.
+
+**[Grace]:** So, can we agree that while tryptophan might have a minor role, the bigger picture involves the overall feast, emotional context, and probably some social conditioning? Maybe we’re all slightly right, just in different ways!
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [Check]: 'Turkey contains only about 0.25 grams of...' via COMMON_SENSE
+      🕵️ [Check]: 'After a big turkey dinner, we just want ...' via COMMON_SENSE
+      🕵️ [Check]: 'According to a 2018 study, the sleepines...' via WEB_SEARCH
+      🕵️ [Check]: 'Research is funded by corporations wanti...' via COMMON_SENSE
+      🕵️ [Check]: 'I ran a Python script to analyze dietary...' via PYTHON_EXEC
+      🕵️ [Check]: 'The association between turkey and sleep...' via WEB_SEARCH
+      🕵️ [Check]: 'It’s possible tryptophan contributes to ...' via COMMON_SENSE
+      🕵️ [Check]: 'A meta-analysis from 2021 showed no sign...' via WEB_SEARCH
+      🕵️ [Check]: 'Anecdotal evidence is not rigorous, and ...' via PYTHON_EXEC
+      🕵️ [Check]: 'We need to differentiate between histori...' via COMMON_SENSE
+      🕵️ [Check]: 'Can we agree that tryptophan has a minor...' via COMMON_SENSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.86 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [Check]: 'Research is funded by corporations wanti...' via COMMON_SENSE
+      🕵️ [Check]: 'A meta-analysis from 2021 showed no sign...' via WEB_SEARCH
+      🕵️ [Check]: 'Can we agree that tryptophan has a minor...' via COMMON_SENSE
+      🕵️ [Check]: 'The association between turkey and sleep...' via WEB_SEARCH
+      🕵️ [Check]: 'I ran a Python script to analyze dietary...' via PYTHON_EXEC
+      🕵️ [Check]: 'According to a 2018 study, the sleepines...' via WEB_SEARCH
+      🕵️ [Check]: 'Turkey contains only about 0.25 grams of...' via COMMON_SENSE
+      🕵️ [Check]: 'It’s possible tryptophan contributes to ...' via COMMON_SENSE
+      🕵️ [Check]: 'After a big turkey dinner, we just want ...' via COMMON_SENSE
+      🕵️ [Check]: 'We need to differentiate between histori...' via COMMON_SENSE
+   🏁 Result: Accuracy=0.86 | Cost=$29.00
+
+👉 Running Method: CRITIC
+      🕵️ [Check]: 'Turkey contains only about 0.25 grams of...' via COMMON_SENSE
+      🕵️ [Check]: 'We need to differentiate between histori...' via COMMON_SENSE
+      🕵️ [Check]: 'Can we agree that tryptophan has a minor...' via COMMON_SENSE
+      🕵️ [Check]: 'After a big turkey dinner, we just want ...' via COMMON_SENSE
+      🕵️ [Check]: 'According to a 2018 study, the sleepines...' via WEB_SEARCH
+      🕵️ [Check]: 'Research is funded by corporations wanti...' via COMMON_SENSE
+      🕵️ [Check]: 'I ran a Python script to analyze dietary...' via PYTHON_EXEC
+      🕵️ [Check]: 'The association between turkey and sleep...' via WEB_SEARCH
+      🕵️ [Check]: 'It’s possible tryptophan contributes to ...' via COMMON_SENSE
+      🕵️ [Check]: 'A meta-analysis from 2021 showed no sign...' via WEB_SEARCH
+   🏁 Result: Accuracy=0.86 | Cost=$29.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'Anecdotal evidence is not...'
+      📊 Stats: PageRank=1.000 | Imp=5 | ROI=360.00
+   🎯 Target: 'Anecdotal evidence is not rigo...' | ROI: 360.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Anecdotal evidence is not rigorous, and ...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A9 -> A8
+   🎯 Target: 'According to a 2018 study...'
+      📊 Stats: PageRank=1.000 | Imp=3 | ROI=260.00
+   🎯 Target: 'According to a 2018 study, the...' | ROI: 260.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'According to a 2018 study, the sleepines...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A3 -> A2
+      ✂️ [TOPO-FIX]: Cutting invalid edge A3 -> A1
+   🎯 Target: 'After a big turkey dinner...'
+      📊 Stats: PageRank=1.000 | Imp=3 | ROI=240.00
+   🎯 Target: 'After a big turkey dinner, we ...' | ROI: 240.00 | Tool: COMMON_SENSE
+      🕵️ [Check]: 'After a big turkey dinner, we just want ...' via COMMON_SENSE
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A2 -> A1
+      ✂️ [TOPO-FIX]: Cutting invalid edge A2 -> A5
+   🎯 Target: 'A meta-analysis from 2021...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=110.00
+   🎯 Target: 'A meta-analysis from 2021 show...' | ROI: 110.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'A meta-analysis from 2021 showed no sign...' via WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A8
+   🎯 Target: 'Turkey contains only abou...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   🎯 Target: 'Turkey contains only about 0.2...' | ROI: 100.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Turkey contains only about 0.25 grams of...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'I ran a Python script to ...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   🎯 Target: 'I ran a Python script to analy...' | ROI: 100.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'I ran a Python script to analyze dietary...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'It’s possible tryptophan ...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   ⚠️ Not enough budget for selected tool. Stopping.
+   🏁 Result: Accuracy=0.67 | Cost=$28.00
+
+############################################################
+📌 TOPIC 10: Is the dark side of the Moon permanently in darkness and never receives sunlight?
+############################################################
+
+--- 🗣️ DEBATE CONTENT ---
+**Alice**: Let's start with the basic fact. The "dark side" of the Moon is a misnomer; it actually receives sunlight. Because the Moon is tidally locked with Earth, one side is always facing us, but both sides experience day and night cycles. Each lunar day lasts about 29.5 Earth days.
+
+**Bob**: Exactly! I mean, if it’s called the dark side, it must mean it’s always dark, right? That just makes sense. I think we should trust our instincts on this one.
+
+**Charlie**: Hold on, Bob. Just because it’s labeled as the "dark side" doesn't mean it's literally dark all the time. According to data from NASA, both sides of the Moon receive sunlight, but the far side—the one we can’t see from Earth—was only first photographed in 1959 by the Soviet Luna 3 mission. 
+
+**Dave**: Yeah, but you can't trust NASA. They’ve been known to hide information. What if the far side has some sort of reflective shield that keeps it dark? I mean, we’ve never really been there ourselves, have we?
+
+**Eve**: Actually, Dave, we have sent missions to the Moon, including the recent Lunar Reconnaissance Orbiter. The data shows that the far side receives sunlight just like the near side, and it has been mapped in detail. The average temperature on the Moon can reach up to 127°C during the day.
+
+**Frank**: But historically, the idea of a "dark side" has persisted since ancient times. If you look at old literature, you’ll see that people have been fascinated by the Moon's mystery. So, there’s a cultural significance to the notion of it being forever dark.
+
+**Alice**: That's true, Frank, but cultural significance doesn’t equate to factual accuracy. The reality is clear—there's no permanent darkness on the Moon. Both sides experience sunlight due to the Moon’s rotation. 
+
+**Bob**: Still, I heard from a friend that they’ve seen images where the far side looks darker than the near side. That has to mean something!
+
+**Charlie**: Images can be misleading, Bob. The far side has different geological features, such as more craters and less maria. This doesn't mean it's permanently dark; it just reflects how light interacts with its surface. 
+
+**Dave**: You all sound like you’re just repeating what you’ve heard. But I believe there are hidden truths. The Moon could be hiding something monumental on the far side—like a base or something!
+
+**Eve**: There's no evidence to support that, Dave. In fact, lunar missions have provided a wealth of information on the Moon's surface, including its composition, which has been thoroughly analyzed. 
+
+**Grace**: Maybe we can all agree that the Moon has both light and dark areas, and while it’s not "permanently dark," the term "dark side" does evoke curiosity. Perhaps we can find a balance in our understanding?
+
+**Alice**: Grace, while I appreciate the attempt at compromise, it's important to emphasize that using the term "dark side" without context can lead to misconceptions. We should focus on the scientific facts instead.
+
+**Charlie**: Exactly, Alice. We need to ground our discussions in data. The statistics show that both sides of the Moon receive sunlight for half of the lunar month.
+
+**Dave**: I still think there’s more to it. Just remember that history has shown us that truth is often stranger than fiction! 
+
+**Eve**: And while that might be true, we must rely on scientific inquiry and evidence. The Moon is a fascinating subject, but the facts about its light conditions are clear and backed by data. 
+
+**Bob**: So, in the end, we shouldn’t just take things at face value, but also keep an eye on the mysteries? That sounds reasonable!
+-------------------------
+
+
+🔍 Establishing Ground Truth (Oracle Mode)...
+      🕵️ [Check]: 'The 'dark side' of the Moon is a misnome...' via COMMON_SENSE
+      🕵️ [Check]: 'If it’s called the dark side, it must me...' via COMMON_SENSE
+      🕵️ [Check]: 'According to data from NASA, both sides ...' via WEB_SEARCH
+      🕵️ [Check]: 'You can't trust NASA. They’ve been known...' via COMMON_SENSE
+      🕵️ [Check]: 'Actually, we have sent missions to the M...' via PYTHON_EXEC
+      🕵️ [Check]: 'Historically, the idea of a 'dark side' ...' via COMMON_SENSE
+      🕵️ [Check]: 'Maybe we can all agree that the Moon has...' via COMMON_SENSE
+
+👉 Running Method: MAD
+   🏁 Result: Accuracy=0.33 | Cost=$0.00
+
+👉 Running Method: Random
+      🕵️ [Check]: 'If it’s called the dark side, it must me...' via COMMON_SENSE
+      🕵️ [Check]: 'Maybe we can all agree that the Moon has...' via COMMON_SENSE
+      🕵️ [Check]: 'You can't trust NASA. They’ve been known...' via COMMON_SENSE
+      🕵️ [Check]: 'Historically, the idea of a 'dark side' ...' via COMMON_SENSE
+      🕵️ [Check]: 'According to data from NASA, both sides ...' via WEB_SEARCH
+      🕵️ [Check]: 'The 'dark side' of the Moon is a misnome...' via COMMON_SENSE
+      🕵️ [Check]: 'Actually, we have sent missions to the M...' via PYTHON_EXEC
+   🏁 Result: Accuracy=1.00 | Cost=$18.00
+
+👉 Running Method: CRITIC
+      🕵️ [Check]: 'The 'dark side' of the Moon is a misnome...' via COMMON_SENSE
+      🕵️ [Check]: 'If it’s called the dark side, it must me...' via COMMON_SENSE
+      🕵️ [Check]: 'According to data from NASA, both sides ...' via WEB_SEARCH
+      🕵️ [Check]: 'You can't trust NASA. They’ve been known...' via COMMON_SENSE
+      🕵️ [Check]: 'Actually, we have sent missions to the M...' via PYTHON_EXEC
+      🕵️ [Check]: 'Historically, the idea of a 'dark side' ...' via COMMON_SENSE
+      🕵️ [Check]: 'Maybe we can all agree that the Moon has...' via COMMON_SENSE
+   🏁 Result: Accuracy=1.00 | Cost=$18.00
+
+👉 Running Method: MaVERiC
+🚀 [MaVERiC] Solver started with Budget=$30.0
+   🎯 Target: 'Actually, we have sent mi...'
+      📊 Stats: PageRank=1.000 | Imp=3 | ROI=260.00
+   🎯 Target: 'Actually, we have sent mission...' | ROI: 260.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Actually, we have sent missions to the M...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A5 -> A6
+   🎯 Target: 'You can't trust NASA. The...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=210.00
+   🎯 Target: 'You can't trust NASA. They’ve ...' | ROI: 210.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'You can't trust NASA. They’ve been known...' via WEB_SEARCH
+      ❌ FALSE CLAIM -> Removing Node A4
+   🎯 Target: 'According to data from NA...'
+      📊 Stats: PageRank=1.000 | Imp=2 | ROI=180.00
+   🎯 Target: 'According to data from NASA, b...' | ROI: 180.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'According to data from NASA, both sides ...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+      ✂️ [TOPO-FIX]: Cutting invalid edge A3 -> A1
+   🎯 Target: 'The 'dark side' of the Mo...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=110.00
+   🎯 Target: 'The 'dark side' of the Moon is...' | ROI: 110.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'The 'dark side' of the Moon is a misnome...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Historically, the idea of...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   🎯 Target: 'Historically, the idea of a 'd...' | ROI: 100.00 | Tool: WEB_SEARCH
+      🕵️ [Check]: 'Historically, the idea of a 'dark side' ...' via WEB_SEARCH
+      ✅ TRUE CLAIM -> Checking outgoing attacks...
+   🎯 Target: 'Maybe we can all agree th...'
+      📊 Stats: PageRank=1.000 | Imp=1 | ROI=100.00
+   ⚠️ Not enough budget for selected tool. Stopping.
+   🏁 Result: Accuracy=0.60 | Cost=$26.00
+
+💾 Data saved to: runs/results_2026-01-07_00-20-18.csv
+
+📊 AGGREGATE RESULTS:
+         Accuracy   Cost
+Method                  
+CRITIC   0.948022  24.90
+MAD      0.791355   0.00
+MaVERiC  0.834231  26.55
+Random   0.955714  24.60
+✅ Plot saved to: runs/plot_2026-01-07_00-20-18.png
